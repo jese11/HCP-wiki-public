@@ -1,14 +1,5 @@
----
-title: Advice on editing HCP tfMRI E-Prime Scripts
-created: '2014-06-19T16:37:32.027Z'
-updated: '2014-11-12T14:11:32.030Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Advice+on+editing+HCP+tfMRI+E-Prime+Scripts
-space: PublicData
 
----
-HCP provides a [link for downloading the E-Prime scripts](https://db.humanconnectome.org/app/action/ChooseDownloadResources?project=HCP_Resources&resource=Scripts&filePath=HCP_TFMRI_scripts.zip) that we use for the 7 tfMRI tasks in the HCP protocol on the [HCP project page](https://db.humanconnectome.org/data/projects/HCP_500) in ConnectomeDB.The HCP E-Prime scripts were created with E-Prime 2.0 Professional (2.0.10.242).
+HCP provides a [link for downloading the E-Prime scripts](https://db.humanconnectome.org/app/action/ChooseDownloadResources?project=HCP_Resources&resource=Scripts&filePath=HCP_TFMRI_scripts.zip) that we use for the 7 tfMRI tasks in the HCP protocol on the [HCP project page](https://db.humanconnectome.org/data/projects/HCP_1200) in ConnectomeDB.The HCP E-Prime scripts were created with E-Prime 2.0 Professional (2.0.10.242).
 
 If you would like to modify these scripts for your own use, here are some guidelines for changing the key assignments or input device:
 
