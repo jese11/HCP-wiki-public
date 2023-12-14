@@ -1,24 +1,16 @@
----
-title: 7T Movie watching task clip info, timing, versions shown per individual subject
-created: '2018-08-15T11:17:26.272Z'
-updated: '2021-11-30T17:17:18.222Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/7T+Movie+watching+task+clip+info%2C+timing%2C+versions+shown+per+individual+subject
-space: PublicData
 
----
-Detailed information on the origins of the clips used in the 4 movie watching scans in the protocol for 7T HCP-Young Adult subjects is available here:
+Detailed information on the origins of the clips used in the 4 movie watching scans in the protocol for 7T HCP-Young Adult subjects is available here: [HCP_7T_Movie_Info.csv](./assets/HCP_7T_Movie_Info.csv)
 
   
 
 
 147 Subjects shown **V1** of the Movie clips (scanned before 8/22/14): 
 
- 
+[HCP_7T_movie_V1_ReleasedSubjs.csv](./assets/HCP_7T_movie_V1_ReleasedSubjs.csv) 
 
 
-
+|  |
+| --- |
 | 100610 |
 | 102311 |
 | 102816 |
@@ -171,13 +163,13 @@ Detailed information on the origins of the clips used in the 4 movie watching sc
 
 
 Detailed timing info on the start and stop of each clip and REST block in each movie is available here:
-
+[HCP_7T_Movie_Clip_Timing.csv](./assets/HCP_7T_Movie_Clip_Timing.csv)
   
 
 
 37 Subjects shown **V2** of the Movie clips: (scanned AFTER 8/22/14): 
 
- 
+[HCP_7T_movie_V2_ReleasedSubjs.csv](./assets/HCP_7T_movie_V2_ReleasedSubjs.csv) 
 
 
 
