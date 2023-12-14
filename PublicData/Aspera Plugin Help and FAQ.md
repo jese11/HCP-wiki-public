@@ -1,14 +1,5 @@
----
-title: 'Aspera Plugin: Help and FAQ'
-created: '2017-06-22T21:15:49.478Z'
-updated: '2020-06-10T13:29:09.931Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Aspera+Plugin%3A+Help+and+FAQ
-space: PublicData
 
----
-Having trouble downloading HCP resources from ConnectomeDB? These previously resolved issues might help you. If not, please feel free to [contact us](http://devadmin.humanconnectome.org/contact/index.php).
+Having trouble downloading HCP resources from ConnectomeDB? These previously resolved issues might help you. If not, please feel free to [contact us](http://humanconnectome.org/contact/index.php).
 
 ### **I have Aspera installed, but downloads refuse to start. (Example error: "Server refused connection")**
 
