@@ -183,7 +183,7 @@ Return to [Table of Contents](#TOC)
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -210,7 +210,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -343,7 +343,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -437,7 +437,7 @@ tsc5yc@mst.edu
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -477,7 +477,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -532,7 +532,7 @@ $ ssh -X -i ${HOME}/Downloads/Amazon1Click.pem hcpuser@ec2-52-4-26.132.compute-1
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -577,7 +577,7 @@ $ fsl
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -611,7 +611,7 @@ Users should consult ...
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -650,7 +650,7 @@ $ wb_view
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -678,7 +678,7 @@ V3.6.0-RCd
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -695,7 +695,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -722,7 +722,7 @@ $ ls
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -762,7 +762,7 @@ $ ./tools/access_hcp_data/link_hcp_data --source=/s3/hcp --dest=${HOME}/data --s
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -819,7 +819,7 @@ export CARET7DIR="/usr/bin"
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -893,7 +893,7 @@ lrwxrwxrwx 1 hcpuser hcpuser 64 May 8 16:51 100307_3T_T1w_MPR1.nii.gz -> /s3/hcp
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -926,7 +926,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -948,7 +948,7 @@ Return to Table of Contents
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -992,7 +992,7 @@ then you will need to remount the S3 bucket. This can be done using the followin
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1039,7 +1039,7 @@ $
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1064,7 +1064,7 @@ To create the necessary AWS key pair, do the following:
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1144,7 +1144,7 @@ AWS_USR_ID= #your userid
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1195,7 +1195,7 @@ keyname = mykey
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1256,7 +1256,7 @@ $
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1378,7 +1378,7 @@ hello there
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1411,7 +1411,7 @@ $
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1501,7 +1501,7 @@ KEY_LOCATION=~/.ssh/PipelineNodeTemplate.pem
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1587,7 +1587,7 @@ $ sudo sed -i 's/export SGE_ROOT/#export SGE_ROOT/g' /etc/profile
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1654,7 +1654,7 @@ $ ssh -i ~/.ssh/PipelineNodeTemplate.pem root@<PipelineNodeTemplate-DNS>
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1717,7 +1717,7 @@ MOUNT_PATH = /mydata
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1761,7 +1761,7 @@ Snap-d6a61fa0: | 100% ETA: --:--:--
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1824,7 +1824,7 @@ afileinmydata.txt  lost+found
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1943,7 +1943,7 @@ Notice that the **ls** subcommand of **s3cmd** (**s3cmd ls**) is a bit picky wit
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -1978,7 +1978,7 @@ That page contains a simple diagram that illustrates our AWS and StarCluster con
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -2098,7 +2098,7 @@ Note that we are making these edits in order to run the PreFreeSurfer portion of
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -2165,7 +2165,7 @@ job-ID  prior   name       user         state submit/start at     queue         
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -2225,7 +2225,7 @@ If your cluster is using spot instances for worker nodes (see the next step), th
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -2299,7 +2299,7 @@ $ starcluster start -c pipelinecluster -b 0.50 myspotpipelinecluster
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
@@ -2329,7 +2329,7 @@ StarCluster Elastic Load Balancer[: http://star.mit.edu/cluster/docs/0.93.3/manu
 
 ---
 
-Return to Table of Contents
+Return to [Table of Contents](#TOC)
 
 
 
