@@ -15,7 +15,7 @@ B) change subject display events from the secondary monitor (display index = 2) 
 C) delete the primary monitor display (called "Laptop") from E-Prime "Experiment Object Properties" window  
 D) change the remaining monitor display (called "LCD" or "ScannerD2") from display index of "2" to index of "1".  
   
-Be aware that many HCP E-Prime scripts contain inline code that addresses objects linked to both display devices. It is therefore critical that you check the timing and functionality of the script after modifying events or displays within the E-Prime code.  
+## Be aware that many HCP E-Prime scripts contain inline code that addresses objects linked to both display devices. It is therefore critical that you check the timing and functionality of the script after modifying events or displays within the E-Prime code.  
 ============================================================
 
 ### Changing input devices and key assignments:
