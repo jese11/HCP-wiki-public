@@ -1,15 +1,3 @@
----
-title: Citing HCP-Aging or HCP-Development
-created: '2021-11-18T22:58:14.182Z'
-updated: '2021-11-18T23:03:16.618Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Citing+HCP-Aging+or+HCP-Development
-space: PublicData
-
----
-  
-
 
 **To cite use of HCP-Aging data or methods in a publication, press release, or presentation please include in your Acknowledgements section:**
 
