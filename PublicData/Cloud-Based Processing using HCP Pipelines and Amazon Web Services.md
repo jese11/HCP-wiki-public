@@ -11,7 +11,7 @@ space: PublicData
 <a name="TOC"></a>
 # Table of Contents
 Terms and Acronyms
-
+    
     AWS - Amazon Web Services
     EC2 – Elastic Compute Cloud
     S3 – Simple Storage Service
@@ -22,6 +22,7 @@ Terms and Acronyms
     NITRC
 
 Step 1: Getting Credentials to access HCP S3 Data
+
 Step 2: Getting Started with AWS
 
     Step 2a: Login to AWS
@@ -39,9 +40,13 @@ Step 3: Take Note of the Pre-installed Software
     Step 3e: Note All Available Pre-installed Software
 
 Step 4: Take Note of Available HCP data
+
 Step 5: Create directory structure on which HCP Pipelines can be run
+
 Step 6: Editing files to run a pipeline stage
+
 Step 7: Starting up a set of PreFreeSurfer Pipeline jobs
+
 Step 8: Shutdown and Restart of an instance
 
     Step 8a: Shutdown of a running machine instance
@@ -49,7 +54,9 @@ Step 8: Shutdown and Restart of an instance
     Important Notes about Stopping and Restarting machine instances:
 
 Step 9: Installing StarCluster
+
 Step 10: Create an AWS Access Key Pair
+
 Step 11: Setup a cluster for running HCP Pipelines
 
     Step 11a: Supply StarCluster with your AWS credentials
@@ -79,10 +86,15 @@ Step 12: Getting the HCP OpenAccess data available to your cluster
     Step 12a: Setting up s3cmd on your master node
     Step 12b: Retrieving data to process from the HCP OpenAccess S3 Bucket
 
+
 Step 13: Editing files to run a pipeline stage
+
 Step 14: Starting up a set of PreFreeSurfer Pipeline jobs
+
 Step 15: Using the StarCluster load balancer
+
 Step 16: Using spot instances as worker nodes
+
 Links and references
 
 # Terms and Acronyms
