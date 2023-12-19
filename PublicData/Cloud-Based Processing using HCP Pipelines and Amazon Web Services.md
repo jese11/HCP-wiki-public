@@ -8,9 +8,82 @@ source:
 space: PublicData
 
 ---
-<div class="anchor" id="TOC">TOC</div>
-
+<a name="TOC"></a>
 # Table of Contents
+Terms and Acronyms
+
+    AWS - Amazon Web Services
+    EC2 – Elastic Compute Cloud
+    S3 – Simple Storage Service
+    S3 Bucket
+    AMI – Amazon Machine Image – The Software
+    Amazon EC2 Instance Types – The available hardware
+    Amazon EBS – Elastic Block Storage    
+    NITRC
+
+Step 1: Getting Credentials to access HCP S3 Data
+Step 2: Getting Started with AWS
+
+    Step 2a: Login to AWS
+    Step 2b: Create an Instance
+    Step 2c: Configure Your Machine Instance
+    Step 2d: Connect to Your Running Machine Instance
+    Step 2e: Make a Terminal Connection using SSH 
+
+Step 3: Take Note of the Pre-installed Software
+
+    Step 3a: Note FSL Installation
+    Step 3b: Note FreeSurfer Installation
+    Step 3c: Note Connectome Workbench Installation
+    Step 3d: Note the HCP Pipelines Installation
+    Step 3e: Note All Available Pre-installed Software
+
+Step 4: Take Note of Available HCP data
+Step 5: Create directory structure on which HCP Pipelines can be run
+Step 6: Editing files to run a pipeline stage
+Step 7: Starting up a set of PreFreeSurfer Pipeline jobs
+Step 8: Shutdown and Restart of an instance
+
+    Step 8a: Shutdown of a running machine instance
+    Step 8b: Restart of a machine instance
+    Important Notes about Stopping and Restarting machine instances:
+
+Step 9: Installing StarCluster
+Step 10: Create an AWS Access Key Pair
+Step 11: Setup a cluster for running HCP Pipelines
+
+    Step 11a: Supply StarCluster with your AWS credentials
+    Step 11b: Creating an Amazon EC2 key pair
+    Step 11c: Start an example cluster
+    Step 11d: Navigate your example cluster
+        Example StarCluster Commands
+    Step 11e: Terminate your small cluster
+    Step 11f: Create an instance to use as a model for your pipeline cluster nodes
+    Step 11g: Further prepare your new instance for StarCluster use
+        Turn off the software firewall on your PipelineNodeTemplate instance
+        Delete gridengine software from your PipelineNodeTemplate instance
+        Delete the sgeadmin account and group.
+        Remove the SGE_ROOT setting in the /etc/profile file
+    Step 11h: Install SGE files
+        Create a compressed tar file containing what StarCluster needs
+        Copy the compressed tar file you just made to your local machine
+        Copy the compressed tar file from your local machine to your PipelineNodeTemplate instance
+        Unpack the compressed tar file and copy its contents to where StarCluster expects it
+        Terminate the instance you just created based on the StarCluster AMI
+    Step 11i: Create an EBS volume to hold data to be shared across your cluster
+    Step 11j: Create an AMI for cluster nodes
+    Step 11k: Configure and Start a Pipeline Cluster 
+
+Step 12: Getting the HCP OpenAccess data available to your cluster
+
+    Step 12a: Setting up s3cmd on your master node
+    Step 12b: Retrieving data to process from the HCP OpenAccess S3 Bucket
+
+Step 13: Editing files to run a pipeline stage
+Step 14: Starting up a set of PreFreeSurfer Pipeline jobs
+Step 15: Using the StarCluster load balancer
+Step 16: Using spot instances as worker nodes
+Links and references
 
 # Terms and Acronyms
 
