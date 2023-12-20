@@ -1,12 +1,4 @@
----
-title: EC2 Beginner Startup Advice
-created: '2015-02-06T15:44:15.335Z'
-updated: '2015-02-09T16:21:41.384Z'
-updated_by: Jennifer Elam
-source: https://wiki.humanconnectome.org/display/PublicData/EC2+Beginner+Startup+Advice
-space: PublicData
 
----
 If you are interested in developing tools or analyzing S3-stored HCP data in the cloud, you will want to set up an **EC2 (Amazon Elastic Compute Cloud) instance**. We recommend reading about EC2 details, instances, pricing, etc. at these links:
 
 <http://aws.amazon.com/ec2/details/>
@@ -25,7 +17,7 @@ You can use tools like [s3cmd](https://github.com/pcorliss/s3cmd-modification) t
 
 To access the data you might want to install [s3cmd-modification](https://github.com/pcorliss/s3cmd-modification), which will enable you to explore the [HCP Data Directory](http://humanconnectome.org/documentation/S1200/HCP_S1200_Release_Appendix_III.pdf) on Amazon and will allow rapid parallel downloading ([s3cmd-modification install instructions](https://github.com/pcorliss/s3cmd-modification/blob/master/INSTALL)).
 
-After you install s3cmd, you need to configure it with your AWS public and secret keys that you set up with the instructions on [Connecting to Connectome Data via AWS](../pages/67666030.md).
+After you install s3cmd, you need to configure it with your AWS public and secret keys that you set up with the instructions on [How To Connect to Connectome Data via AWS](./How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md).
 
 
 ```
