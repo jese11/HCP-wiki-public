@@ -825,7 +825,7 @@ This bug should not create a problem for most users because the empty vertices s
 
 Planned Fix: This bug is not trivial to fix for all Q1, Q2, and Q3 subjects without running all these subjects through a new version of the minimally preprocessing pipelines (specifically the PostFreeSurfer pipeline, see [Glasser et al. 2013](http://www.sciencedirect.com/science/article/pii/S1053811913005053) for details), which will take a substantial amount of computing time. To date (August 2013), we have not decided exactly when we will do this.
 
-***Users who need to fix the files before we make the permanent fix***, a relatively simple DIY fix of affected files is available using the command "-cifti-dilate" in **wb\_command**.
+***Users who need to fix the files before we make the permanent fix***, a relatively simple [DIY fix of affected files](./DIY%20fix%20for%20zeroes%20near%20medial%20wall%20in%20rfMRI%20dtseries%20data.md) is available using the command "-cifti-dilate" in **wb\_command**.
 
 ## **Missing Files**
 
