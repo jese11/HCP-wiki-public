@@ -1,13 +1,4 @@
----
-title: Connectome In A Box Notice for the 1200 Subjects Data Release
-created: '2017-06-29T11:40:18.025Z'
-updated: '2017-06-29T12:19:19.815Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Connectome+In+A+Box+Notice+for+the+1200+Subjects+Data+Release
-space: PublicData
 
----
 Unlike previous data releases that we have shipped on "Connectome In A Box" hard drives, **we are distributing image session data as .zip packages for the 1200 Subjects data release**. This was done to reduce file I/O during the drive duplication process, which radically reduces the number of errors and failed drives that we encounter. It also reduces the number of 8-TB hard drives necessary to ship this data release from 13 to 12. 
 
 ### Warning: Connectome In A Box hard drives are meant to be used as data transport vehicles
