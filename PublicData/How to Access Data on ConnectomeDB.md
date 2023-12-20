@@ -122,13 +122,13 @@ Due to the large file sizes of the data, the HCP uses an Aspera server to dramat
 
 If you have not installed the plugin yet, a warning message will appear at the top of the browser window reminding you that you must Install the Aspera plugin before using any of ConnectomeDB's services, including downloading.
 
-An Aspera install help guide is available here: . 
+An Aspera install help guide is available here: [How To Install the Aspera Browser Plugin](How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md) 
 
 > [!info] 
 > One common problem with installing Aspera on the Mac platform for non-US users is that you must add US English to the Languages list (using the checkbox) to your System Preferences>Personal>Language & Text settings.
 ### First-time Aspera Download Setup
 
-If this is your first time downloading data from ConnectomeDB, before you start selecting packages to download, we highly recommend setting up the preferences in your Aspera Connect plugin to download to the appropriate place on your local or network hard drive. .
+If this is your first time downloading data from ConnectomeDB, before you start selecting packages to download, we highly recommend setting up the preferences in your Aspera Connect plugin to download to the appropriate place on your local or network hard drive. See [First time Aspera Setup Instructions](First%20time%20Aspera%20Setup%20Instructions.md)
 
 ### Selecting Data Packages To Download
 
@@ -164,7 +164,7 @@ Of course, the more subjects and packages you selected for download, the longer 
 
 ### Troubleshooting Aspera Downloads
 
-If you have trouble with getting Aspera downloads to work on your network, please consult these troubleshooting steps: .
+If you have trouble with getting Aspera downloads to work on your network, please consult these troubleshooting steps: [Aspera Plugin Help and FAQ](Aspera%20Plugin%20Help%20and%20FAQ.md)
 
   
 
