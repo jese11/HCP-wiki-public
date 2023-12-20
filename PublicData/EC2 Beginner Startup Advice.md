@@ -23,7 +23,7 @@ You can use tools like [s3cmd](https://github.com/pcorliss/s3cmd-modification) t
 
  
 
-To access the data you might want to install [s3cmd-modification](https://github.com/pcorliss/s3cmd-modification), which will enable you to explore the [HCP Data Directory](http://humanconnectome.org/documentation/S500/HCP_S500+MEG2_Release_Appendix_III.pdf) on Amazon and will allow rapid parallel downloading ([s3cmd-modification install instructions](https://github.com/pcorliss/s3cmd-modification/blob/master/INSTALL)).
+To access the data you might want to install [s3cmd-modification](https://github.com/pcorliss/s3cmd-modification), which will enable you to explore the [HCP Data Directory](http://humanconnectome.org/documentation/S1200/HCP_S1200_Release_Appendix_III.pdf) on Amazon and will allow rapid parallel downloading ([s3cmd-modification install instructions](https://github.com/pcorliss/s3cmd-modification/blob/master/INSTALL)).
 
 After you install s3cmd, you need to configure it with your AWS public and secret keys that you set up with the instructions on [Connecting to Connectome Data via AWS](../pages/67666030.md).
 
