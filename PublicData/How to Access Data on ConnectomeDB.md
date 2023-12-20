@@ -22,26 +22,11 @@ Once your account is activated, you will be able to log in and see the list of s
 
 Each study in ConnectomeDB can provide a set of data use terms which must be reviewed and accepted before a user can get access to that study's data. You can quickly review and accept these data use terms by clicking the "Data Use Terms Required" button related to the study you are interested in.
 
-> [!info] 
-> On the rare occasion that a study's data use terms were to change, each user would have to review and agree to the new terms before they can access that study's data on the site
 Once the terms are accepted, buttons and selectors will appear in that study overview box that will allow you to explore and download HCP data by selecting options for groups of subjects.
 
 > [!note] 
 > Your login to ConnectomeDB times out every 30 minutes. Click the “renew” link in the top navigation bar to reset the timer as needed.
   
-
-
-  
-
-
-
-
-| Table Of Contents |
-| --- |
-|  |
-
-  
-
 
   
 
@@ -144,11 +129,9 @@ Using the menus in the left column, select the following attributes of the data 
 2. Choose the Processing Level:
 	1. unprocessed,
 	2. preprocessed (includes channel-level processed MEG),
-	3. Analysis (tfMRI only), or
+	3. Analysis (tfMRI and bedpostX diffusion only), or
 	4. Source-level processed (MEG only)
-3. Choose the Package Type (for Preprocessed data only):
-	1. MSM-Sulc + MSM-All, or
-	2. S500 to S900 Extension Only (MR Only)
+
 
 To make selections for download, click the “**add to queue**” icon to the left of each dataset package. 
 
