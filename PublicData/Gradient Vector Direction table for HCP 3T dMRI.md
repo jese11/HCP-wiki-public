@@ -21,8 +21,7 @@ Intro information:
 ### Further questions can be directed to the HCP Data Users mailing list
 ### (hcp-user@humanconnectome.org) by signing up at
 ### http://www.humanconnectome.org/contact
-```
- 
+``` 
 
 File with vectors: 
 ## Attachments
