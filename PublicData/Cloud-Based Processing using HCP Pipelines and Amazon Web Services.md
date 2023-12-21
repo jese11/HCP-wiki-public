@@ -1,6 +1,7 @@
+The goal of this tutorial is for the reader to gain experience with running the HCP pipelines in the "Amazon Cloud".
 
 <a name="TOC"></a>
-# Table of Contents
+## Table of Contents
 Terms and Acronyms
     
     AWS - Amazon Web Services
