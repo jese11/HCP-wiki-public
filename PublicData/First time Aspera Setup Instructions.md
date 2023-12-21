@@ -11,8 +11,9 @@ space: PublicData
 If this is your first time downloading data from ConnectomeDB, before you start selecting packages to download, we highly recommend setting up the preferences in your Aspera Connect plugin to download to the appropriate  
  place on your local or network hard drive. 
 
-> [!note] Note
+> [!note]
 > The default Aspera Connect download location is your Desktop, which is likely not where you want your HCP data to go! (Unfortunately HCP has no control over the Aspera defaults).
+> 
 ## To set your Aspera Connect preferences
 
 1. Search your computer for Aspera Connect using the Spotlight or Search functions in your operating system. Click on “Aspera Connect” to open the application.
@@ -39,8 +40,8 @@ Now, each time you download HCP data it will go to the directory you selected (u
 
 ## Also See
 
-* 
-* **Troubleshooting Aspera Downloads** - What to do if Aspera downloads are not working on your network
+* **[How To Install the Aspera Browser Plugin](./How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md)**
+* **[Troubleshooting Aspera Downloads](./Troubleshooting%20Aspera%20Downloads.md)** - What to do if Aspera downloads are not working on your network
   
 
 
