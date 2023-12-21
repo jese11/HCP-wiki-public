@@ -2,7 +2,7 @@
 ## NOTE: The following is incomplete. The newest version of the HCP\_NITRC AMI does not seem to work. It seems to have root access disabled which adds another layer of incompatibility with being a StarCluster node.
 
 <a name="TOC"></a>
-# Table of Contents
+## Table of Contents
     Terms and Acronyms
         AWS - Amazon Web Services
         EC2 – Elastic Compute Cloud
@@ -97,7 +97,7 @@ An AMI might be created for Neuroimaging with a chosen OS (e.g. Ubuntu 12.04.1 L
 
 The AMI is the *software distribution* that will be installed and run on your virtual machine *instance* (see below.)
 
-## Amazon EC2 Instance Types – *The* *available h**ardware*
+## Amazon EC2 Instance Types – *The* *available hardware*
 
 An *EC2 Instance Type* is a particular combination of CPU, memory (RAM), storage, and networking capacity optimized for a particular purpose. There are instance types defined for use as:
 
