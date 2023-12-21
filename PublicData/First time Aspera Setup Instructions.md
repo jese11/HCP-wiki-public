@@ -1,13 +1,4 @@
----
-title: First time Aspera Setup Instructions
-created: '2017-06-22T21:07:23.870Z'
-updated: '2017-06-22T21:46:18.131Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/First+time+Aspera+Setup+Instructions
-space: PublicData
 
----
 If this is your first time downloading data from ConnectomeDB, before you start selecting packages to download, we highly recommend setting up the preferences in your Aspera Connect plugin to download to the appropriate  
  place on your local or network hard drive. 
 
@@ -41,16 +32,8 @@ Now, each time you download HCP data it will go to the directory you selected (u
 ## Also See
 
 * **[How To Install the Aspera Browser Plugin](./How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md)**
-* **[Troubleshooting Aspera Downloads](./Troubleshooting%20Aspera%20Downloads.md)** - What to do if Aspera downloads are not working on your network
+* **[Troubleshooting Aspera Downloads](./Aspera%20Plugin:%20Help%20and%20FAQ.md)** - What to do if Aspera downloads are not working on your network
   
-
-
-
-
-| Table Of Contents |
-| --- |
-|  |
-
   
 
 
