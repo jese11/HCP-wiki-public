@@ -1,13 +1,4 @@
----
-title: Cloud-Based Processing using HCP Pipelines and Amazon Web Services
-created: '2015-05-28T16:30:02.978Z'
-updated: '2015-06-04T17:06:30.626Z'
-updated_by: Tim Brown
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Cloud-Based+Processing+using+HCP+Pipelines+and+Amazon+Web+Services
-space: PublicData
 
----
 <a name="TOC"></a>
 # Table of Contents
 Terms and Acronyms
