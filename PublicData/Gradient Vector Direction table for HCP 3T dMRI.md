@@ -23,7 +23,7 @@ Intro information:
 ### http://www.humanconnectome.org/contact
 ``` 
 
+
 File with vectors: 
 ## Attachments
-
-- [HCP_Diffusion_Vectors.txt](./assets/HCP_Diffusion_Vectors.txt)
+[HCP_Diffusion_Vectors.txt](./assets/HCP_Diffusion_Vectors.txt)
