@@ -1,4 +1,3 @@
-
 ```
 Intro information:  
 ### Gradient direction table for Human Connectome Project (HCP) dMRI (WU-Minn
@@ -21,9 +20,10 @@ Intro information:
 ### Further questions can be directed to the HCP Data Users mailing list
 ### (hcp-user@humanconnectome.org) by signing up at
 ### http://www.humanconnectome.org/contact
-``` 
-
+```
+ 
 
 File with vectors: 
 ## Attachments
-[HCP_Diffusion_Vectors.txt](./assets/HCP_Diffusion_Vectors.txt)
+
+- [HCP_Diffusion_Vectors.txt](./assets/HCP_Diffusion_Vectors.txt)
