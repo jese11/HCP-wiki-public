@@ -1,13 +1,3 @@
----
-title: Gradient Vector Direction table for HCP 3T dMRI
-created: '2017-01-19T13:23:26.536Z'
-updated: '2017-03-31T12:56:14.579Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Gradient+Vector+Direction+table+for+HCP+3T+dMRI
-space: PublicData
-
----
 
 ```
 Intro information:  
@@ -35,9 +25,6 @@ Intro information:
  
 
 File with vectors: 
-
-
-
-# Attachments
+## Attachments
 
 - [HCP_Diffusion_Vectors.txt](./assets/HCP_Diffusion_Vectors.txt)
