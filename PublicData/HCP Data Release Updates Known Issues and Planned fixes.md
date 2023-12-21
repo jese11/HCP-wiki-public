@@ -14,7 +14,9 @@ The WU-Minn Human Connectome Project (HCP) releases imaging data collected on su
 
 ## **Major Issues**
 
-* **5/4/2020: **Subject 169444 preprocessed data from several 7T fMRI runs unusable****The following runs from 169444 are unusable due to major acquisition artifacts and instability. The following runs in the released data are affected and should not be used:
+* 5/4/2020: **Subject 169444 preprocessed data from several 7T fMRI runs unusable**
+
+  The following runs from 169444 are unusable due to major acquisition artifacts and instability. The following runs in the released data are affected and should not be used:
 
 rfMRI\_REST1\_7T\_PA
 
@@ -37,7 +39,9 @@ tfMRI\_RETEXP\_7T\_AP
   
 
 
-* *3/9/2020**:  3T Functional Preprocessing Error of all 3T "RL" fMRI runs in 25 Subjects (7 are also 7T Subjects)***
+
+
+* 3/9/2020:  **3T Functional Preprocessing Error of all 3T "RL" fMRI runs in 25 Subjects (7 are also 7T Subjects)**
 
 3T Functional MRI data from a batch of 25 subjects were incorrectly processed, with all "RL" runs (right-left phase encoding) being processed with the wrong phase encoding direction. Not only are the preprocessing results for the RL functional runs themselves incorrect, but the MSM-All registration for these subjects, which is dependent on the correct preprocessing outputs, is also incorrect.  Therefore any analyses using the MSM-All aligned data from these subjects would be affected. Further, 7 of these subjects also have 7T data, so analyses of 7T data that use MSM-All aligned data would be affected as well (since the MSM-All registration applied to the 7T data was based on the 3T data). No Test-Retest subjects were affected. 
 
@@ -83,10 +87,12 @@ Due to the incorrect preprocessing of half the runs, we recommend excluding thes
 * 943862    7T
 * 969476
 * 971160     7T
-* ***No planned Fix: These data are released and we do not plan to reprocess/fix or remove them from ConnectomeDB or AWS S3. We recommend excluding these subjects from your analyses of 3T or 7T functional data.***
-* ***3/2/2020:  **Subject 168139 preprocessed data from several tfMRI runs unusable*****
+  
+***No planned Fix: These data are released and we do not plan to reprocess/fix or remove them from ConnectomeDB or AWS S3. We recommend excluding these subjects from your analyses of 3T or 7T functional data.***
+  
+* 3/2/2020:  **Subject 168139 preprocessed data from several tfMRI runs unusable**
 
-**Subject 168139 has an anatomical anomaly, as noted in , a large posterior fossa subarachnoid cyst. The cyst was large enough in this case to cause the EPI to T1w alignment to fail severely in the fMRI Volume part of functional preprocessing, and causes all subsequent preprocessing results to be unusable. The following runs in the released data are affected and should not be used:**
+Subject 168139 has an anatomical anomaly, a large posterior fossa subarachnoid cyst. The cyst was large enough in this case to cause the EPI to T1w alignment to fail severely in the fMRI Volume part of functional preprocessing, and causes all subsequent preprocessing results to be unusable. The following runs in the released data are affected and should not be used:
 
 **tfMRI\_EMOTION\_LR**
 
@@ -114,13 +120,13 @@ Due to the incorrect preprocessing of half the runs, we recommend excluding thes
 
 **tfMRI\_WM\_RL**
 
-**Data from the remaining fMRI runs for this subject (all resting state and tfMRI\_EMOTION\_RL) are usable.**
+Data from the remaining fMRI runs for this subject (all resting state and tfMRI\_EMOTION\_RL) are usable.
 
-****No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.****
+***No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.***
 
-* ***7/25/2019:  **Subjects 196952, 748662, 809252 Unusable tfMRI runs*****
+* 7/25/2019:  **Subjects 196952, 748662, 809252 Unusable tfMRI runs**
 
-**For a variety of reasons, some fMRI runs for particular subjects were released in the S1200 data release, but should not be used. The following runs are affected and should not be used:**
+For a variety of reasons, some fMRI runs for particular subjects were released in the S1200 data release, but should not be used. The following runs are affected and should not be used:**
 
 **196952     tfMRI\_WM\_LR** 
 
@@ -128,13 +134,13 @@ Due to the incorrect preprocessing of half the runs, we recommend excluding thes
 
 **809252     tfMRI\_SOCIAL\_RL**
 
-**Data from the remaining fMRI runs for these subjects (all resting state and other tfMRI runs) are usable.**
+Data from the remaining fMRI runs for these subjects (all resting state and other tfMRI runs) are usable.
 
-****No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.****
+***No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.***
 
-* ***7/25/2019:  **tfMRI Runs with Incomplete brain coverage for subjects 144428, 168139, 186545, 192237, 223929, 320826, 644044, 822244, 870861, and 947668*****
+* 7/25/2019:  **tfMRI Runs with Incomplete brain coverage for subjects 144428, 168139, 186545, 192237, 223929, 320826, 644044, 822244, 870861, and 947668**
 
-**The following released runs display incomplete brain coverage due to misplaced acquisition Field of View (FOV). We recommend exclusion of these data from analyses.**
+The following released runs display incomplete brain coverage due to misplaced acquisition Field of View (FOV). We recommend exclusion of these data from analyses.
 
 **144428          tfMRI\_MOTOR\_RL**
 
@@ -186,13 +192,13 @@ Due to the incorrect preprocessing of half the runs, we recommend excluding thes
 
 **947668          tfMRI\_MOTOR\_RL**
 
-**Data from the remaining fMRI runs for these subjects (all resting state and other tfMRI runs) are usable.**
+Data from the remaining fMRI runs for these subjects (all resting state and other tfMRI runs) are usable.
 
-****No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.****
+***No planned Fix: These data are released and we do not plan to remove them from ConnectomeDB or AWS S3. We recommend excluding these runs from your analyses.***
 
-* *******ASR\_{Syndrome}\_Pct scores are T-scores (not Age/Gender adjusted Percentiles)*******
+* **ASR\_{Syndrome}\_Pct scores are T-scores (not Age/Gender adjusted Percentiles)**
 
-**Age and Gender-adjusted T-scores for the Achenbach Self Report behavioral survey have been mislabeled/misdefined as Age and Gender adjusted Percentile scores as variable names and in Data Dictionary descriptions since these scores were released for the 500 Subjects data release. The affected scores are:**
+Age and Gender-adjusted T-scores for the Achenbach Self Report behavioral survey have been mislabeled/misdefined as Age and Gender adjusted Percentile scores as variable names and in Data Dictionary descriptions since these scores were released for the 500 Subjects data release. The affected scores are:
 
 **Current                           Correct**
 
@@ -224,15 +230,17 @@ Due to the incorrect preprocessing of half the runs, we recommend excluding thes
 
 **DSM\_Antis\_Pct              DSM\_Antis\_T**
 
-******Completed Fix:**Labels and definitions of T-Scores for the ASR Syndrome and DSM-Oriented Scales were updated with the rerelease of the 7T HCP functional data in April 2018.****
+***Completed Fix:Labels and definitions of T-Scores for the ASR Syndrome and DSM-Oriented Scales were updated with the rerelease of the 7T HCP functional data in April 2018.***
 
-* *******"Noise\_Comp" NIH Toolbox Words in Noise variable data incomplete in ConnectomeDB*******
+* **"Noise\_Comp" NIH Toolbox Words in Noise variable data incomplete in ConnectomeDB**
 
-**Between HCP data collection for subjects released in the 500 Subjects Release and 900 Subjects Release, NIH Toolbox changed how the Words In Noise (WIN) audition test was administered to subjects (through computer speakers in v1 to through earphones in v2). Due to how our internal database was recording the scores for WIN v1 and WIN v2 separately, only the v1 scores have been correctly released in ConnectomeDB under the "Noise\_Comp" variable, the WIN Computed score. Subjects tested with WIN v2 (most subjects newly released in S900 and S1200 releases) erroneously have either no score listed or a score of -99. NIH Toolbox has verified that the v1 and v2 WIN scoring has been normed to be directly comparable, so we plan to combine the v1/v2 scores for release as the single "Noise\_Comp" variable. ****Completed Fix:**Words In Noise v2 scores were added to the "Noise\_Comp" variable released with the rerelease of the 7T HCP functional data in April 2018.****
+Between HCP data collection for subjects released in the 500 Subjects Release and 900 Subjects Release, NIH Toolbox changed how the Words In Noise (WIN) audition test was administered to subjects (through computer speakers in v1 to through earphones in v2). Due to how our internal database was recording the scores for WIN v1 and WIN v2 separately, only the v1 scores have been correctly released in ConnectomeDB under the "Noise\_Comp" variable, the WIN Computed score. Subjects tested with WIN v2 (most subjects newly released in S900 and S1200 releases) erroneously have either no score listed or a score of -99. NIH Toolbox has verified that the v1 and v2 WIN scoring has been normed to be directly comparable, so we plan to combine the v1/v2 scores for release as the single "Noise\_Comp" variable. 
 
-* *******Some EMOTION variables were swapped in ConnectomeDB "In-scanner performance data"*******
+***Completed Fix: Words In Noise v2 scores were added to the "Noise\_Comp" variable released with the rerelease of the 7T HCP functional data in April 2018.***
 
-**For many previously-released participants (specifically, subjects initially released up to and including the "500 Subjects Release"), some "In-scanner performance" EMOTION variables were swapped in behavioral data .csv files downloaded from ConnectomeDB (either from the quick downloads section of the S1200 project page or from the subject dashboard). Specifically, the Emotion\_Task\_Acc and Emotion\_Task\_Face\_Acc variables were swapped, and the Emotion\_Task\_Median\_RT and Emotion\_Task\_Face\_Median\_RT variables were swapped. The following data were not affected: .csv files for individual scan runs (obtained via Connectome-in-a-Box or downloaded .zip packages), and values for participants that were first released in the 900 Subjects Release and subsequent releases.**
+* **Some EMOTION variables were swapped in ConnectomeDB "In-scanner performance data"**
+
+For many previously-released participants (specifically, subjects initially released up to and including the "500 Subjects Release"), some "In-scanner performance" EMOTION variables were swapped in behavioral data .csv files downloaded from ConnectomeDB (either from the quick downloads section of the S1200 project page or from the subject dashboard). Specifically, the Emotion\_Task\_Acc and Emotion\_Task\_Face\_Acc variables were swapped, and the Emotion\_Task\_Median\_RT and Emotion\_Task\_Face\_Median\_RT variables were swapped. The following data were not affected: .csv files for individual scan runs (obtained via Connectome-in-a-Box or downloaded .zip packages), and values for participants that were first released in the 900 Subjects Release and subsequent releases.**
 
 ******Completed Fix:** The EMOTION variables in ConnectomeDB .csv files were corrected as of July 28, 2017. The EMOTION task accuracy and reaction time variables for all affected participants are correct in spreadsheets downloaded after this date.**** 
 
