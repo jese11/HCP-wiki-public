@@ -33,37 +33,22 @@ Also, it is possible that installing the Aspera plugin as the root user could pr
 
 ### **I am downloading multiple files, but am getting deluged by confirmation messages. Moreover, the little checkbox to dismiss these forever is unclickable!**
 
- ![](http://devadmin.humanconnectome.org/img/tutorial/Aspera-instructions/aspera-confirm-connect-disabled.png) 
-
 This is a rare scenario, but one that some of our own developers have come across in testing. What has happened is that our file server, `asp-connect1.humanconnectome.org`, has been added to your "Restricted Hosts" list. In order to change this, you must change the preferences on your locally installed Aspera application.
 
 On Mac and Windows, search programs/applications for "Aspera Connect" and open it. Then, click the "gear" icon in the lower left corner of your queue window.
-
- ![](http://devadmin.humanconnectome.org/img/tutorial/Aspera-instructions/aspera-preferences-windows.png) 
-
+ 
 In the Aspera Preferences dialog, click the "Security" tab.
 
 In the Security tab, click on "Restricted Hosts" and look for the `asp-connect1.humanconnectome.org` address.
 
   
 
-
  ![](./assets/AsperaRestrURL.png) 
 
 You can safely remove our host from the restricted host list. If you want to go a step further and preemptively hide all future confirmation dialogs, you can add `asp-connect1.humanconnectome.org` to your "Trusted Hosts" list instead. (You will still be able to see and manage your downloads via the Aspera queue.)
 
-  
-
-
-
-
-| Table Of Contents |
-| --- |
-|  |
 
   
-
-
 
 
 # Attachments
