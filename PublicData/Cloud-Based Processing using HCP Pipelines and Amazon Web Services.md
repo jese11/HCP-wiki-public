@@ -118,7 +118,7 @@ An AMI might be created for Neuroimaging with a chosen OS (e.g. Ubuntu 12.04.1 L
 
 The AMI is the *software distribution* that will be installed and run on your virtual machine *instance* (see below.)
 
-## Amazon EC2 Instance Types – *The* *available h**ardware*
+## Amazon EC2 Instance Types – *The* *available hardware*
 
 An *EC2 Instance Type* is a particular combination of CPU, memory (RAM), storage, and networking capacity optimized for a particular purpose. There are instance types defined for use as:
 
