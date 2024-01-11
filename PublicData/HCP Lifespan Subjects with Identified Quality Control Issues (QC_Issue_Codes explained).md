@@ -9,7 +9,8 @@ The QC_Issue_Codes measure allows users to filter the data for subjects with or 
 
 As of the LS 3.0 Release, we also list the QC Issue codes only in this Excel spreadsheet with sheets for HCA, HCD, and a code key:
 
-    LS3.0_Release_subjects_issue_codes.xlsx
+    LS3.0_Release_subjects_issue_codes.xlsx 
+[LS3.0_Release_subjects_issue_codes.xlsx](https://github.com/jese11/HCP-wiki-public/files/13905816/LS3.0_Release_subjects_issue_codes.xlsx)
 
 
 ### Note on the HCP QC process:
