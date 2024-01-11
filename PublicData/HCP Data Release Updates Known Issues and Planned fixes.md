@@ -1,13 +1,3 @@
----
-title: 'HCP Data Release Updates: Known Issues and Planned fixes'
-created: '2013-07-01T12:51:34.288Z'
-updated: '2021-11-18T17:05:19.961Z'
-updated_by: Mike Harms
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/HCP+Data+Release+Updates%3A+Known+Issues+and+Planned+fixes
-space: PublicData
-
----
 The WU-Minn Human Connectome Project (HCP) releases imaging data collected on subjects on a regular basis. Details on what data is included in each release are available in the Reference Manual for that release on the [HCP documentation page](https://www.humanconnectome.org/study/hcp-young-adult/documentation).  On this wiki page, we document known updates, data issues, bugs, and known missing files in the data distributed with each release (including those distributed in Connectome in a box for each release) and plans to fix or patch each bug. Date added is listed at the beginning of entries.
 
 # 1200 Subjects Release (March 1, 2017)
@@ -256,7 +246,7 @@ For many previously-released participants (specifically, subjects initially rele
 
 * ***Other identified QC Issues***
 
-* With the S1200 release, a subject data measure (QC\_Issue) has been added to ConnectomeDB to flag subjects with notable issues found in the HCP Quality Control process.  The issues are notable, but were not considered severe enough to exclude the subject's imaging data from release. We are sharing these findings of issues to alert users and allow them to decide whether to include or exclude these subjects in their own analyses.  More details can be found here: *[HCP Subjects with Identified Quality Control Issues](./HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)* 
+With the S1200 release, a subject data measure (QC\_Issue) has been added to ConnectomeDB to flag subjects with notable issues found in the HCP Quality Control process.  The issues are notable, but were not considered severe enough to exclude the subject's imaging data from release. We are sharing these findings of issues to alert users and allow them to decide whether to include or exclude these subjects in their own analyses.  More details can be found here: *[HCP Subjects with Identified Quality Control Issues](./HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)* 
 
 * ******Subjects without Field Maps for Structural scans******
 
@@ -286,13 +276,8 @@ For many previously-released participants (specifically, subjects initially rele
 
 *The field maps for these subjects were not collected or are unusable.  Field maps are not required for HCP *structural*processing (in contrast to fMRI processing, where field maps *are* required).  However, the lack of field maps prevents us from performing readout distortion correction on the structurals and will have these two effects:*
 
-* 3
-incomplete
 *Some minor differences in the susceptibility regions (superior orbitofrontal and inferior temporal gyrus regions) of myelin maps produced by the HCP Structural pipeline.*
 
-
-4
-incomplete
 *Tissue volumes in these regions may also be slightly different.*
 
 *****Issue Cannot be Fixed*****
