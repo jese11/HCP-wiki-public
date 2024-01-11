@@ -22,7 +22,7 @@ When setting up Higher-level analysis of volume data in the FEAT GUI, choose tha
 
 The level1.fsf and **[prepare\_level2\_feat\_analysis.sh](https://wiki.humanconnectome.org/download/attachments/29589520/prepare_level2_feat_analysis.sh?version=2&modificationDate=1408551825889&api=v2)** 
 
-[prepare\_level2\_feat\_analysis.sh](./prepare_level2_feat_analysis.sh)7T%20Gradient%20Coefficients.md)
+**[prepare\_level2\_feat\_analysis.sh](./assets/prepare_level2_feat_analysis.sh)**
 
 files are "legacy" files that were provided during previous releases which did not include the Level 2 feat directories. Nonetheless, you may have reasons to run your own scan-level ("lower-level" or "Level 1") analyses, such as using previous data releases, using different preprocessing options, or creating new custom EVs. The level1.fsf files will serve as a template for running those analyses using FEAT.
 
