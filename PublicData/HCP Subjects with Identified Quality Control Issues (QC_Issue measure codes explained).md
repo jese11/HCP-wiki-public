@@ -15,11 +15,13 @@ We explicitly reviewed the outputs of the HCP Structural Pipelines on all subjec
 Therefore, the absence of an issues code for a given subject does not imply that there are no issues with the data for this subject. We encourage users to alert us to issues that they discover.  We will then update the QC_Issues field and wiki appropriately for the benefit of other users.
 ### Issue code A: Anatomical anomalies
 
-All HCP subject structural scans and FreeSurfer segmentation and surface outputs from the structural pipeline were subject to a standard quality control process that involved manual viewing and rating of scan quality and anatomical abnormalities by an experienced rater (see Appendix 4: Post Session 1 Quality Control SOP, pp. 17-24). Brain anomalies evident in T1w and T2w scans were noted and further reviewed by a radiologist. Subjects with major radiologic anomalies that were expected to substantially impact brain connectivity were removed from the study, and their imaging and behavioral data are not included in the released data. 
+All HCP subject structural scans and FreeSurfer segmentation and surface outputs from the structural pipeline were subject to a standard quality control process that involved manual viewing and rating of scan quality and anatomical abnormalities by an experienced rater (see [Appendix 4: Post Session 1 Quality Control SOP](https://www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Appendix_IV.pdf), pp. 17-24). Brain anomalies evident in T1w and T2w scans were noted and further reviewed by a radiologist. Subjects with major radiologic anomalies that were expected to substantially impact brain connectivity were removed from the study, and their imaging and behavioral data are not included in the released data. 
+
+
 
 Some subjects had focal anomalies that are considered as normal variants or benign findings. We have released their data, but because of their altered anatomy, using data from these subjects may affect some analyses. These subjects are flagged with the issue code A in the QC_Issue measure.  
 
-A description and images of the location and kind of anomaly for each of these subjects are detailed in the following spreadsheet of Anatomical QC Findings: Anatomical-Issues-Subjects-pptxmatch.xlsx and in the accompanying PDF of powerpoint slides showing Anatomical QC Findings: Anatomical-Issues-Subjects-xlsxmatch.pdf.
+A description and images of the location and kind of anomaly for each of these subjects are detailed in the following spreadsheet of Anatomical QC Findings: **[Anatomical-Issues-Subjects-pptxmatch.xlsx](./assets/Anatomical-Issues-Subjects-pptxmatch.xlsx)** and in the accompanying PDF of powerpoint slides showing Anatomical QC Findings: **[Anatomical-Issues-Subjects-xlsxmatch.pdf](./assets/Anatomical-Issues-Subjects-xlsxmatch.pdf)**.
 
 Main HCP Issue A Subjects:
 
