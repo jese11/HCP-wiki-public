@@ -1,4 +1,4 @@
-##Subjects with Issues noted in the HCP Lifespan quality control process
+## Subjects with Issues noted in the HCP Lifespan quality control process
 
 As of the LS2.0 release, a subject data measure (QC_Issue_Codes) was added to the Completeness CSVs provided as part of the release to flag subjects and sessions (visits) with notable issues found in the HCP Quality Control process as described for each issue code below.  The issues are notable, but were not considered severe enough to exclude the subject's imaging data from release. We are sharing these findings of issues to alert users and allow them to decide whether to include or exclude these subjects in their own analyses.  
 
@@ -12,7 +12,7 @@ As of the LS 3.0 Release, we also list the QC Issue codes only in this Excel spr
     LS3.0_Release_subjects_issue_codes.xlsx
 
 
-###Note on the HCP QC process:
+### Note on the HCP QC process:
 
 We explicitly reviewed the outputs of the HCP Structural Pipelines on all subjects and ascertained that all released subjects have at least reasonable (or better) cortical surface models. However, a comprehensive QC of all modalities has not been feasible, and HCP does not claim to have identified all QC issues for all subjects and modalities.  
 
