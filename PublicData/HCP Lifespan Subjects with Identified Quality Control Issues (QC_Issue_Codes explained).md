@@ -5,11 +5,13 @@ As of the LS2.0 release, a subject data measure (QC_Issue_Codes) was added to th
 The QC_Issue_Codes measure allows users to filter the data for subjects with or without these issues in the project-specific Completeness CSV spreadsheet containing per subject imaging and behavioral completeness, QC Issues, and unrelated status.
 
     HCP-Aging LS2.0 Release Completeness CSV 
+
+[HCA_LS_2.0_subject_completeness.csv](https://github.com/jese11/HCP-wiki-public/files/13905886/HCA_LS_2.0_subject_completeness.csv)
+
     HCP-Development LS2.0 Release Completeness CSV
 
 As of the LS 3.0 Release, we also list the QC Issue codes only in this Excel spreadsheet with sheets for HCA, HCD, and a code key:
 
-    LS3.0_Release_subjects_issue_codes.xlsx 
 [LS3.0_Release_subjects_issue_codes.xlsx](https://github.com/jese11/HCP-wiki-public/files/13905816/LS3.0_Release_subjects_issue_codes.xlsx)
 
 
