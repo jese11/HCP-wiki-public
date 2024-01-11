@@ -8,7 +8,7 @@ source:
 space: PublicData
 
 ---
-The WU-Minn Human Connectome Project (HCP) releases imaging data collected on subjects on a regular basis. Details on what data is included in each release are available in the Reference Manual for that release on the [HCP documentation page](https://wiki.humanconnectome.org/humanconnectome.org/documentation/).  On this wiki page, we document known updates, data issues, bugs, and known missing files in the data distributed with each release (including those distributed in Connectome in a box for each release) and plans to fix or patch each bug. Date added is listed at the beginning of entries.
+The WU-Minn Human Connectome Project (HCP) releases imaging data collected on subjects on a regular basis. Details on what data is included in each release are available in the Reference Manual for that release on the [HCP documentation page](https://www.humanconnectome.org/study/hcp-young-adult/documentation).  On this wiki page, we document known updates, data issues, bugs, and known missing files in the data distributed with each release (including those distributed in Connectome in a box for each release) and plans to fix or patch each bug. Date added is listed at the beginning of entries.
 
 # 1200 Subjects Release (March 1, 2017)
 
@@ -230,7 +230,7 @@ Age and Gender-adjusted T-scores for the Achenbach Self Report behavioral survey
 
 **DSM\_Antis\_Pct              DSM\_Antis\_T**
 
-***Completed Fix:Labels and definitions of T-Scores for the ASR Syndrome and DSM-Oriented Scales were updated with the rerelease of the 7T HCP functional data in April 2018.***
+***Completed Fix: Labels and definitions of T-Scores for the ASR Syndrome and DSM-Oriented Scales were updated with the rerelease of the 7T HCP functional data in April 2018.***
 
 * **"Noise\_Comp" NIH Toolbox Words in Noise variable data incomplete in ConnectomeDB**
 
@@ -242,21 +242,21 @@ Between HCP data collection for subjects released in the 500 Subjects Release an
 
 For many previously-released participants (specifically, subjects initially released up to and including the "500 Subjects Release"), some "In-scanner performance" EMOTION variables were swapped in behavioral data .csv files downloaded from ConnectomeDB (either from the quick downloads section of the S1200 project page or from the subject dashboard). Specifically, the Emotion\_Task\_Acc and Emotion\_Task\_Face\_Acc variables were swapped, and the Emotion\_Task\_Median\_RT and Emotion\_Task\_Face\_Median\_RT variables were swapped. The following data were not affected: .csv files for individual scan runs (obtained via Connectome-in-a-Box or downloaded .zip packages), and values for participants that were first released in the 900 Subjects Release and subsequent releases.**
 
-******Completed Fix:** The EMOTION variables in ConnectomeDB .csv files were corrected as of July 28, 2017. The EMOTION task accuracy and reaction time variables for all affected participants are correct in spreadsheets downloaded after this date.**** 
+***Completed Fix: The EMOTION variables in ConnectomeDB .csv files were corrected as of July 28, 2017. The EMOTION task accuracy and reaction time variables for all affected participants are correct in spreadsheets downloaded after this date.*** 
 
-* *******7T Preprocessed fMRI AP run data ***(Resting State, Retinotopy, and Movie-watching Task) un******warped using the incorrect direction*** in the fMRIVolume pipeline for all 7T Subjects*******
+* ***7T Preprocessed fMRI AP run data (Resting State, Retinotopy, and Movie-watching Task) unwarped using the incorrect direction in the fMRIVolume pipeline for all 7T Subjects***
 
-*A bug in the 7T fMRIVolume pipeline caused all Anterior->Posterior (AP phase-encoding direction) runs in the 7T fMRI data on all subjects to be unwarped using the incorrect direction, causing registration and all subsequent processing results to be incorrect. Since the unwarping is a very early processing step, all AP run 7T fMRI data is affected, including all preprocessed and FIX-cleaned resting state, retinotopy, and movie-watching data. All 7T fMRI data should not be used. Therefore, we have made this data unavailable for download in ConnectomeDB until fixed by reprocessing. Unprocessed 7T fMRI and all 7T diffusion MRI data is unaffected by this issue and is still available for download.*
+* A bug in the 7T fMRIVolume pipeline caused all Anterior->Posterior (AP phase-encoding direction) runs in the 7T fMRI data on all subjects to be unwarped using the incorrect direction, causing registration and all subsequent processing results to be incorrect. Since the unwarping is a very early processing step, all AP run 7T fMRI data is affected, including all preprocessed and FIX-cleaned resting state, retinotopy, and movie-watching data. All 7T fMRI data should not be used. Therefore, we have made this data unavailable for download in ConnectomeDB until fixed by reprocessing. Unprocessed 7T fMRI and all 7T diffusion MRI data is unaffected by this issue and is still available for download.*
 
-*****Completed Fix:**All 7T fMRI data was reprocessed with the bug fixed and rereleased in ConnectomeDB in April 2018. (7T data, including the correction to the fMRI data, uploaded to HCP Amazon AWS S3 bucket for first time in Nov 2021).***
+***Completed Fix: All 7T fMRI data was reprocessed with the bug fixed and rereleased in ConnectomeDB in April 2018. (7T data, including the correction to the fMRI data, uploaded to HCP Amazon AWS S3 bucket for first time in Nov 2021).***
 
-* ******Image reconstruction algorithm versions******
+* ***Image reconstruction algorithm versions***
 
-*Two versions of the image reconstruction algorithm were used for the fMRI data (both task and resting-state) over the course of the Young-Adult HCP: version "r177" for subjects scanned early (Q1 through mid-Q3) and version "r227" for subjects scanned after that (mid-Q3 onward).  The reconstruction version has a notable signature on the fMRI data that can make a large difference in fMRI data analysis. Users wanting to use only data with the same reconstruction algorithm in their analyses can filter data on the ConnectomeDB dashboard by fMRI reconstruction version (in the Study Completion category, "fMRI\_3T\_ReconVrs"). See [Ramifications of Image Reconstruction Version Differences](https://wiki.humanconnectome.org/x/RQBJB) for more details.  On ConnectomeDB, we also provide separate Resources for Group Average Functional Connectivity ("dense connectomes") and Parcellation+Timeseries+Netmats ("PTN") files based on both all subjects ("r177+r227") and just the "r227" subjects.*
+* Two versions of the image reconstruction algorithm were used for the fMRI data (both task and resting-state) over the course of the Young-Adult HCP: version "r177" for subjects scanned early (Q1 through mid-Q3) and version "r227" for subjects scanned after that (mid-Q3 onward).  The reconstruction version has a notable signature on the fMRI data that can make a large difference in fMRI data analysis. Users wanting to use only data with the same reconstruction algorithm in their analyses can filter data on the ConnectomeDB dashboard by fMRI reconstruction version (in the Study Completion category, "fMRI\_3T\_ReconVrs"). See [Ramifications of Image Reconstruction Version Differences](https://wiki.humanconnectome.org/x/RQBJB) for more details.  On ConnectomeDB, we also provide separate Resources for Group Average Functional Connectivity ("dense connectomes") and Parcellation+Timeseries+Netmats ("PTN") files based on both all subjects ("r177+r227") and just the "r227" subjects.*
 
-* *****Other identified QC Issues*****
+* ***Other identified QC Issues***
 
-*With the S1200 release, a subject data measure (QC\_Issue) has been added to ConnectomeDB to flag subjects with notable issues found in the HCP Quality Control process.  The issues are notable, but were not considered severe enough to exclude the subject's imaging data from release. We are sharing these findings of issues to alert users and allow them to decide whether to include or exclude these subjects in their own analyses.  More details can be found here:* 
+* With the S1200 release, a subject data measure (QC\_Issue) has been added to ConnectomeDB to flag subjects with notable issues found in the HCP Quality Control process.  The issues are notable, but were not considered severe enough to exclude the subject's imaging data from release. We are sharing these findings of issues to alert users and allow them to decide whether to include or exclude these subjects in their own analyses.  More details can be found here: *[HCP Subjects with Identified Quality Control Issues](./HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)* 
 
 * ******Subjects without Field Maps for Structural scans******
 
