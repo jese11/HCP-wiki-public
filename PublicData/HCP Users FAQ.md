@@ -180,7 +180,7 @@ For all HCP participants, we collect the "exact age" information at the time of 
 
 Comparisons between HCP-derived data (including the new HCP\_MMP1.0 cortical parcellation – Glasser et al., Nature, 2016) and data analyzed in FreeSurfer entail mapping between different surface ‘spaces’: HCP data are generally on a standard fs\_LR mesh (left and right hemispheres aligned), whereas FreeSurfer data are on a native mesh or on the fsaverage mesh (in both cases, no correspondence between hemispheres). Mapping data from one surface mesh to another involves one-step “resample” options within “wb\_command”, plus preparatory steps that may also be needed.
 
-We have written a document (**Resampling-FreeSurfer-HCP\_5\_8.pdf**, download here) that details instructions for performing mappings from:
+We have written a document **[Resampling-FreeSurfer-HCP_5_8.pdf](./assets/Resampling-FreeSurfer-HCP_5_8.pdf)** that details instructions for performing mappings from:
 
 A) fsaverage group data to fs\_LR
 
