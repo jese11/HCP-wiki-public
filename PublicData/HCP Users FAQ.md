@@ -236,11 +236,14 @@ To update to the full set of released S1200 neuroimaging data, you need to do al
 
 
 a. Download the data for the subjects added as part of the S1200 release – there is a subject group for "S1200 New Subjects" in ConnectomeDB.
+
 b. Download the new reprocessed diffusion data for **all subjects**.  *Note:* Previously released diffusion data for subjects 130922 and 150423 was removed in the S1200 release because it was either poor quality or not enough for useful analysis.  *S900 data users should ensure that they remove the dMRI data from these two subjects from their local copy.*   
 	This is noted on the [HCP-YA Known Issues page](./HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
+
 c. Download the data for subjects 121719 and 169040 that had MR added as part of the S1200 (these subjects were previously released in S900 as “behavior only” subjects).  
 	This is noted on the [HCP-YA Known Issues page](./HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
-d. Download new FIX-cleaned rfMRI data for the 11 previously released subjects (Quarter Released = S900 and earlier) with Issue Code E (manual reclassification of some FIX components). See [HCP-YA QC Issues page](./HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained)   
+
+d. Download new FIX-cleaned rfMRI data for the 11 previously released subjects (Quarter Released = S900 and earlier) with Issue Code E (manual reclassification of some FIX components). See [HCP-YA QC Issues page](./HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)   
 	  
 	List of these 11 subjects: 101107  
 	111716  
