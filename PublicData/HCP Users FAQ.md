@@ -280,10 +280,14 @@ We have not computed this, because of the increase in storage and computational 
 
 If desired, users can produce a 'native space' version of a given 'MNI space' fMRI time-series using spline interpolation and the following code. Note that this particular example resamples the FIX-cleaned rfMRI ("hp2000\_clean.nii.gz") data into 'native space':
 
-`flirt -interp spline \  
--in ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.nii.gz \  
--ref ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.nii.gz \  
--applyisoxfm ${fMRIRes} \  
+`flirt -interp spline \
+
+-in ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.nii.gz \
+
+-ref ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.nii.gz \
+
+-applyisoxfm ${fMRIRes} \
+
 ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.${fMRIRes}.nii.gz`
 
 `applywarp --interp=spline \  
