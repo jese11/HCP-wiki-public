@@ -77,7 +77,10 @@ Or, if the data matrix has a different number of maps/columns from what you sta
 > ```
 > ciftisavereset(newcii,'path/to/newfile','path/to/wb\_command');
 > ```
+>
 > 
+
+
 
   
 
@@ -93,30 +96,30 @@ We don't include individual dense connectomes in the HCP releases, because these
 
 > 
 > ```
-> wb\_command -cifti-correlation
+> wb_command -cifti-correlation
 > ```
 > 
 
 Because the HCP rfMRI data was collected in 4 runs, you may want to 1) demean and optionally normalize the individual timeseries, then 2) concatenate them, **before** you do the correlation step.
 
-To both demean and normalize, use these commands in wb\_command (to only demean, remove the parts that refer to stdev):
+To both demean and normalize, use these commands in wb_command (to only demean, remove the parts that refer to stdev):
 
 
 > 
 > ```
-> wb\_command -cifti-reduce <input> MEAN mean.dtseries.nii
+> wb_command -cifti-reduce <input> MEAN mean.dtseries.nii
 > ```
 > 
 > ```
-> wb\_command -cifti-reduce <input> STDEV stdev.dtseries.nii
+> wb_command -cifti-reduce <input> STDEV stdev.dtseries.nii
 > ```
 > 
 > ```
-> wb\_command -cifti-math '(x - mean) / stdev' <output> -fixnan 0 -var x <input> -var mean mean.dtseries.nii -select 1 1 -repeat -var stdev stdev.dtseries.nii -select 1 1 -repeat
+> wb_command -cifti-math '(x - mean) / stdev' <output> -fixnan 0 -var x <input> -var mean mean.dtseries.nii -select 1 1 -repeat -var stdev stdev.dtseries.nii -select 1 1 -repeat
 > ```
 > 
 > ```
-> wb\_command -cifti-merge out.dtseries.nii -cifti first.dtseries.nii -cifti second.dtseries.nii -cifti third.dtseries.nii -cifti fourth.dtseries.nii
+> wb_command -cifti-merge out.dtseries.nii -cifti first.dtseries.nii -cifti second.dtseries.nii -cifti third.dtseries.nii -cifti fourth.dtseries.nii
 > ```
 > 
 
