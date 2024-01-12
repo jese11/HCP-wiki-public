@@ -144,7 +144,7 @@ Use your ConnectomeDB account for login. The HCP E-Prime scripts are available u
 
 ### *6. Where do I find information and definitions of abbreviations for the Behavioral and Demographic data on subjects?*
 
-Descriptions of the column headers for both Open access and Restricted HCP behavioral and demographic/individual difference measures are located in the [HCP Data Dictionary wiki](../PublicData/HCP Data Dictionary Public- 500 Subject Release.md) and in the Data Dictionary within ConnectomeDB (left click on the column name of any data column and select "Data Dictionary"). 
+Descriptions of the column headers for both Open access and Restricted HCP behavioral and demographic/individual difference measures are located in the [HCP Data Dictionary page](./HCP-YA Data Dictionary- Updated for the 1200 Subject Release.md) and in the Data Dictionary within ConnectomeDB (left click on the column name of any data column and select "Data Dictionary"). 
 
 ### *7. Using gradient unwarping fails, unable to find the file "fullWarp\_abs", what do I do?*
 
