@@ -50,7 +50,11 @@ HCP has developed 3 ways to read and write CIFTI files in MATLAB:
 
 Here are MATLAB functions to download and use for importing CIFTI files (e.g., \*.dtseries.nii) using these prerequisite tools:
 
+ciftiopen.m
 
+ciftisave.m
+
+ciftisavereset.m
 > 
 > ```
 > cii = ciftiopen('path/to/file','path/to/wb\_command'); CIFTIdata = cii.cdata;
