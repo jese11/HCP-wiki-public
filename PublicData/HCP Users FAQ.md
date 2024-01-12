@@ -290,10 +290,15 @@ If desired, users can produce a 'native space' version of a given 'MNI space' fM
 
 ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.${fMRIRes}.nii.gz`
 
-`applywarp --interp=spline \  
--i ${StudyFolder}/${Subject}/MNINonLinear/Results/${fMRIName}/${fMRIName}_hp2000_clean.nii.gz \  
--r ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.${fMRIRes}.nii.gz \  
--w ${StudyFolder}/${Subject}/MNINonLinear/xfms/standard2acpc_dc.nii.gz \  
+
+`applywarp --interp=spline \
+
+-i ${StudyFolder}/${Subject}/MNINonLinear/Results/${fMRIName}/${fMRIName}_hp2000_clean.nii.gz \
+
+-r ${StudyFolder}/${Subject}/T1w/T1w_acpc_dc_restore.${fMRIRes}.nii.gz \
+
+-w ${StudyFolder}/${Subject}/MNINonLinear/xfms/standard2acpc_dc.nii.gz \
+
 -o ${StudyFolder}/${Subject}/T1w/Results/${fMRIName}/${fMRIName}_hp2000_clean.nii.gz`
 
 where `${fMRIRes}` = 2 for 3T data and 1.6 for 7T data.
