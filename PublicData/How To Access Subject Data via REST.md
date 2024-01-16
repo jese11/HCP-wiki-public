@@ -1,13 +1,3 @@
----
-title: How To Access Subject Data via REST
-created: '2015-05-20T01:54:43.897Z'
-updated: '2017-08-10T14:27:35.591Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+To+Access+Subject+Data+via+REST
-space: PublicData
-
----
 For the [HCP 1200 Release](http://humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release), unprocessed and processed data for a subject can be accessed via REST calls apart from using other modes such as Connectome In a Box, Aspera, Amazon AWS. 
 
 In order to access data for a subject, you will need to register at [https://db.humanconnectome.org](https://db.humanconnectome.org.)
