@@ -27,9 +27,8 @@ You will need an Amazon Web Services (AWS) account in order to create and run Am
 
 
 ---
-
-  
-  ![](./assets/Figure1.png)   
+![Figure1-1](https://github.com/jese11/HCP-wiki-public/assets/7256156/ab7e4725-50f7-4652-a055-ea6c2ef13d21)
+ 
   
 Figure 1: Amazon Web Services Sign Up  
   
@@ -40,10 +39,8 @@ Figure 1: Amazon Web Services Sign Up
 
 
 ---
+![Figure2-1](https://github.com/jese11/HCP-wiki-public/assets/7256156/a4754980-f241-445f-a468-8e49d7a282b8)
 
-  
-  ![](./assets/Figure2.png)   
-  
 Figure 2: AWS console  
   
 
@@ -87,12 +84,3 @@ Figure 3: Identity Verification Complete
 
 
   
-
-
-
-
-# Attachments
-
-- ![](./assets/Figure3.png)
-- ![](./assets/Figure2.png)
-- ![](./assets/Figure1.png)
