@@ -1,13 +1,3 @@
----
-title: How to Create an Amazon Web Services Account
-created: '2017-05-22T12:04:38.210Z'
-updated: '2017-05-22T12:25:41.756Z'
-updated_by: Tim Brown
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Create+an+Amazon+Web+Services+Account
-space: PublicData
-
----
 This guide provides instructions for creating an Amazon Web Services Account. It was originally written for use by participants in the course *[Exploring the Human Connectome 2017](https://store.humanconnectome.org/courses/2017/exploring-the-human-connectome.php)* and is based on similar materials prepared for the 2015 and 2016 editions of the course. It is intended to be useful even for users who were not participants in the course.
 
 You will need an Amazon Web Services (AWS) account in order to create and run Amazon EC2 instances that can run HCP Pipeline Scripts. If you already have an AWS account (not just an Amazon account), then you can skip these instructions.
@@ -89,17 +79,10 @@ Figure 3: Identity Verification Complete
 ---
 15. Selecting *Sign in to the Console* should take you back to the *Sign In or Create an AWS Account* page where you can now log in to you AWS account. After logging in to your AWS account, you should see the AWS Console.
 
-> [!info] 
-> You may also want to use visual panels to communicate related information, tips or things users need to be aware of.
+
 ## Related articles
 
-Related articles appear here based on the labels you select. Click to edit the macro and add or change labels.
 
-  
-
-
-> [!details] 
-> Related issues
   
 
 
