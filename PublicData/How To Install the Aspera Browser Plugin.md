@@ -28,7 +28,7 @@ We have an Aspera server on our end that manages downloads. To connect to it, yo
  ![](http://devadmin.humanconnectome.org/img/tutorial/Aspera-instructions/aspera-install-warning.png)
 4. Click through any dialogs that appear, including the end-user license agreement, as necessary to install the software. Choose the Typical installation.
 
-> [!note] Note
+> [!note]
 > When prompted for a language selection, please use "US English." Other language options do not appear to be fully supported by Aspera. This is an issue we have raised with their developers and this item may be updated at a future time.
  ![](http://devadmin.humanconnectome.org/img/tutorial/Aspera-instructions/aspera-install-type.png) 
 
@@ -36,8 +36,8 @@ After completing these steps, the Aspera installer will automatically install ac
 
 ## Also See:
 
-* - By default, Aspera will download HCP data to your desktop. We strongly recommend setting your own preferences here.
-* **Troubleshooting Aspera Downloads** - What to do if Aspera downloads do not work on your network.
+* By default, Aspera will download HCP data to your desktop. We strongly recommend setting your own preferences here.
+* **[Troubleshooting Aspera Downloads](./** - What to do if Aspera downloads do not work on your network.
   
 
 
