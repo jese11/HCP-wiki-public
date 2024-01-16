@@ -274,11 +274,6 @@ Diffusion data includes diffusion weighting, direction, time series, brain mask,
 
 
 
-
-| Table Of Contents |
-| --- |
-|  |
-
   
 
 
