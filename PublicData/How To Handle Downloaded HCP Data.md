@@ -1,13 +1,3 @@
----
-title: How To Handle Downloaded HCP Data
-created: '2017-06-29T11:55:07.527Z'
-updated: '2017-06-29T12:18:40.760Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+To+Handle+Downloaded+HCP+Data
-space: PublicData
-
----
 Now that you have downloaded the data you want, here’s some tips for handling the data:
 
 * Each download package consists of a .zip archive, and an md5 checksum. After you download the data you want, you can use the md5 file to verify the integrity of your downloaded file. [See this tutorial on codejacked.com for MD5 verification instructions](http://www.codejacked.com/using-md5sum-to-validate-the-integrity-of-downloaded-files/).
@@ -254,7 +244,7 @@ The **MNINonLinear/Results/** directory also contains seven other directories, o
 
 In the preprocessed data, these directories contain an .fsf file that can be used to run analysis across the two runs of each task.
 
-> [!note] Note
+> [!note]
 > HCP’s results of individual (within-subject) tfMRI analysis are available in “analysis” download packages separate from the preprocessed datasets. When unpackaged, these data will integrate into these task-specific directories (MNINonLinear/Results/…). See Individual (within-subject) tfMRI analysis results data and Appendix 3D for more details.
   
 
