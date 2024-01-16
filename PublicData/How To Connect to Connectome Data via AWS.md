@@ -1,13 +1,3 @@
----
-title: How To Connect to Connectome Data via AWS
-created: '2015-01-07T14:55:34.116Z'
-updated: '2019-08-29T11:45:08.837Z'
-updated_by: Mike Harms
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+To+Connect+to+Connectome+Data+via+AWS
-space: PublicData
-
----
 ## Introduction
 
 The Human Connectome Project is now making image data available to use directly with Amazon Web Services, without you having to download from ConnectomeDB or order Connectome in a Box drives. This tutorial will show you how to get a set of AWS credentials and connect to HCP data via Amazon S3. Amazon S3 can be used for cloud-based HCP data processing (Amazon charges users for compute cycles) or as an alternative to Aspera for download of HCP data at no cost to the user (Note: in most cases, downloading HCP data through Amazon S3 WILL NOT be faster than Aspera-driven data download through ConnectomeDB). Information on setting up an AWS EC2 instance and processing is available here: **[EC2 Beginner Startup Advice](./EC2%20Beginner%20Startup%20Advice.md)**.
@@ -16,21 +6,21 @@ The Human Connectome Project is now making image data available to use directly 
 
 After logging in to ConnectomeDB (<https://db.humanconnectome.org)>, you will see a list of datasets that we are hosting. Each dataset that is available on AWS will have an icon in its dataset listing, as shown: 
 
- ![](./assets/image2015-1-7 14:28:45.png) 
+ ![](./assets/image2015-1-7%2014:28:45.png)
 
 You will only need one set of credentials to access all datasets on AWS, but that access will be controlled by your acceptance of each dataset's data use terms.  When new datasets are added to AWS, the only action you will need to take (if you already have AWS credentials) is to review and accept the data use terms for each new dataset.
 
 ## Creating AWS Credentials
 
- ![](./assets/image2015-1-7 14:37:20.png) 
+ ![](./assets/image2015-1-7%2014:37:20.png) 
 
 Each set of AWS credentials consists of three parts: a login, a public access key, and a secret access key. Simply click on the "Data Available on Amazon S3" button to open a modal window to generate them. There will be a brief delay while ConnectomeDB communicates with our AWS bucket to establish permissions. 
 
- ![](./assets/image2015-1-7 14:39:22.png) 
+ ![](./assets/image2015-1-7%2014:39:22.png) 
 
 AWS returns a set of credentials. Your AWS login will be the same as your ConnectomeDB username. Your access keys will be randomly generated. Once your set of credentials is created, we strongly encourage you to save them locally. For security reasons, we do not store a copy of your AWS access keys in ConnectomeDB. 
 
- ![](./assets/image2015-1-7 14:41:22.png) 
+ ![](./assets/image2015-1-7%2014:41:22.png) 
 
 ## Connecting to AWS Data Using These Credentials
 
@@ -38,23 +28,18 @@ There are a number of ways and applications that can be used to connect to the H
 
 Once you launch S3 Browser, you will be prompted to create an account. Enter your AWS credentials where specified: 
 
- ![](./assets/image2015-1-7 14:47:49.png) 
+ ![](./assets/image2015-1-7%2014:47:49.png) 
 
 Once you have connected, you should be automatically connected to the HCP Open Access data bucket, and see the "HCP/" folder.
 
 If not...
-
+ you will need to manually add the bucket that contains HCP datasets. The name of this bucket is "hcp-openaccess". Select "Add an External Bucket" from the menu and enter this id.
   
-
-
-> [!expand] 
-> you will need to manually add the bucket that contains HCP datasets. The name of this bucket is "hcp-openaccess". Select "Add an External Bucket" from the menu and enter this id.
-  
-
+![](./assets/image2015-1-7%2014:51:9.png)
 
  Just like that, you have access to all HCP datasets for which you have permission. 
 
- ![](./assets/image2015-2-10 10:54:29.png) 
+ ![](./assets/image2015-2-10%2010:54:29.png) 
 
 *Note: you will also see the "hcp-openaccess-logs" bucket, but you should not have, or need, access to this.*
 
