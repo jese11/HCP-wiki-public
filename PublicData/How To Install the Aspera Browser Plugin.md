@@ -1,13 +1,3 @@
----
-title: How To Install the Aspera Browser Plugin
-created: '2017-06-22T20:54:08.498Z'
-updated: '2017-06-22T21:42:57.271Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+To+Install+the+Aspera+Browser+Plugin
-space: PublicData
-
----
 One of the major logistical problems that we have to address at the Human Connectome Project, even for our own internal analysis, is how to move huge quantities of data from site to site. Our solution uses a file transfer protocol powered by Aspera that is capable of highly-accelerated data transfers across high-speed networks. It works (to oversimplify) by taking advantage of unused bandwidth in network fiber and rapidly pushing large chunks of data through.
 
 We have an Aspera server on our end that manages downloads. To connect to it, you must install the Aspera browser plugin on your local machine. This plugin works in all major browsers in Mac OS, Windows and Linux (CentOS6 or later).
@@ -37,7 +27,7 @@ After completing these steps, the Aspera installer will automatically install ac
 ## Also See:
 
 * By default, Aspera will download HCP data to your desktop. We strongly recommend setting your own preferences here.
-* **[Troubleshooting Aspera Downloads](./** - What to do if Aspera downloads do not work on your network.
+* **[Troubleshooting Aspera Downloads](./Aspera%20Plugin%20Help%20and%20FAQ.md)** - What to do if Aspera downloads do not work on your network.
   
 
 
