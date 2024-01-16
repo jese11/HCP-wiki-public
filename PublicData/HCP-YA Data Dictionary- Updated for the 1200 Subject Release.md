@@ -1,18 +1,8 @@
----
-title: HCP-YA Data Dictionary- Updated for the 1200 Subject Release
-created: '2014-06-02T15:37:35.523Z'
-updated: '2023-10-30T19:55:19.048Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/HCP-YA+Data+Dictionary-+Updated+for+the+1200+Subject+Release
-space: PublicData
-
----
 ## ***Updated S1200 HCP Young Adult (HCP-YA) Data Dictionary spreadsheet******:***
 
-## **Excel version:**
+## **Excel version:** [HCP_S1200_DataDictionary_Oct_30_2023.xlsx](./assets/HCP_S1200_DataDictionary_Oct_30_2023.xlsx)
 
-## **CSV version:**
+## **CSV version:** [HCP_S1200_DataDictionary_Oct_30_2023.csv](./assets/HCP_S1200_DataDictionary_Oct_30_2023.csv)
 
 ## *Up to date variable descriptions are also viewable within the ConnectomeDB subject dashboard by mousing over the column name or selecting "Data Dictionary" from the column name dropdown.*
 
