@@ -10,7 +10,7 @@ space: PublicData
 ---
 ## Introduction
 
-The Human Connectome Project is now making image data available to use directly with Amazon Web Services, without you having to download from ConnectomeDB or order Connectome in a Box drives. This tutorial will show you how to get a set of AWS credentials and connect to HCP data via Amazon S3. Amazon S3 can be used for cloud-based HCP data processing (Amazon charges users for compute cycles) or as an alternative to Aspera for download of HCP data at no cost to the user (Note: in most cases, downloading HCP data through Amazon S3 WILL NOT be faster than Aspera-driven data download through ConnectomeDB). Information on setting up an AWS EC2 instance and processing is available here: **[EC2 Beginner Startup Advice](../Docs/EC2 Beginner Startup Advice.md)**.
+The Human Connectome Project is now making image data available to use directly with Amazon Web Services, without you having to download from ConnectomeDB or order Connectome in a Box drives. This tutorial will show you how to get a set of AWS credentials and connect to HCP data via Amazon S3. Amazon S3 can be used for cloud-based HCP data processing (Amazon charges users for compute cycles) or as an alternative to Aspera for download of HCP data at no cost to the user (Note: in most cases, downloading HCP data through Amazon S3 WILL NOT be faster than Aspera-driven data download through ConnectomeDB). Information on setting up an AWS EC2 instance and processing is available here: **[EC2 Beginner Startup Advice](./EC2%20Beginner%20Startup%20Advice.md)**.
 
 ## HCP Datasets on AWS
 
