@@ -18,9 +18,9 @@ This material may also be useful for non-participants.
 
 This guide assumes an understanding of Amazon Web Services concepts provided by the course lecture *ConnectomeDB, Connectome Coordination Facility, Amazon Web Services*.
 
-This guide assumes that you already have credentials for accessing the HCP OpenAccess S3 Bucket. If you do not have those credentials, please follow the instructions at How to Get Access to the HCP OpenAccess Amazon S3 Bucket.
+This guide assumes that you already have credentials for accessing the HCP OpenAccess S3 Bucket. If you do not have those credentials, please follow the instructions at [How to Get Access to the HCP OpenAccess Amazon S3 Bucket](./How%20to%20Get%20Access%20to%20the%20HCP%20OpenAccess%20Amazon%20S3%20Bucket.md).
 
-This guide assumes that you already have an AWS account. If you do not have an AWS account, please follow the instructions at .
+This guide assumes that you already have an AWS account. If you do not have an AWS account, please follow the instructions at [How to Create an Amazon Web Services Account](./How%20to%20Create%20an%20Amazon%20Web%20Services%20Account.md).
 
 ***Some of the steps in this guide use services that are part of AWS that are not in the Free Tier of AWS. That means that in carrying out these steps, there may be charges from Amazon to the credit card associated with your AWS account.***
 
