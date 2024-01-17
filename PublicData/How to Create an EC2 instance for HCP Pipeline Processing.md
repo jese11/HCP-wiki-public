@@ -78,7 +78,7 @@ Figure 4: Choose and AMI page
 * The *AWS Marketplace* tab is for AMIs that are verified by AWS.
 * The *Community AMIs* are for AMIs that users have made available but have not be verified by AWS.
 
-## Step 3: Find and Select and AMI
+## Step 3: Find and Select an AMI
 
 * Select the *AWS Marketplace* tab.
 * In the search box, enter NITRC
@@ -191,15 +191,10 @@ Figure 11: Instance ID
 
 * Notice that the Instance ID presented is a link. Select the instance ID link to be taken to a table listing information about your instance.
 * The Instance Table will show you the following important information (see Figure 12).
-	+ ```
-	Public DNS (IPv4): e.g. ec2-34-201-82-144-compute-1.amazonaws.com
-	```
-	+ ```
-	IPv4 Public IP: e.g. 34.201.82.144
-	```
-	+ ```
-	Key Name: e.g. akeypair
-	```
+  	+ Public DNS (IPv4): e.g. ec2-34-201-82-144-compute-1.amazonaws.com
+	+ IPv4 Public IP: e.g. 34.201.82.144
+	+ Key Name: e.g. akeypair
+	
 * Take note of this information, you will need some of it to access your machine.
 * Note: Each time you restart your instance you will get a different Public DNS and Public IP address.
 
@@ -333,15 +328,9 @@ Figure 18: Connected to a VNC server session
 * Issue a command like:  
   
 
-
-
-
-| 
 ```
 ssh -Y hcpuser@<your-public-dns>
 ```
- |
-| --- |
 * You will need to substitute your running instance's actual public DNS for <your-public-dns> in the above command.
 * You will also need to substitute the username for an account on your running instance for hcpuser in the above command
 * Acknowledge warning about authenticity of the host by simply pressing return or entering yes to the "Are you sure..." prompt.
@@ -353,56 +342,70 @@ ssh -Y hcpuser@<your-public-dns>
 
 * Notice what disk space you have available  
   
-
-
-
-
-| 
 ```
-hcpuser@nitrcce:~$ df -hFilesystem      Size  Used Avail Use% Mounted onudev            7.4G   12K  7.4G   1% /devtmpfs           1.5G  820K  1.5G   1% /run/dev/xvda1       99G   22G   73G  23% /none            4.0K     0  4.0K   0% /sys/fs/cgroupnone            5.0M     0  5.0M   0% /run/locknone            7.4G  144K  7.4G   1% /run/shmnone            100M   32K  100M   1% /run/users3fs            256T     0  256T   0% /s3/hcphcpuser@nitrcce:~$
+hcpuser@nitrcce:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.4G   12K  7.4G   1% /dev
+tmpfs           1.5G  820K  1.5G   1% /run
+/dev/xvda1       99G   22G   73G  23% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            7.4G  144K  7.4G   1% /run/shm
+none            100M   32K  100M   1% /run/user
+s3fs            256T     0  256T   0% /s3/hcp
+hcpuser@nitrcce:~$
 ```
- |
-| --- |
 * The s3fs row shows that the HCP S3 bucket is mounted at /s3/hcp. – Good
 * The /dev/xvda1 row shows that your primary disk (~100GB) is mounted at / – Good
 * But where is that 1000GB = 1TB "external" disk that we created when we were creating this instance?
 	+ It doesn't have a file system created for it, and it isn't yet mounted.
 * View the available disk devices  
   
-
-
-
-
-| 
 ```
-hcpuser@nitrcce:~$ lsblkNAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTxvda    202:0    0   100G  0 disk└─xvda1 202:1    0   100G  0 part /xvdb    202:16   0  1000G  0 diskhcpuser@nitrcce:~$
+hcpuser@nitrcce:~$ lsblk
+NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+xvda    202:0    0   100G  0 disk
+└─xvda1 202:1    0   100G  0 part /
+xvdb    202:16   0  1000G  0 disk
+hcpuser@nitrcce:~$
 ```
- |
-| --- |
 * The device is showing up as xvdb
 * Determine if you need to create a file system on the device. (You do.)  
-  
 
-
-
-
-| 
 ```
-hcpuser@nitrcce:~$ sudo file -s /dev/xvdb[sudo] password for hcpuser:/dev/xvdb: datahcpuser@nitrcce:~$
+hcpuser@nitrcce:~$ sudo file -s /dev/xvdb
+[sudo] password for hcpuser:
+/dev/xvdb: data
+hcpuser@nitrcce:~$
 ```
- |
-| --- |
 * The response: **/dev/xvdb: data** means that there is no file system on the device and it needs to be created
-* Create an ext4 file system on the volume
-
-
-
-| 
+* Create an ext4 file system on the volume 
 ```
-hcpuser@nitrcce:~$ sudo mkfs -t ext4 /dev/xvdbmke2fs 1.42.9 (4-Feb-2014)Filesystem label=OS type: LinuxBlock size=4096 (log=2)Fragment size=4096 (log=2)Stride=0 blocks, Stripe width=0 blocks65536000 inodes, 262144000 blocks13107200 blocks (5.00%) reserved for the super userFirst data block=0Maximum filesystem blocks=42949672968000 block groups32768 blocks per group, 32768 fragments per group8192 inodes per groupSuperblock backups stored on blocks:    32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,    4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,    102400000, 214990848Allocating group tables: done                            Writing inode tables: done                            Creating journal (32768 blocks): doneWriting superblocks and filesystem accounting information: done     hcpuser@nitrcce:~$
+hcpuser@nitrcce:~$ sudo mkfs -t ext4 /dev/xvdb
+mke2fs 1.42.9 (4-Feb-2014)
+Filesystem label=OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+65536000 inodes, 262144000 blocks
+13107200 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=4294967296
+8000 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks:
+    32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+    4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,
+    102400000, 214990848
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+hcpuser@nitrcce:~$
 ```
- |
-| --- |
 
 ## Step 17: Mounting your "external" EBS drive - Part 2
 
