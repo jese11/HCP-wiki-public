@@ -79,8 +79,6 @@ Figure 3: Identity Verification Complete
 
 ## Related articles
 
-[How to Redeem your AWS Credit Code](./How%20to%20Redeem%20your%20AWS%20Credit%20Code.md)
-
 [How to Create an EC2 instance for HCP Pipeline Processing](./How%20to%20Create%20an%20EC2%20instance%20for%20HCP%20Pipeline%20Processing.md)
 
 [How to Get Access to the HCP Open Access Amazon S3 Bucket](./How%20to%20Get%20Access%20to%20the%20HCP%20OpenAccess%20Amazon%20S3%20Bucket.md)
