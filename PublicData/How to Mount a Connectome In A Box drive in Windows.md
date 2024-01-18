@@ -29,6 +29,7 @@ If you find that working in a Linux VM does not offer you enough processing perf
 ## Related articles
 
  [How To Connect to Connectome Data via AWS](./How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
+ 
  [How to mount a Connectome In A Box Hard Drive in Mac OSX](./How%20to%20mount%20a%20Connectome%20In%20A%20Box%20Hard%20Drive%20in%20Mac%20OSX.md)
 
 
