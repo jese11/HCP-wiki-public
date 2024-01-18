@@ -410,45 +410,35 @@ hcpuser@nitrcce:~$
 ## Step 17: Mounting your "external" EBS drive - Part 2
 
 * Make a mount point and mount the device  
-  
-
-
-
-
-| 
 ```
-hcpuser@nitrcce:~$ sudo mkdir /datahcpuser@nitrcce:~$ sudo mount /dev/xvdb /datahcpuser@nitrcce:~$ df -hFilesystem      Size  Used Avail Use% Mounted onudev            7.4G   12K  7.4G   1% /devtmpfs           1.5G  820K  1.5G   1% /run/dev/xvda1       99G   22G   73G  23% /none            4.0K     0  4.0K   0% /sys/fs/cgroupnone            5.0M     0  5.0M   0% /run/locknone            7.4G  144K  7.4G   1% /run/shmnone            100M   32K  100M   1% /run/users3fs            256T     0  256T   0% /s3/hcp/dev/xvdb       985G   72M  935G   1% /datahcpuser@nitrcce:~$ sudo chmod 777 /datahcpuser@nitrcce:~$
+hcpuser@nitrcce:~$ sudo mkdir /data
+hcpuser@nitrcce:~$ sudo mount /dev/xvdb /data
+hcpuser@nitrcce:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.4G   12K  7.4G   1% /dev
+tmpfs           1.5G  820K  1.5G   1% /run
+/dev/xvda1       99G   22G   73G  23% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            7.4G  144K  7.4G   1% /run/shm
+none            100M   32K  100M   1% /run/user
+s3fs            256T     0  256T   0% /s3/hcp
+/dev/xvdb       985G   72M  935G   1% /data
+hcpuser@nitrcce:~$ sudo chmod 777 /data
+hcpuser@nitrcce:~$
 ```
- |
-| --- |
 * Notice that /dev/xvdb is now mounted at /data and has 935GB free space.
 * You will want to mount the volume on every reboot.
 * Edit the file /etc/fstab and add a line that looks like the following:  
-  
-
-
-
-
-| 
 ```
 /dev/xvdb   /data  ext4  defaults,nofail  0 2
 ```
- |
-| --- |
 * **There are <TAB> characters between the fields. Except between the 0 and the 2 there is just a single space character.**
 * **You must be very careful here. Editing this file incorrectly can make your instance unusable.**
 * You will need to be "root" or "superuser" to edit the file, so your command to edit the file using the nano editor would look something like:  
-  
-
-
-
-
-| 
 ```
 hcpuser@nitrcce:~$ sudo nano /etc/fstab
 ```
- |
-| --- |
 * See <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html> for further information about mounting and use EBS volumes.
 
 ## Step 18: Shutting down/Restarting your instance
@@ -463,24 +453,7 @@ hcpuser@nitrcce:~$ sudo nano /etc/fstab
 * But you will continue to be charged for EBS disk space.
 * Also note that when you restart a stopped machine, you will get a different public DNS and different IP Address than you previously had.
 
-  
-
-
-> [!info] 
-> You may also want to use visual panels to communicate related information, tips or things users need to be aware of.
 ## Related articles
-
-Related articles appear here based on the labels you select. Click to edit the macro and add or change labels.
-
-  
-
-
-> [!details] 
-> Related issues
-  
-
-
-  
 
 
 
