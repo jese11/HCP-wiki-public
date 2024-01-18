@@ -1,13 +1,3 @@
----
-title: How to mount a Connectome In A Box Hard Drive in Mac OSX
-created: '2015-03-04T12:22:39.498Z'
-updated: '2015-03-04T12:25:19.590Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+mount+a+Connectome+In+A+Box+Hard+Drive+in+Mac+OSX
-space: PublicData
-
----
 As [our note on Connectome In A Box formats](http://humanconnectome.org/data/connectome-in-a-box-format.html) states, we only guarantee full read-write access to EXT3-formatted Connectome hard drives for users with Linux-based computers (and ideally with enterprise storage to house the data). However, we recognize that some researchers will not have access to this kind of working environment. For those users with Mac computers, this walkthrough may be helpful.
 
  
@@ -32,7 +22,7 @@ This approach may work out of the box. However, if it does not, you will have to
 
 If you have to mount drives manually, this process will have to be repeated each time you attach a drive to your machine. (Note: always "ignore" any warning from your Mac OS when you attach your EXT3 drive.)
 
- ![](./assets/Screen Shot 2015-03-04 at 6.19.53 AM.png) 
+ ![](./assets/Screen%20Shot%202015-03-04%20at%206.19.53%20AM.png) 
 
 1. Launch Disk Utility and find the name of your attached EXT3 drive. This will show up in the left sidebar and be something like "disk1s1"
 2. Open Terminal and enter the following commands. The first creates a temporary folder in your hidden "Volumes" directory that you will mount the drive to. The second calls the Ext2Fuse module and tells it to mount the drive at your newly-generated mountpoint.
@@ -48,7 +38,9 @@ With any luck, your Connectome drive will mount to your Mac, and provide you wit
 
 ## Related articles
 
- 
+ [How To Connect to Connectome Data via AWS](./How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
+ 
+ [How to mount a Connectome In A Box Hard Drive in Mac OSX](./How%20to%20mount%20a%20Connectome%20In%20A%20Box%20Hard%20Drive%20in%20Windows.md)
 
 
 
