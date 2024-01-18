@@ -46,4 +46,4 @@ With any luck, your Connectome drive will mount to your Mac, and provide you wit
 
 # Attachments
 
-- ![](./assets/Screen Shot 2015-03-04 at 6.19.53 AM.png)
+- ![](./assets/Screen%20Shot%202015-03-04%20at%206.19.53%20AM.png) 
