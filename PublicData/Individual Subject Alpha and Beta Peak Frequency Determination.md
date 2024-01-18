@@ -1,13 +1,3 @@
----
-title: Individual Subject Alpha and Beta Peak Frequency Determination
-created: '2014-11-20T13:42:51.084Z'
-updated: '2014-11-20T13:42:51.084Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Individual+Subject+Alpha+and+Beta+Peak+Frequency+Determination
-space: PublicData
-
----
 ## Overview
 
 Alpha and beta frequency bands represent two of the strongest oscillations in the human brain. Alpha oscillations are believed to have an inhibitory role and to originate from the thalamus. Beta oscillations are mostly dominant in the sensorimotor cortex and are associated with a "status quo" signalling mechanism.
@@ -39,9 +29,7 @@ The second step is represented by pipeline hcp\_avgspecmanualalphabeta.m ( and u
 
 The sensor array has been divided into 4 quadrants
 
- 
-
- ![](https://wiki.humanconnectome.org/download/attachments/60686367/sensorsDivided1.jpg?version=1&modificationDate=1410892244142&api=v2) 
+ ![sensorsDivided1](https://github.com/jese11/HCP-wiki-public/assets/7256156/f5f04b8f-dcbb-49df-8d13-77559176b3c4)
 
 Spectra are averaged for each group of sensors. In the resting state case the spectra that are already computed by the hcp\_powavg.m pipeline for EACH resting state session are averaged within sensor group. These averaged speactra from each of the 3 different resting state sessions are stored in the same matrix. So in this case there are 4 different sensor groups and 3 different resting state sessions.
 
@@ -61,8 +49,8 @@ For all the above cases and for each of the sensor group the average spectrum is
 
 | File naming patten | File name example | Description |
 | --- | --- | --- |
-| subjlistfile |  codedSubjList\_20140915.txt | The input variable "subjlistfile" shoudl contain the name of an ASCII file, which has 5 columns. Each row corresponds to a single subject, The first column contains the subject ID. The rest of the columns are binary flags signifying if the subject has Resting state, Motor, Working Memory and Story Math scans. |
-| $EXPERIMENTID\_$SCANID\_tfavg\_$CONTRASTID\_[MODE-$AVGMODE].mat  | 012345\_MEG\_Motort\_tfavg\_[LM-TFLA-LH]\_[MODE-mag].mat | This matlab \*.mat contains a structure (typical Fieldtrip structure for TFR average) containing the trials average for the given contrast.In the last part of the namingconventionthe [MODE-$AVGMODE] part signifies if the TFR average is performed on the magnetic field ('mag') or in the planar gradient magnitude ('planar'). |
+| subjlistfile |  codedSubjList\_20140915.txt | The input variable "subjlistfile" should contain the name of an ASCII file, which has 5 columns. Each row corresponds to a single subject, The first column contains the subject ID. The rest of the columns are binary flags signifying if the subject has Resting state, Motor, Working Memory and Story Math scans. |
+| $EXPERIMENTID\_$SCANID\_tfavg\_$CONTRASTID\_[MODE-$AVGMODE].mat  | 012345\_MEG\_Motort\_tfavg\_[LM-TFLA-LH]\_[MODE-mag].mat | This matlab *.mat contains a structure (typical Fieldtrip structure for TFR average) containing the trials average for the given contrast. In the last part of the naming convention the [MODE-$AVGMODE] part signifies if the TFR average is performed on the magnetic field ('mag') or in the planar gradient magnitude ('planar'). |
 |  <ExpID>\_<ScanID>\_powavg.mat |  133019\_MEG\_3-Restin\_powavg.mat | MATLAB file with averaged power spectrum |
 
   
@@ -79,7 +67,7 @@ For all the above cases and for each of the sensor group the average spectrum is
 
 | File naming patten | File name example | Description |
 | --- | --- | --- |
-| casespectra\_<ScanID>\_Motort.matcasespectra\_<ScanID>\_Restin.matcasespectra\_<ScanID>\_StoryM.matcasespectra\_<ScanID>\_Wrkmem.mat  | casespectra\_177746\_Motort.matcasespectra\_177746\_Restin.matcasespectra\_177746\_StoryM.matcasespectra\_177746\_Wrkmem.mat | Thismatlab\*.mat contains 3 variables. casespectra: This matrix has 69 columns. The first 4 correspond to variables that define dataset, set of trials, sensor location and type of spectrum. The other 65 column contain the actual spectral power for 65 frequencies namely [1:30 31:2:99] Hz.allfreqs: [1x65 double] contains the frequenciescolumnDescr: cell variable describing the columns of variable "casespectra" above. It is important because each task has different condition parameters.In the last part ofthenamingconventionthe[MODE-$AVGMODE] part signifies if the TFR average is performed on the magnetic field ('mag') or in the planar gradient magnitude ('planar'). |
+| casespectra\_<ScanID>\_Motort.mat  casespectra\_<ScanID>\_Restin.mat  casespectra\_<ScanID>\_StoryM.mat  casespectra\_<ScanID>\_Wrkmem.mat  | casespectra\_177746\_Motort.mat  casespectra\_177746\_Restin.mat  casespectra\_177746\_StoryM.mat  casespectra\_177746\_Wrkmem.mat | This matlab\*.mat contains 3 variables.   casespectra: This matrix has 69 columns. The first 4 correspond to variables that define dataset, set of trials, sensor location and type of spectrum. The other 65 column contain the actual spectral power for 65 frequencies namely [1:30 31:2:99] Hz.   allfreqs: [1x65 double] contains the frequencies   columnDescr: cell variable describing the columns of variable "casespectra" above. It is important because each task has different condition parameters.   In the last part of the naming convention the [MODE-$AVGMODE] part signifies if the TFR average is performed on the magnetic field ('mag') or in the planar gradient magnitude ('planar'). |
 
   
 
@@ -93,7 +81,7 @@ For all the above cases and for each of the sensor group the average spectrum is
 
 After the casespectra files have been created , they can be used in the Graphical Interface pipeline hcp\_avgspecmanualalphabeta.m  where the spectra across all tasks can be assessed for a given subject.
 
- ![](https://wiki.humanconnectome.org/download/attachments/60686367/Gui1.jpg?version=1&modificationDate=1410896942693&api=v2) 
+![Gui1](https://github.com/jese11/HCP-wiki-public/assets/7256156/13d6a023-488e-4100-991d-59f76c67b999)
 
  
 
@@ -181,7 +169,7 @@ The alpha and beta peaks are saved and the GUI closes after the "EXIT" button is
 | File naming patten | File name example | Description |
 | --- | --- | --- |
 | subjlistfile |  codedSubjList\_20140915.txt | The input variable "subjlistfile"shoudlcontain the name of an ASCII file, which has 5 columns. Each row corresponds to a single subject, The first column contains the subject ID. The rest of the columns are binary flags signifying if the subject has Resting state, Motor, Working Memory and Story Math scans. |
-| casespectra\_<ScanID>\_Motort.matcasespectra\_<ScanID>\_Restin.matcasespectra\_<ScanID>\_StoryM.matcasespectra\_<ScanID>\_Wrkmem.mat  | casespectra\_177746\_Motort.matcasespectra\_177746\_Restin.matcasespectra\_177746\_StoryM.matcasespectra\_177746\_Wrkmem.mat | These are the mat files created in Step 1 by pipeline hcp\_avgspecextract.mThis matlab\*.mat contains 3 variables.casespectra: This matrix has 69 columns. The first 4 correspond to variables that define dataset, set of trials, sensor location and type of spectrum. The other 65 column contain the actual spectral power for 65 frequencies namely [1:30 31:2:99] Hz.allfreqs: [1x65 double] contains the frequenciescolumnDescr: cell variable describing the columns of variable "casespectra" above. It is important because each task has different condition parameters.   |
+| casespectra\_<ScanID>\_Motort.mat  casespectra\_<ScanID>\_Restin.mat  casespectra\_<ScanID>\_StoryM.mat  casespectra\_<ScanID>\_Wrkmem.mat  | casespectra\_177746\_Motort.mat  casespectra\_177746\_Restin.mat  casespectra\_177746\_StoryM.mat  casespectra\_177746\_Wrkmem.mat | These are the mat files created in Step 1 by pipeline hcp\_avgspecextract.m  This matlab*.mat contains 3 variables.  casespectra: This matrix has 69 columns. The first 4 correspond to variables that define dataset, set of trials, sensor location and type of spectrum.   The other 65 column contain the actual spectral power for 65 frequencies namely [1:30 31:2:99] Hz.  allfreqs: [1x65 double] contains the frequenciescolumnDescr: cell variable describing the columns of variable "casespectra" above. It is important because each task has different condition parameters.   |
 
   
 
