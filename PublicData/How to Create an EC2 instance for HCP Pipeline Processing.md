@@ -1,13 +1,3 @@
----
-title: How to Create an EC2 instance for HCP Pipeline Processing
-created: '2017-05-22T13:06:28.126Z'
-updated: '2017-05-23T16:35:41.237Z'
-updated_by: Tim Brown
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Create+an+EC2+instance+for+HCP+Pipeline+Processing
-space: PublicData
-
----
 This guide was originally written for participants in the course *[Exploring the Human Connectome 2017](https://store.humanconnectome.org/courses/2017/exploring-the-human-connectome.php)* and is based on similar materials prepared for the 2015 and 2016 editions of the course.
 
 During the course, an optional practical session titled *Cloud-based Processing Using HCP Pipelines and Amazon Web Services* was held. That session was devoted to a demonstration of *Creating an EC2 instance for HCP Pipeline Processing.* That demonstration was intended to give participants a general feel for what is necessary to create such an EC2 instance. However, participants were not expected to actually execute the process during the demonstration. 
@@ -454,7 +444,13 @@ hcpuser@nitrcce:~$ sudo nano /etc/fstab
 * Also note that when you restart a stopped machine, you will get a different public DNS and different IP Address than you previously had.
 
 ## Related articles
+[How to Redeem your AWS Credit Code](./How%20to%20Redeem%20your%20AWS%20Credit%20Code.md)
 
+[How to Create an EC2 instance for HCP Pipeline Processing](./How%20to%20Create%20an%20EC2%20instance%20for%20HCP%20Pipeline%20Processing.md)
+
+[How to Get Access to the HCP Open Access Amazon S3 Bucket](./How%20to%20Get%20Access%20to%20the%20HCP%20OpenAccess%20Amazon%20S3%20Bucket.md)
+
+[How to Create an Amazon Web Services Account](./How%20to%20Create%20an%20Amazon%20Web%20Services%20Account.md)
 
 
 
