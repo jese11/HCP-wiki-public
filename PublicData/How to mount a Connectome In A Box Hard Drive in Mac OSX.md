@@ -40,7 +40,7 @@ With any luck, your Connectome drive will mount to your Mac, and provide you wit
 
 [How To Connect to Connectome Data via AWS](./How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
  
-[How to mount a Connectome In A Box Hard Drive in Windows](./How%20to%20mount%20a%20Connectome%20In%20A%20Box%20Hard%20Drive%20in%20Windows.md)
+[How to Mount a Connectome In A Box drive in Windows](./How%20to%20Mount%20a%20Connectome%20In%20A%20Box%20drive%20in%20Windows.md)
 
 
 
