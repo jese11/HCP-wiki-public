@@ -1,12 +1,3 @@
----
-title: LONI to XNAT - API Reference
-created: '2016-01-29T15:54:50.559Z'
-updated: '2016-11-01T13:10:13.357Z'
-updated_by: Michael Hileman
-source: https://wiki.humanconnectome.org/display/PublicData/LONI+to+XNAT+-+API+Reference
-space: PublicData
-
----
 Overview and examples of the XNAT REST API to aid in getting MR session data from LONI sites. 
 
 The {SERVER-URL} for production will be <https://intradb.humanconnectome.org>, and an example of {SERVER-URL} for testing purposes will likely be <https://hcpi-demo.humanconnectome.org.> You will need to have an account on the site you are pushing data to and will also require project owner access. Please contact Michael Hileman (mhileman@wustl.edu) for any help regarding site setup and access.
@@ -32,14 +23,8 @@ DicomRemap -o SERVER-URL /path/to/dicom
 Either of the above methods will create a subject and experiment from the DICOM headers during the XNAT archive process.
 
 
-```
-  
+## Setting XNAT Parameters via REST
 
-```
-
-```
-Setting XNAT Parameters via REST
-```
 Sessions will be built and parameters set from the DICOM headers in the above examples. However, it is likely that you will need to change some things that either weren't in the DICOM headers or not where XNAT expected them to be. To make any of these REST calls below, the subject or experiment that you are setting paramaters for must exist. For testing purposes, you can create these through the top menu in XNAT for any project that you have appropriate access for.
 
 #### Subject Level Param
@@ -72,9 +57,3 @@ curl -u user:pass https://{SERVER-URL}/REST/projects/CCF_TEST/subjects/sub1/expe
 curl -u user:pass https://{SERVER-URL}/REST/projects/CCF_TEST/subjects/sub1/experiments/session1/scans/1?xsiType=xnat:mrScanData&xnat:mrScanData/series_description=Structural -X PUT
 ```
 
- 
-
- 
-
-> [!details] 
-> Related issues
