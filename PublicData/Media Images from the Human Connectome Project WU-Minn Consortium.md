@@ -21,7 +21,6 @@ Download all of these images in a single ZIP archive: [HCP_Media_Images.zip](./
 |  ![](./assets/Parasagittal_volume_hi_res.png)  | **High resolution Parasagittal Volume**   "Parasagittal\_volume\_hi\_res.png"   A parasagittal slice from the brain volume of an individual HCP subject obtained with structural MRI, showing the high resolution of the imaging data being collected.Image(s) courtesy of the WU-Minn HCP consortium - <http://humanconnectome.org>   Download single image:  [Parasagittal_volume_hi_res.png](./assets/Parasagittal_volume_hi_res.png)|
 |  ![](./assets/Axial_volume.png)  | **High resolution Axial Volume**   "Axial\_volume.png"   A axial slice from the brain volume of an individual HCP subject obtained with structural MRI, showing the high resolution of the imaging data being collected.   Image(s) courtesy of the WU-Minn HCP consortium - <http://humanconnectome.org>   Download single image:  [Axial_volume.png](./assets/Axial_volume.png)|
 |  ![](./assets/Coronal_volume.png)  | **High resolution Coronal Volume**   "Coronal\_volume.png"   A coronal slice from the brain volume of an individual HCP subject obtained with structural MRI, showing the high resolution of the imaging data being collected.Image(s) courtesy of the WU-Minn HCP consortium - <http://humanconnectome.org>Download single image:  [Coronal_volume.png](./assets/Coronal_volume.png)|
-|  ![](./assets/Diffusion_FA.JPG)  | **Diffusion Fractional Anisotropy**   “Diffusion\_FA.jpg” (can use just half of this image, if desired)   Fractional anisotropy (top), and principal diffusion directions (bottom) images from the HCP dMRI data provide a measure of how water diffuses in the brain. Diffusion directions are RGB-color encoded red: left–right, green: anterior–posterior, blue: inferior–superior.   Image courtesy of the WU-Minn HCP consortium - <http://humanconnectome.org>   Download single image:   [Diffusion_FA.JPG](./assets/Diffusion_FA.JPG)|
 
 
 
@@ -30,7 +29,6 @@ Download all of these images in a single ZIP archive: [HCP_Media_Images.zip](./
 - [HCP_Media_Images.zip](./assets/HCP_Media_Images.zip)
 - ![](./assets/Probabilistic_%20Tractography.png)
 - ![](./assets/HCP_Probabilistic_Tractography_frontal.png)
-- [Diffusion_FA.JPG](./assets/Diffusion_FA.JPG)
 - ![](./assets/Coronal_volume.png)
 - ![](./assets/Axial_volume.png)
 - [Parasagittal_volume_hi_res.zip](./assets/Parasagittal_volume_hi_res.zip)
