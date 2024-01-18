@@ -1,13 +1,3 @@
----
-title: Ramifications of Image Reconstruction Version Differences
-created: '2015-03-12T15:16:42.818Z'
-updated: '2015-03-16T14:23:52.732Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Ramifications+of+Image+Reconstruction+Version+Differences
-space: PublicData
-
----
 In the spring of 2013, several months after the commencement of HCP Phase II scanning, an improved reconstruction algorithm was developed that reduced spatial blurring in fMRI and dMRI acquisitions. In brief, the original reconstruction algorithm performed the separation of the multi-band multi-slice images after transforming the acquired fully sampled data to frequency space along the read-out direction, and now the multi-band multi-slice separation is performed in k-space. See [S500+MEG2 Reference Manual](http://humanconnectome.org/documentation/S500/HCP_S500+MEG2_Release_Reference_Manual.pdf), p. 35: Image Reconstruction and DICOM to NIFTI conversion, for more details.
 
 Therefore, the reconstruction algorithm was upgraded in late April 2013. In addition, the new reconstruction method was applied retrospectively to dMRI scans acquired prior to the April 2013 transition that were saved in a compact but unreconstructed data format. For fMRI scans prior to April 2013, unreconstructed scans were not preserved owing to technical considerations related to the time required to complete reconstruction at the scanner. Therefore, some of the HCP fMRI data being distributed has been reconstructed with the original r177 ICE version and some with the r227 upgraded ICE version.
@@ -18,7 +8,7 @@ Network matrices (a.k.a. "netmats") derived from the resting state fMRI data of 
 
  ![](./assets/Recon_scatterplot_labels.png) 
 
-For both dMRI and fMRI, the image reconstruction version is noted in ConnectomeDB and can be filtered against in the Study Completion category on the dashboard (see see [S500+MEG2 Reference Manual](http://humanconnectome.org/documentation/S500/HCP_S500+MEG2_Release_Reference_Manual.pdf), p. 21: How to explore HCP data in ConnectomeDB).
+For both dMRI and fMRI, the image reconstruction version is noted in ConnectomeDB and can be filtered against in the Study Completion category on the dashboard (see [S500+MEG2 Reference Manual](http://humanconnectome.org/documentation/S500/HCP_S500+MEG2_Release_Reference_Manual.pdf), p. 21: How to explore HCP data in ConnectomeDB).
 
 
 
