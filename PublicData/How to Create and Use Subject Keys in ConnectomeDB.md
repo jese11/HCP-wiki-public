@@ -1,13 +1,3 @@
----
-title: How to Create and Use Subject Keys in ConnectomeDB
-created: '2017-06-01T11:30:32.666Z'
-updated: '2023-04-27T22:10:01.984Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Create+and+Use+Subject+Keys+in+ConnectomeDB
-space: PublicData
-
----
 In any paper that links individual subject data and restricted data for subjects (e.g. twin status, family structure, exact age, BMI, etc.) from the HCP dataset, authors must generate their own **Coded IDs** rather than use the original HCP Subject ID. In ConnectomeDB, we allow authors to upload a **Subject Key**: a collection of Coded IDs that link to the HCP IDs for each cited subject. 
 
 > [!note] 
@@ -45,7 +35,7 @@ In any paper that links individual subject data and restricted data for subjects
 
 
 > [!note] 
-> Warning for first-time users!Due to a known issue in ConnectomeDB, the first time that you attempt to upload a CSV file to your Subject Key, you may receive an error screen that incorrectly states that you do not have permission to continue. If this happens, navigate back to the home page, log out, then log back in. You will be able to find your Subject Key on the dataset home page and continue the process from Step 8.
+> Warning for first-time users! Due to a known issue in ConnectomeDB, the first time that you attempt to upload a CSV file to your Subject Key, you may receive an error screen that incorrectly states that you do not have permission to continue. If this happens, navigate back to the home page, log out, then log back in. You will be able to find your Subject Key on the dataset home page and continue the process from Step 8.
   
 
 
