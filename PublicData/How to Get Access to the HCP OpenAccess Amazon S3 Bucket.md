@@ -1,13 +1,3 @@
----
-title: How to Get Access to the HCP OpenAccess Amazon S3 Bucket
-created: '2017-05-22T10:08:40.611Z'
-updated: '2017-05-22T12:47:04.872Z'
-updated_by: Tim Brown
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Get+Access+to+the+HCP+OpenAccess+Amazon+S3+Bucket
-space: PublicData
-
----
 This guide provides instructions for getting access to the HCP OpenAccess Amazon S3 Bucket. It was originally written for use by participants in the course *[Exploring the Human Connectome 2017](https://store.humanconnectome.org/courses/2017/exploring-the-human-connectome.php)* and is based on similar materials prepared for the 2015 and 2016 editions of the course. It is intended to be useful even for users who were not participants in the course.
 
 ## 1. Get access to the Human Connectome Project database (ConnectomeDB)
@@ -27,7 +17,7 @@ This guide provides instructions for getting access to the HCP OpenAccess Amazon
 
 * If you have not already signed the Data Use Terms, the **WU-Minn HCP Data - 1200 Subjects** section near the top of the page will contain a *Data Use Terms Required* button and a *Data Available on Amazon S3* button (see Figure 1).
 
- ![](./assets/Figure1.png) 
+![Figure1a](https://github.com/jese11/HCP-wiki-public/assets/7256156/5b54149b-7eb4-49b2-9249-c7b475b7b45f)
 
 Figure 1: Data Use Terms not yet accepted
 
@@ -37,14 +27,14 @@ Figure 1: Data Use Terms not yet accepted
 
 * If you have already accepted the Data Use Terms, but have not yet set up AWS Access for HCP Data, the **WU-Minn HCP Data - 1200 Subjects** section will contain an *Open Access Terms Accepted* link and a *Data Available on Amazon S3* button (see Figure 2).
 
- ![](./assets/Figure2.png) 
+![Figure2a](https://github.com/jese11/HCP-wiki-public/assets/7256156/4f8e75ef-99fe-494d-9591-66ddb25430f0)
 
 Figure 2: Data Use Terms accepted, AWS Access for HCP Data not yet set up 
 
 * In this case, you will need to set up AWS Access for HCP Data by completing the following steps.
 * Select the *Data Available on Amazon S3* button. You should then see a pop up dialog box titled: *AWS Connectome: Set Up Credentials* (see Figure 3).
 
- ![](./assets/Figure3.png) 
+![Figure3a](https://github.com/jese11/HCP-wiki-public/assets/7256156/caf72904-2bd0-46ac-8a16-2dc2898dd396)
 
 Figure 3: Set Up Credentials
 
@@ -79,21 +69,15 @@ Figure 6: AWS Connection Manager dialog
 
 * Then you can select the *Recreate my AWS Credentials* button to generate a new ACCESS KEY ID and new SECRET ACCESS KEY.
 * Keep in mind that if you do recreate your AWS credentials, your previous AWS ACCESS KEY ID and SECRET ACCESS KEY pair will be completely disabled. Thus, if you have previously used the disabled credentials (e.g. to configure s3fs access in an AWS EC2 instance), then those credentials will no longer work.
-
   
-
-
-> [!info] 
-> You may also want to use visual panels to communicate related information, tips or things users need to be aware of.
 ## Related articles
 
-Related articles appear here based on the labels you select. Click to edit the macro and add or change labels.
+[How to Create an EC2 instance for HCP Pipeline Processing](./How%20to%20Create%20an%20EC2%20instance%20for%20HCP%20Pipeline%20Processing.md)
 
-  
+[How to Get Access to the HCP Open Access Amazon S3 Bucket](./How%20to%20Get%20Access%20to%20the%20HCP%20OpenAccess%20Amazon%20S3%20Bucket.md)
 
+[How to Create an Amazon Web Services Account](./How%20to%20Create%20an%20Amazon%20Web%20Services%20Account.md)
 
-> [!details] 
-> Related issues
   
 
 
