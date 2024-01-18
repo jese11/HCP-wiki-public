@@ -1,13 +1,3 @@
----
-title: How to Mount a Connectome In A Box drive in Windows
-created: '2015-03-04T11:40:53.436Z'
-updated: '2015-03-04T12:29:07.328Z'
-updated_by: Will Horton
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Mount+a+Connectome+In+A+Box+drive+in+Windows
-space: PublicData
-
----
 As [our note on Connectome In A Box formats](http://humanconnectome.org/data/connectome-in-a-box-format.html) states, we only guarantee full read-write access to Connectome hard drives for users with Linux-based computers (and ideally with enterprise storage to house the data). However, we recognize that some researchers will not have access to this kind of working environment. For those users with Windows PCs, this walkthrough may be helpful.
 
 The most reliable approach is to build a virtual machine (VM) on your PC that runs Linux, then mount the drive inside that VM. 
@@ -38,7 +28,8 @@ If you find that working in a Linux VM does not offer you enough processing perf
 
 ## Related articles
 
- 
+ [How To Connect to Connectome Data via AWS](./How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
+ [How to mount a Connectome In A Box Hard Drive in Mac OSX](./How%20to%20mount%20a%20Connectome%20In%20A%20Box%20Hard%20Drive%20in%20Mac%20OSX.md)
 
 
 
