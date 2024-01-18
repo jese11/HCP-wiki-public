@@ -444,7 +444,6 @@ hcpuser@nitrcce:~$ sudo nano /etc/fstab
 * Also note that when you restart a stopped machine, you will get a different public DNS and different IP Address than you previously had.
 
 ## Related articles
-[How to Redeem your AWS Credit Code](./How%20to%20Redeem%20your%20AWS%20Credit%20Code.md)
 
 [How to Create an EC2 instance for HCP Pipeline Processing](./How%20to%20Create%20an%20EC2%20instance%20for%20HCP%20Pipeline%20Processing.md)
 
