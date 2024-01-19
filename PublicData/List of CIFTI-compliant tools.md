@@ -25,7 +25,8 @@ specific commands: suma, cifti\_tool
 SUMA supports displaying cifti data.
 
 
-  
+
+     
 
 
 **[Reading HCP data into MATLAB](./HCP%20Users%20FAQ.md)**
