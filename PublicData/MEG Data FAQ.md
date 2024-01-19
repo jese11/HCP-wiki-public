@@ -34,6 +34,7 @@ The table below defines and describes the fields of the Contrast structure for t
 
 
 | Field Name | Print Mnemonic prefix | Description | Example | Possible Values | Defaultvalue |
+| --- | --- | --- | --- | --- | --- |
 | **.pipeline** |   | name of pipeline where contrast is to be run | 'eravg' | 'eravg','tfavg' | [ ] |
 | **.lockmode** | LM- | describes data group from which trials for contrast have been selected | {'TIM'} | different datagroups within each task, currently: For Motort:  'TEMG','TFLA'.For Workmem: 'TIM', 'TRESP'. For StoryM: 'TEV','TRESP','BSENT', 'BU'     | { [ ] } |
 | **.mnemtrl** | (The trial set mnemonics are appended after the lockmode mnemonic) | a mnemonic describing the specific sets of trials (conditions) in the contrast | {'0B' , '2B'} (i.e. 0-Back, 2-Back) | trial set mnemonics for each of the different conditions used in the contrastsA table presenting all the currently considered contrasts is presented further below in this page. Check there for all the available contrasts. | { [ ] } |
