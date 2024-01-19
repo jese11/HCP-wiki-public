@@ -29,6 +29,7 @@ SUMA supports displaying cifti data.
 
 **[Reading HCP data into MATLAB](./HCP%20Users%20FAQ.md)**
 see FAQ #2
+
 **[cifti-matlab](https://github.com/Washington-University/cifti-matlab) v2**
 
 specific commands: cifti\_read, cifti\_write (plus drop-in compatibility for ciftiopen, ciftisave, ciftisavereset)
@@ -38,6 +39,7 @@ Version 2 of the cifti-matlab toolbox was mostly rewritten, with a new design th
 
 **[Workbench v1.0 (or greater) + GIFTI toolbox code](./HCP%20Users%20FAQ.md)**
 see FAQ #2
+
 specific commands: ciftiopen, ciftisave, ciftisavereset
 
 These functions allow the use of CIFTI files in MATLAB by using wb\_command to convert to pseudo-GIFTI format and the GIFTI toolbox matlab library to read them. ciftiopen does not parse the XML within the file, meaning that additional external commands are necessary to determine what the CIFTI indices represent (which vertex or voxel, etc).
