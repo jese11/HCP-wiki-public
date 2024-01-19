@@ -1,15 +1,6 @@
----
-title: MEG Data FAQ
-created: '2014-11-18T13:01:33.971Z'
-updated: '2014-11-21T15:41:18.187Z'
-updated_by: Jennifer Elam
-source: https://wiki.humanconnectome.org/display/PublicData/MEG+Data+FAQ
-space: PublicData
-
----
 This page contains useful information for using preprocessed, channel-level, and source-level processed HCP MEG data. If you do not see your question and/or answer here, be sure to check the current HCP Reference Manual and join the [HCP-Users email list](http://humanconnectome.org/contact/#subscribe) (post questions to [hcp-users@humanconnectome.org](mailto:hcp-users@humanconnectome.org)) where HCP MEG experts regularly answer user questions.
 
-### *How is the MEG coregistered to the anatomical MRI and volume conduction model?*
+### *1. How is the MEG coregistered to the anatomical MRI and volume conduction model?*
 
 Coregistration is performed using an unmasked 1mm resolution T1-weighted anatomical image (which, due to anonymity requirements, is not part of the release). The geometric information that is needed for source reconstruction (i.e. MEG sensor positions and information derived from the anatomical MRI) is expressed in the head coordinate system, which is defined as being relative to the participant's head and based on a set of landmarks on the head, and is thus subject-specific. This coordinate system is expressed in meters, with the principal (X, Y, Z) axes going through external anatomical landmarks on the head (i.e. fiducials). The details are:
 
@@ -20,17 +11,17 @@ Coregistration is performed using an unmasked 1mm resolution T1-weighted anatomi
 
 The magnetometer locations in the raw and processed channel level data are represented in this coordinate system. The "anatomy" pipeline performs the coregistration of the MEG with the MRI data and results in in a volume conduction model and various source models (cortical sheet and 3-D grids), which are all expressed in this head coordinate system. The "anatomy" pipeline also produces the 4x4 homogenous transformation matrices to convert between individual head coordinates, MNI coordinates and voxel coordinates. These transformation matrices are represented in the 012345\_MEG\_anatomy\_transform.txt files.
 
-### *What is the interpretation of the different homogeneous transformation matrices?*
+### *2. What is the interpretation of the different homogeneous transformation matrices?*
 
 The transformation matrices represented in the 012345\_MEG\_anatomy\_transform.txt files represent the transformation between different coordinate systems. Each matrix is named [from]2[to] where it denotes the transformation from coordinate system [from] into coordinate system [to]. The matrices that have ‘vox’ or ‘vox07mm’ in their name transform from or to anatomical MRI voxels. The matrices that contain ‘vox’ are of limited use to external users, because the release does not contain the original anatomical images that were used to create these transformation matrices. The matrices with ‘vox07mm’ refer to transformations that relate the voxels in the T1w\_acpc\_dc\_restore.nii.gz image (part of the structural preprocessing pipeline output) to the other coordinate systems used.. The transformation matrices that are of most relevance are the bti2spm and spm2bti, which convert between the MEG-system based coordinate system (bti) and a coordinate system based on the ACPC-based RAS (spm).
 
-### *How are the MEG source models defined?*
+### *3. How are the MEG source models defined?*
 
 The 3-dimensional grids that can be used for (beamformer) source reconstruction are based on 3-dimensional grids with a regular spacing of the dipoles, defined in normalized MNI space. The spacing between the dipoles (in normalized space) is represented in the filename (i.e. SUBJECTID\_MEG\_anatomy\_sourcemodel\_3d4mm means that the dipoles are 4mm apart). For each participant, the template grid has been warped to individual head space in order to express the dipoles' coordinates in the head coordinate system that is used for source reconstruction (see above). This warp is a non-linear one, and is based on the inverse of the nonlinear volumetric spatial normalization from individual head space to normalized MNI space. Consequently, the dipoles' coordinates are not placed on a regular 3-dimensional grid in individual head space. Yet, the source models allow for easy averaging across subjects, without the need for an intermediate interpolation step, because individual grid points coincide in normalized space.
 
 The cortical sheet-based source models allow for distributed source reconstruction, e.g. weighted minimum norm estimates. These models have been constructed from the individual 32k-node per hemisphere surface-registered cortical sheets which are output files of the [MR structural preprocessing pipeline](#_PostFreeSurfer_pipeline), and have ~4k nodes per hemisphere.
 
-### *How are different conditions and contrasts between conditions of tMEG scans analyzed?*
+### *4. How are different conditions and contrasts between conditions of tMEG scans analyzed?*
 
 Contrasts are used in the tMEG pipelines so that all different conditions and comparisons of conditions at different stages of analysis may be processed with the same pipelines.
 
@@ -63,7 +54,7 @@ where $SCANMNEMONIC can be "Wrkmem", 'Motort' or 'StoryM'.
 
 These functions extract the list of all contrasts for all pipelines.
 
-### *How was the E-Prime trigger sequence reproduced for the tMEG scans in which no parallel port triggers were recorded?*
+### *5. How was the E-Prime trigger sequence reproduced for the tMEG scans in which no parallel port triggers were recorded?*
 
 In the Working Memory and Motor task scans, the signal in the TRIGGER channel consists of 2 superimposed bit patterns. One from the stimulus presentation computer that is running the E-Prime protocol, the other is from a photodiode placed in a corner on the stimulus presentation screen.
 
@@ -73,11 +64,11 @@ The photodiode triggers provide more accurate timing than the E-Prime triggers, 
 
 As a consequence of the two superimposed triggers, the event code sequence is extracted based on the E-Prime triggers, but its timing is extracted from the corresponding photodiode triggers.
 
-### ***How can I visualize MEG data in Connectome Workbench?***
+### ***6. How can I visualize MEG data in Connectome Workbench?***
 
 Visualization of MEG data in Connectome Workbench works similar to the visualization of (f)MRI data. For a general introduction to Workbench, see the [Connectome Workbench website](http://humanconnectome.org/software/connectome-workbench.html) for more extensive information. The MEG results-based Cifti files generated by the HCP MEG pipelines require the 8k vertex cortical sheet descriptions for visualization. These are available as hemisphere-specific Gifti files are present in the individual subjects' anatomy packages as 123456.L.midthickness.4k\_fs\_LR.gii and 123456.R.midthickness.4k\_fs\_LR.gii. The coordinate system in which these cortical sheets are defined is subject-specific ACPC-aligned headcoordinate space.
 
-### ***How can I compute a contrast between two conditions, perform a baseline correction, or average across subjects?***
+### ***7. How can I compute a contrast between two conditions, perform a baseline correction, or average across subjects?***
 
 For the task data, there are several Cifti files per task. These represent the average response in specific task conditions. In order to appreciate the difference between experimental conditions it is often useful to compute a direct contrast between two conditions (e.g. a difference wave for an event-related field). Moreover, interpretability might be improved if a specific type of baseline correction is applied (e.g. Z-scoring the event-related field with the standard deviation of the activity prior to stimulus onset). Finally, averaging results across subjects will be needed for group analysis.
 
@@ -111,7 +102,7 @@ wb\_command -cifti-average $OUTPUTFILE -cifti $FILE1 -cifti $FILE2
 
 Where the list can be extended to contain more than 2 input files.
 
-### ***What is the definition of the frequency bands used in the different pipelines?***
+### ***8. What is the definition of the frequency bands used in the different pipelines?***
 
 
 
