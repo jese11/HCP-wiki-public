@@ -1,16 +1,6 @@
----
-title: List of CIFTI-compliant tools
-created: '2015-05-01T14:16:54.020Z'
-updated: '2022-04-15T03:08:50.173Z'
-updated_by: Tim Coalson
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/List+of+CIFTI-compliant+tools
-space: PublicData
-
----
 Here we keep a current list of software packages/tools that are [CIFTI](http://www.nitrc.org/projects/cifti/) file format compliant:
 
-#### [Connectome Workbench](http://humanconnectome.org/software/get-connectome-workbench.html)
+**[Connectome Workbench](http://www.humanconnectome.org/software/get-connectome-workbench)**
 
 One platform containing **wb\_view** for surface and volume brain visualization and **wb\_command** command line tools (particularly for CIFTI manipulation)
 
@@ -38,7 +28,7 @@ SUMA supports displaying cifti data.
 
 
 **[Reading HCP data into MATLAB](./HCP%20Users%20FAQ.md)**
-
+see FAQ #2
 **[cifti-matlab](https://github.com/Washington-University/cifti-matlab) v2**
 
 specific commands: cifti\_read, cifti\_write (plus drop-in compatibility for ciftiopen, ciftisave, ciftisavereset)
@@ -46,8 +36,8 @@ specific commands: cifti\_read, cifti\_write (plus drop-in compatibility for cif
 Version 2 of the cifti-matlab toolbox was mostly rewritten, with a new design that more closely represents the internals of the file format, exposing nearly all of the information in the XML, and providing some helper functions to simplify some common operations.  This is the recommended option for MRI-derived data, as it provides drop-in compatibility with ciftiopen and related functions, and should be faster, with less disk IO.  
 
 
-**[Workbench v1.0 (or greater) + GIFTI toolbox code](./HCP%20Users%20FAQ#HCPUsersFAQ-2.HowdoyougetCIFTIfilesintoMATLAB?.md)**
-
+**[Workbench v1.0 (or greater) + GIFTI toolbox code](./HCP%20Users%20FAQ.md)**
+see FAQ #2
 specific commands: ciftiopen, ciftisave, ciftisavereset
 
 These functions allow the use of CIFTI files in MATLAB by using wb\_command to convert to pseudo-GIFTI format and the GIFTI toolbox matlab library to read them. ciftiopen does not parse the XML within the file, meaning that additional external commands are necessary to determine what the CIFTI indices represent (which vertex or voxel, etc).
