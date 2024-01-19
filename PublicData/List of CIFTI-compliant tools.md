@@ -37,7 +37,7 @@ SUMA supports displaying cifti data.
   
 
 
-**[Reading HCP data into MATLAB](../PublicData/HCP Users FAQ#HCPUsersFAQ-2.HowdoyougetCIFTIfilesintoMATLAB?.md)**
+**[Reading HCP data into MATLAB](./HCP%20Users%20FAQ.md)**
 
 **[cifti-matlab](https://github.com/Washington-University/cifti-matlab) v2**
 
@@ -46,7 +46,7 @@ specific commands: cifti\_read, cifti\_write (plus drop-in compatibility for cif
 Version 2 of the cifti-matlab toolbox was mostly rewritten, with a new design that more closely represents the internals of the file format, exposing nearly all of the information in the XML, and providing some helper functions to simplify some common operations.  This is the recommended option for MRI-derived data, as it provides drop-in compatibility with ciftiopen and related functions, and should be faster, with less disk IO.  
 
 
-**[Workbench v1.0 (or greater) + GIFTI toolbox code](../PublicData/HCP Users FAQ#HCPUsersFAQ-2.HowdoyougetCIFTIfilesintoMATLAB?.md)**
+**[Workbench v1.0 (or greater) + GIFTI toolbox code](./HCP%20Users%20FAQ#HCPUsersFAQ-2.HowdoyougetCIFTIfilesintoMATLAB?.md)**
 
 specific commands: ciftiopen, ciftisave, ciftisavereset
 
