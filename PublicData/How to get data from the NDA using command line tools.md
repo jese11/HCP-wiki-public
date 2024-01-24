@@ -193,13 +193,19 @@ In other words:
 
 ## **Step 5:**
 
-Refer to the screenshot in [Step 1](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step1:.md).  **Download package #1185256 using 8 threads** (for comparison, on a t3.2xlarge it took 5.5 hours to download 1300G using 4 threads vs 3.5 hours on 8 threads using the machine I created in the Computational Credits account at the NDA, per [this tutorial](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md)).  Name the directory for download 'HCPDevImgManifestBeh' so that it matches the name in the NDA, even though you don't have to.  You may be asked to hit 'enter' a couple times if you don't have a token (this method doesn't require a token).  
+Refer to the screenshot in Step 1.  **Download package #1185256 using 8 threads** (for comparison, on a t3.2xlarge it took 5.5 hours to download 1300G using 4 threads vs 3.5 hours on 8 threads using the machine I created in the Computational Credits account at the NDA, per [this tutorial](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md).  Name the directory for download 'HCPDevImgManifestBeh' so that it matches the name in the NDA, even though you don't have to.  You may be asked to hit 'enter' a couple times if you don't have a token (this method doesn't require a token).  
 
 ```
-> downloadcmd -dp 1185256 -u <your NDA username> -p <your NDA password> -d  HCPDevImgManifestBeh -wt 8 -v
+> downloadcmd -dp 1185256 -u <your NDA username> -d  HCPDevImgManifestBeh -wt 8 
 ```
 
-It usually takes a minute to get rolling, but since you added the -v (verbose) flag, you should start seeing messages about things being downloaded.  If you don't, it's likely that the NDA has changed something.  Contact their helpdesk:  ndahelp@[mail.nih.gov](http://mail.nih.gov) for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).  The CCF will try to keep up with their breaking changes, too, and will update our instructions accordingly.   If you get errors, first check for typos in the package number, your credentials, or the options used.  Then send your question to ndahelp@mail.nih.gov with the command you typed (sans password) and the error you're seeing.  Note that 2 out of 2 people who tested this particular tutorial from start to finish encountered issues related to account permissions managed by the NDA and needed to open helpdesk tickets.  Check for typos before you send them a help desk ticket, but don't be shy.  
+If you get a password error enter this:
+
+```
+> export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+```
+Then enter the downloadcmd command again. You will be asked for your NDA password.
+It usually takes a minute to get rolling, but you should start seeing messages about files being downloaded.  If you don't see evidence that the package is downloading, it's likely that the NDA has changed something.  Contact their helpdesk:  ndahelp@[mail.nih.gov](http://mail.nih.gov) for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).  The CCF will try to keep up with their breaking changes, too, and will update our instructions accordingly.   If you get errors, first check for typos in the package number, your credentials, or the options used.  Then send your question to ndahelp@mail.nih.gov with the command you typed (sans password) and the error you're seeing.  Note that 2 out of 2 people who tested this particular tutorial from start to finish encountered issues related to account permissions managed by the NDA and needed to open helpdesk tickets.  Check for typos before you send them a help desk ticket, but don't be shy.  
 
   
 
@@ -218,7 +224,7 @@ It usually takes a minute to get rolling, but since you added the -v (verbose) f
 
 ## **Step 6:**
 
-Confirm that the downloaded directory is the size you're expecting.  If it is not the right size, confirm that you haven't maxed your download space, and then try again.  If it is still not the right size, contact NDA's helpdesk:  ndahelp@mail.nih.gov and include the (likely uninformative) contents of the debug log, along with the exact downloadcmd you used (sans passwords).  
+Confirm that the downloaded directory is the size you're expecting.  If it is not the right size, confirm that you haven't maxed your download space, and then try again.  If it is still not the right size, contact NDA's helpdesk:  ndahelp@mail.nih.gov and include the (likely uninformative) contents of the debug log, along with the exact downloadcmd you used.  
 
 ```
 > du -h HCPDevImgManifestBeh      # if it is not the size you're expecting (e.g. 102 KB per the screenshot in Step 1)
@@ -237,7 +243,7 @@ Confirm that the downloaded directory is the size you're expecting.  If it is n
 
 ## **Step 7:**
 
-**Assuming you have had no issues, and your** **HCPDevImgManifestBeh** folder is the expected size, look at the datastructure\_manifest.txt file.  This file contains the S3 links for associated imaging data files. Note: If you happened to download a package that was created WITH associated imaging files, then this step is irrelevant - you are done. You likely wish to download only a subset of the files listed in the datastructure\_manifest.txt file (if you downloaded all the imaging files for HCD, you would need 20 TB+ of space and many of the files would not be necessary for your analyses). The following command examples will help you create your desired subset of S3 links to pass to the downloadcmd 'round 2' of the downloadcmd process, as described in [Step 8](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step8:.md).
+**Assuming you have had no issues, and your** **HCPDevImgManifestBeh** folder is the expected size, look at the datastructure\_manifest.txt file.  This file contains the S3 links for associated imaging data files. Note: If you happened to download a package that was created WITH associated imaging files, then this step is irrelevant - you are done. You likely wish to download only a subset of the files listed in the datastructure\_manifest.txt file (if you downloaded all the imaging files for HCD, you would need 20 TB+ of space and many of the files would not be necessary for your analyses). The following command examples will help you create your desired subset of S3 links to pass to the downloadcmd 'round 2' of the downloadcmd process, as described in Step 8.
 
 **NOTE:  the datastructure\_manifest.txt file is the closest thing you have to a 'filesystem' view of the data at the NDA as of 2/23/2021.  There will likely be much confusion surrounding the use of datastructure\_manifest.txt files once the NDA retires the 'DataManager' Service which supports a lot of tools that use tokens to grab data at the end of S3 links (including downloadcmd).**  
 
@@ -334,10 +340,10 @@ Note:  Don't forget to make sure your python virtual environment is activated, 
 
 Remember that the size of your download will be larger than that of the original package (e.g. 102KB for HCPDevImgManifestBeh in the table below) which *didn't* include associated files.  **You are now about to download the associated image files (big data), but there is no good way to know how large this download will be using the downloadcmd --help options** described in the screenshot above.  You will have to estimate the space you'll need based on the shared package sizes and the sizes of the HCP-style packages for all subjects below. (Eventually we will add updated tables for HCP package sizes for one complete subject). 
 
-For reference, the list of links you created in [Step 7](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step7:.md) represents two subjects' Preproc Structural Recommended Data; based on the tables below, this means that AT MOST, it will have in the neighborhood of 62 GB (31\*2) of data.  Given that the recommended data is roughly  7% (1669/22789), of All data, you may be able to reduce this estimate:  7% of 62G is 4.5G.   Use df -h (screenshot above) to see if you have that much space at your disposal. 
+For reference, the list of links you created in Step 7 represents two subjects' Preproc Structural Recommended Data; based on the tables below, this means that AT MOST, it will have in the neighborhood of 62 GB (31\*2) of data.  Given that the recommended data is roughly  7% (1669/22789), of All data, you may be able to reduce this estimate:  7% of 62G is 4.5G.   Use df -h (screenshot above) to see if you have that much space at your disposal. 
 
 
-
+**Lifespan 2.0 Shared Packages**
 | **Shared Package ID** | **Shared Package Name** | **Size** |
 | 1185256 | HCPDevImgManifestBeh | 102 KB |
 | 1185057 | HCPAgingImgManifestBeh | 102 KB |
