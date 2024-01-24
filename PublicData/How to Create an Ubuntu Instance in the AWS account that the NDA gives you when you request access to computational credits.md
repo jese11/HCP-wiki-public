@@ -1,3 +1,14 @@
+---
+title: How to Create an Ubuntu Instance in the AWS account that the NDA gives you
+  when you request access to computational credits
+created: '2021-02-12T19:56:53.680Z'
+updated: '2021-02-15T13:50:11.221Z'
+updated_by: Petra Lenzini
+source: 
+  https://wiki.humanconnectome.org/display/CCFPRIV/How+to+Create+an+Ubuntu+Instance+in+the+AWS+account+that+the+NDA+gives+you+when+you+request+access+to+computational+credits
+space: CCFPRIV
+
+---
 ## Purpose:  Extend your exposure to nuts and bolts of AWS cloud computing so that you can translate what you may be used to doing locally to more scalable, reproducible, and meta-analyzable compute infrastructure.  Knowing this stuff will make using that stuff more intuitive.
 
 * [computational credits](https://nda.nih.gov/get/computational-credits.html) in an NDA managed AWS account.  Not strictly necessary to experiment with AWS, but if the NIH keeps pushing cloud computing, you might as well have the NIH also pay for your tutelage (this is the purpose of the computational credits, after all).  Once approved, the NDA will send you instructions (and a password that expires quickly).  **We cost the NDA at least $900 in AWS experiments to write this tutorial**.
@@ -16,11 +27,11 @@ C. Configure the instance
 
 D. Create a key to ssh into this instance from your local machine, and Launch
 
-E. Find the instructions on how to connect to the instance
+E.  Find the instructions on how to connect to the instance
 
-F. connect
+F.  connect
 
-G. Turn off machine and delete everything
+G
 
   
 
@@ -83,6 +94,8 @@ G. Turn off and delete everything so you (or taxpayers) don't get charged
 
 3. If you want, go to Actions→ Image and templates → Create image, if you want to create and save your own AMI and ...say...make it publicly available to the hcp community (h[cp-users@humanconnectome.org](mailto:hcp-users@humanconnectome.org)).  We'd recommend using [NITRC\_CE](https://www.nitrc.org/projects/nitrc_es/) as your benchmark for usefulness in this regard.  Future users can then use this 'community AMI' in step 1 of the AWS instance launcher.  
 
+4. Want to try connecting an Instance to an EFS and syncing Workbench Tutorial Data?  [Try this](../pages/5d16aebf-2bcf-4099-ae57-8a098bfdfc51&.md)
+
   
 
 
@@ -90,13 +103,13 @@ G. Turn off and delete everything so you (or taxpayers) don't get charged
 
 # Attachments
 
-- ![](./assets/image2021-2-9_14-27-32.png)
-- ![](./assets/image2021-2-9_14-36-42.png)
-- ![](./assets/image2021-2-9_14-44-13.png)
-- ![](./assets/image2021-2-9_14-45-11.png)
-- ![](./assets/image2021-2-9_14-48-3.png)
-- ![](./assets/image2021-2-9_14-50-49.png)
-- ![](./assets/image2021-2-9_15-24-33.png)
-- ![](./assets/image2021-2-9_15-22-11.png)
-- ![](./assets/image2021-2-12_16-48-33.png)
 - ![](./assets/image2021-2-12_16-52-48.png)
+- ![](./assets/image2021-2-12_16-48-33.png)
+- ![](./assets/image2021-2-9_15-22-11.png)
+- ![](./assets/image2021-2-9_15-24-33.png)
+- ![](./assets/image2021-2-9_14-50-49.png)
+- ![](./assets/image2021-2-9_14-48-3.png)
+- ![](./assets/image2021-2-9_14-45-11.png)
+- ![](./assets/image2021-2-9_14-44-13.png)
+- ![](./assets/image2021-2-9_14-36-42.png)
+- ![](./assets/image2021-2-9_14-27-32.png)
