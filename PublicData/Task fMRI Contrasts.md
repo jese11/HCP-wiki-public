@@ -1,14 +1,3 @@
----
-title: Task fMRI Contrasts
-created: '2014-09-04T14:40:34.663Z'
-updated: '2014-09-16T14:23:59.028Z'
-updated_by: Jennifer Elam
-source: https://wiki.humanconnectome.org/display/PublicData/Task+fMRI+Contrasts
-space: PublicData
-
----
-
-
 | Task | CopeNumber | ContrastName |
 | --- | --- | --- |
 | WM | 1 | 2BK\_BODY |
@@ -98,14 +87,6 @@ space: PublicData
 | EMOTION | 5 | neg\_SHAPES |
 | EMOTION | 6 | SHAPES-FACES |
 
-
-
-# Attachments
-
-- ![](./assets/image2014-9-4 14:53:43.png)
-- ![](./assets/image2014-9-4 14:53:30.png)
-- ![](./assets/image2014-9-4 14:51:52.png)
-- ![](./assets/image2014-9-4 14:51:25.png)
 - ![](./assets/image2014-9-4 14:50:44.png)
 - ![](./assets/image2014-9-4 14:48:41.png)
 - ![](./assets/image2014-9-4 14:40:43.png)
