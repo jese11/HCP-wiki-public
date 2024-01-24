@@ -15,9 +15,11 @@ space: PublicData
 > This tutorial should take about 1 hour to complete, not including download times.
 ## **Purpose**
 
-## Primary Purpose:  Get data from the NDA using (mostly) command line tools.
+### Primary Purpose:  Get data from the NDA using (mostly) command line tools.
 
-## Secondary Purpose:  Extend your exposure to AWS cloud computing from your desktop machine, whilst gaining exposure to the python virtual environment management tools that will make it possible to translate what you may be used to doing locally to more scalable, reproducible, and meta-analyzable compute infrastructure.  Knowing this stuff will make using that stuff more intuitive.**Prerequisites:**
+### Secondary Purpose:  Extend your exposure to AWS cloud computing from your desktop machine, whilst gaining exposure to the python virtual environment management tools that will make it possible to translate what you may be used to doing locally to more scalable, reproducible, and meta-analyzable compute infrastructure.  Knowing this stuff will make using that stuff more intuitive.
+
+**Prerequisites:**
 
 * An [account at the NDA](https://nda.nih.gov/user/create_account.html).
 * [Access](https://nda.nih.gov/get/access-data.html) to data from your account at the NDA. See [Lifespan 2.0 Data Access & Download Instructions](https://www.humanconnectome.org/storage/app/media/documentation/data_release/LS_Release_2.0_Access_Instructions.pdf) for full instructions on getting access. The following steps should allow you to download any package to which your data use certification (DUC) grants you access.
@@ -76,11 +78,11 @@ b.  Determine if this terminal is capable of giving you access to a machine wit
 	+ If you have a Windows machine with enough space, but you just don't have the Linux terminal, you can install [Ubuntu for Windows](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview) or explore  [VirtualBox](https://www.virtualbox.org/) to create a virtual Ubuntu machine on your Windows host.
 * + If you're a Window user and you want to access a machine that someone else owns and manages (e.g. on a cluster at your university or on AWS because that's where the 45TB of space resides), you'll need to install something that can handle an ssh command to this environment, such as [Ubuntu for Windows](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview), [GitBash](https://gitforwindows.org/), or <https://www.putty.org/>
 
-c.  Consider following [this tutorial,](../pages/c3b1da20-0497-40ec-8810-8d17d0c6198c&.md) to create such a workspace for yourself in AWS, using  [computational credits](https://nda.nih.gov/get/computational-credits.html) for CCF users at the NDA.
+c.  Consider following [this tutorial,](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md) to create such a workspace for yourself in AWS, using  [computational credits](https://nda.nih.gov/get/computational-credits.html) for CCF users at the NDA.
 
 d.  ssh to this machine, if ssh'ing is in order:
 
-For example, if you created an Ubuntu Instance in the cloud, as in [this tutorial](../pages/c3b1da20-0497-40ec-8810-8d17d0c6198c&.md), you might ssh in like this from your terminal:
+For example, if you created an Ubuntu Instance in the cloud, as in [this tutorial](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md), you might ssh in like this from your terminal:
 
 ```
 > ssh -i "key2ccfsetup2020.pem" ubuntu@ec2-18-223-32-40.us-east-2.compute.amazonaws.com
@@ -93,10 +95,6 @@ If you were given permission to use a university cluster, you might be instructe
 ```
 
 
-```
-  
-
-```
 ## **Step 3:**
 
 Confirm that your workspace has the necessary requirements. 
@@ -109,7 +107,7 @@ Confirm that your workspace has the necessary requirements. 
 > df -h
 ```
 
-This is what 2000G of gp3 space looks like in the Ubuntu 20.04 machine from [this tutorial](../pages/c3b1da20-0497-40ec-8810-8d17d0c6198c&.md):
+This is what 2000G of gp3 space looks like in the Ubuntu 20.04 machine from [this tutorial](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md):
 
  ![](./assets/image2021-2-9_15-31-54.png) 
 
@@ -132,90 +130,42 @@ or
 ```
 
 
-```
-  
-
-```
 ## **Step 4:**
 
-Install the tools.  Follow instructions here:  <https://github.com/NDAR/nda-tools>, or see if you can get away error-free with the three **red bolded** command lines below. 
+Install the tools.  Follow instructions here:  <https://github.com/NDAR/nda-tools>, or see if you can get away error-free with the three **bolded** command lines below. 
 
 *BETTER YET* (and possibly necessary, depending on how comfortable you are messing up someone else's dependencies on a shared cluster), run **all** of the following commands to put nda-tools into a python3 virtual environment.  
 
-* If you're not yet familiar with virtual environments in python, creating virtual environments is a good habit to get into if you ever **want to install the list of packages in a 'requirements.txt'** file you found on a repo somewhere (see [Step 5](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step5:.md) detour).  Python virtual environments come with a little bit of a learning curve, though.  It's helpful to know that Python2, Python3, and Anaconda (Miniconda) have different tools/syntax for creating and managing virtual environments.  It's also helpful to know that installing these tools depends on your particular operating system.  Begin by typing > cat /etc/\*-release in your command line to find out more about your particular operating system and whether your particular flavor of Linux needs a  ['yum-ish,' 'apt-ish', or 'dnf-ish'](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) command to download and install packages outside of 'pip' control.
+* If you're not yet familiar with virtual environments in python, creating virtual environments is a good habit to get into if you ever **want to install the list of packages in a 'requirements.txt'** file you found on a repo somewhere (see Step 5 detour).  Python virtual environments come with a little bit of a learning curve, though.  It's helpful to know that Python2, Python3, and Anaconda (Miniconda) have different tools/syntax for creating and managing virtual environments.  It's also helpful to know that installing these tools depends on your particular operating system.  Begin by typing > cat /etc/\*-release in your command line to find out more about your particular operating system and whether your particular flavor of Linux needs a  ['yum-ish,' 'apt-ish', or 'dnf-ish'](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) command to download and install packages outside of 'pip' control.
 * **Docker/Singularity** containers can only render the python virtual environment conversation moot to the extent that the tools within them lack conflicting dependencies (translation:  you might as well start to learn about python virtual environments if you're not there yet).
 * Your environment may already have a virtual environment maker installed, but its important to know WHICH version of python and WHICH version of the virtual environment maker you're using.  The commands below will install a **python3** virtual environment maker
 
   
 
 
-**Skip to the commands in red, if you want to save virtual environments for another day and don't really care what version of python you're using provided it works.**
+**Skip to the commands in bold, if you want to save virtual environments for another day and don't really care what version of python you're using provided it works.**
 
 
 
 | command | comments |
 | --- | --- |
-| 
-```
-cat /etc/\*-release 
-```
+|``` cat /etc/\*-release ``` 
 or 
-```
-lsb\_release -a
-```
+``` lsb\_release -a ```
 or
-```
-sw\_vers
-```
- | find out more about your particular operating system and whether your particular environment needs a  ['yum-ish,' 'apt-ish', or 'dnf-ish'](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) or ['brew-ish'](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/)  command to download and install packages outside of Python's 'pip' control (the virtual environment maker is distributed separately from Python itself, in a lot of cases, you'll need to know what package management service you have installed.  Note to Mac Users who have never used their command line:  its possible you'll need to explicitly install [Homebrew](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/) |
-| 
-```
-sudo apt update
-```
- | Get a status update for the packages in your particular flavor of Linux.  Problems?  The syntax is different depending on your operating system.  [Google is your friend.](https://unix.stackexchange.com/questions/367872/what-is-the-similar-command-of-ubuntus-sudo-apt-get-update-in-fedora/367980)  Ask google what the 'sudo apt update' equivalent is in MacOS, for example.   |
-| 
-```
-python --version
-```
- | This will usually spit out the python 2 version, if you have it installed and aren't already in an activated virtual environment.  There is a slight chance that your network admin mapped 'python' to 'python 3,' though, so it's always good to check.  If you really don't want to work with virtual environments, skip to the pip install nda-tools line bolded below.  If you want to work with a python 2 virtual environment, you're on your own.    |
-| 
-```
-which python3
-```
- | outside of the virtual environment, 'which' tells me that the python3 installation on my machine is /usr/bin/python3 |
-| 
-```
-python3 --version
-```
- | my machine has the 'python3' command mapped to the installed Python 3.8.5 distribution (no python 2 on the Ubuntu 20.04 LTS AMI on AWS) |
-| 
-```
-sudo apt-get install python3-venv
-```
- | ['yum, apt, dnf](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) or [brew'](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/)  install the python 3 virtual environment management package.  Miniconda starts in a 'base' virtual environment -i.e. you already have a  environment making environment, so you can skip this step.   |
-| 
-```
-python3 -m venv nda
-```
- | Create a virtual environment named 'nda.'  This command line is analogous to 'conda create nda' in Anaconda or Miniconda |
-| 
-```
-source nda/bin/activate 
-```
- | Activate this new virtual environment.  This command is analogous to 'conda activate nda.'  You'll know you're in the activated virtual environment because (nda) will precede your terminal prompt.   |
-| 
-```
-which python3
-```
- | inside the virtual environment, 'which' tells me my python3 installation is /home/ubuntu/nda/bin/python3.  Note that this is different than outside the virtual environment.   |
-| **pip install nda-tools** | install nda-tools (this will also install vtcmd, which can be used for uploading data to the NDA via the command line).  If you run into problems, see  <https://github.com/NDAR/nda-tools>, and/or go back to the beginning of this section and DON'T skip to the red bolded text.   |
+``` sw\_vers ```| find out more about your particular operating system and whether your particular environment needs a  ['yum-ish,' 'apt-ish', or 'dnf-ish'](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) or ['brew-ish'](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/)  command to download and install packages outside of Python's 'pip' control (the virtual environment maker is distributed separately from Python itself, in a lot of cases, you'll need to know what package management service you have installed.  Note to Mac Users who have never used their command line:  its possible you'll need to explicitly install [Homebrew](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/) |
+| ``` sudo apt update ``` | Get a status update for the packages in your particular flavor of Linux.  Problems?  The syntax is different depending on your operating system.  [Google is your friend.](https://unix.stackexchange.com/questions/367872/what-is-the-similar-command-of-ubuntus-sudo-apt-get-update-in-fedora/367980)  Ask google what the 'sudo apt update' equivalent is in MacOS, for example.   |
+| ``` python --version ```| This will usually spit out the python 2 version, if you have it installed and aren't already in an activated virtual environment.  There is a slight chance that your network admin mapped 'python' to 'python 3,' though, so it's always good to check.  If you really don't want to work with virtual environments, skip to the pip install nda-tools line bolded below.  If you want to work with a python 2 virtual environment, you're on your own.    |
+|  ``` which python3 ``` | outside of the virtual environment, 'which' tells me that the python3 installation on my machine is /usr/bin/python3 |
+| ``` python3 --version ```| my machine has the 'python3' command mapped to the installed Python 3.8.5 distribution (no python 2 on the Ubuntu 20.04 LTS AMI on AWS) |
+| ``` sudo apt-get install python3-venv ```| ['yum, apt, dnf](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg) or [brew'](https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/)  install the python 3 virtual environment management package.  Miniconda starts in a 'base' virtual environment -i.e. you already have a  environment making environment, so you can skip this step.   |
+| ``` python3 -m venv nda ```| Create a virtual environment named 'nda.'  This command line is analogous to 'conda create nda' in Anaconda or Miniconda |
+| ``` source nda/bin/activate ```| Activate this new virtual environment.  This command is analogous to 'conda activate nda.'  You'll know you're in the activated virtual environment because (nda) will precede your terminal prompt.   |
+| ``` which python3 ```| inside the virtual environment, 'which' tells me my python3 installation is /home/ubuntu/nda/bin/python3.  Note that this is different than outside the virtual environment.   |
+| **pip install nda-tools** | install nda-tools (this will also install vtcmd, which can be used for uploading data to the NDA via the command line).  If you run into problems, see  <https://github.com/NDAR/nda-tools>, and/or go back to the beginning of this section and DON'T skip to the bolded text.   |
 | **downloadcmd --help**  | show all the options available for the downloadcmd  - if you've gotten to this point without errors, then you can proceed to [Step 5](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step5:.md), with or without a virtual environment.   |
 | **df -h** | figure out how much space you have for downloading, and where you want to point the download |
-| 
-```
-less /home/ubuntu/nda/config/settings.cfg
-```
- | peek at the settings.cfg file, so you know where to change the debug log destination, if you ever so choose.  The full path to your config file will be different, or course, and depend on where YOU actually created your virtual environment, called 'nda' |
+| ``` less /home/ubuntu/nda/config/settings.cfg ```| peek at the settings.cfg file, so you know where to change the debug log destination, if you ever so choose.  The full path to your config file will be different, or course, and depend on where YOU actually created your virtual environment, called 'nda' |
 
   
 
