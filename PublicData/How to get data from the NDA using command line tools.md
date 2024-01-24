@@ -163,7 +163,7 @@ or
 | ``` source nda/bin/activate ```| Activate this new virtual environment.  This command is analogous to 'conda activate nda.'  You'll know you're in the activated virtual environment because (nda) will precede your terminal prompt.   |
 | ``` which python3 ```| inside the virtual environment, 'which' tells me my python3 installation is /home/ubuntu/nda/bin/python3.  Note that this is different than outside the virtual environment.   |
 | **pip install nda-tools** | install nda-tools (this will also install vtcmd, which can be used for uploading data to the NDA via the command line).  If you run into problems, see  <https://github.com/NDAR/nda-tools>, and/or go back to the beginning of this section and DON'T skip to the bolded text.   |
-| **downloadcmd --help**  | show all the options available for the downloadcmd  - if you've gotten to this point without errors, then you can proceed to [Step 5](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step5:.md), with or without a virtual environment.   |
+| **downloadcmd --help**  | show all the options available for the downloadcmd  - if you've gotten to this point without errors, then you can proceed to Step 5, with or without a virtual environment.   |
 | **df -h** | figure out how much space you have for downloading, and where you want to point the download |
 | ``` less /home/ubuntu/nda/config/settings.cfg ```| peek at the settings.cfg file, so you know where to change the debug log destination, if you ever so choose.  The full path to your config file will be different, or course, and depend on where YOU actually created your virtual environment, called 'nda' |
 
@@ -205,7 +205,8 @@ If you get a password error enter this:
 > export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 ```
 Then enter the downloadcmd command again. You will be asked for your NDA password.
-It usually takes a minute to get rolling, but you should start seeing messages about files being downloaded.  If you don't see evidence that the package is downloading, it's likely that the NDA has changed something.  Contact their helpdesk:  ndahelp@[mail.nih.gov](http://mail.nih.gov) for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).  The CCF will try to keep up with their breaking changes, too, and will update our instructions accordingly.   If you get errors, first check for typos in the package number, your credentials, or the options used.  Then send your question to ndahelp@mail.nih.gov with the command you typed (sans password) and the error you're seeing.  Note that 2 out of 2 people who tested this particular tutorial from start to finish encountered issues related to account permissions managed by the NDA and needed to open helpdesk tickets.  Check for typos before you send them a help desk ticket, but don't be shy.  
+
+It usually takes a minute to get rolling, but you should start seeing messages about files being downloaded.  If you don't see evidence that the package is downloading, it's likely that the NDA has changed something.  Contact their helpdesk:  [ndahelp@mail.nih.gov](mailto:ndahelp@mail.nih.gov) for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).  The CCF will try to keep up with their breaking changes, too, and will update our instructions accordingly.   If you get errors, first check for typos in the package number, your credentials, or the options used.  Then send your question to ndahelp@mail.nih.gov with the command you typed and the error you're seeing.  Note that 2 out of 2 people who tested this particular tutorial from start to finish encountered issues related to account permissions managed by the NDA and needed to open helpdesk tickets.  Check for typos before you send them a help desk ticket, but don't be shy.  
 
   
 
@@ -224,7 +225,7 @@ It usually takes a minute to get rolling, but you should start seeing messages a
 
 ## **Step 6:**
 
-Confirm that the downloaded directory is the size you're expecting.  If it is not the right size, confirm that you haven't maxed your download space, and then try again.  If it is still not the right size, contact NDA's helpdesk:  ndahelp@mail.nih.gov and include the (likely uninformative) contents of the debug log, along with the exact downloadcmd you used.  
+Confirm that the downloaded directory is the size you're expecting.  If it is not the right size, confirm that you haven't maxed your download space, and then try again.  If it is still not the right size, contact NDA's helpdesk: [ndahelp@mail.nih.gov](mailto:ndahelp@mail.nih.gov) and include the (likely uninformative) contents of the debug log, along with the exact downloadcmd you used.  
 
 ```
 > du -h HCPDevImgManifestBeh      # if it is not the size you're expecting (e.g. 102 KB per the screenshot in Step 1)
