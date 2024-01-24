@@ -1,16 +1,3 @@
----
-title: How to get data from the NDA using command line tools
-created: '2021-02-23T23:33:53.300Z'
-updated: '2021-07-27T17:07:45.662Z'
-updated_by: Petra Lenzini
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+get+data+from+the+NDA+using+command+line+tools
-space: PublicData
-
----
-  
-
-
 > [!tip] 
 > This tutorial should take about 1 hour to complete, not including download times.
 ## **Purpose**
@@ -346,6 +333,7 @@ For reference, the list of links you created in Step 7 represents two subjects' 
 
 **Lifespan 2.0 Shared Packages**
 | **Shared Package ID** | **Shared Package Name** | **Size** |
+| --- | --- | --- |
 | 1185256 | HCPDevImgManifestBeh | 102 KB |
 | 1185057 | HCPAgingImgManifestBeh | 102 KB |
 | 1185341 | HCPDevelopment1Sub | 31 GB |
@@ -358,11 +346,12 @@ For reference, the list of links you created in Step 7 represents two subjects' 
   
 
 
-**Datasets (HCP-style Packages) available in OPTION 2:**
+**Lifespan 2.0 Datasets (HCP-style Packages) available in OPTION 2:**
 
 
 
 | **Study** | **NDA structure** | **HCP-Style Package shortname** | **HCP-Style Package** **OPTION 2 Filter Name** | **Size** **All Subjects** | **HCP Package Contents** |
+| --- | --- | --- | --- | --- | --- |
 | HCA HCD | imagingcollection01 | UnprocStruc | Structural Unprocessed | 194 GB 203 GB | multi-echo MPRAGE (T1 weighted) and T2-SPACE (T2 weighted) scans (in NIFTI format) |
 | HCA | imagingcollection01 | UnprocTseHires | HiResHp Structural Unprocessed  | 10 GB | turbo-spin-echo high spatial resolution hippocampal structural scan (in NIFTI format) |
 | HCA HCD | imagingcollection01 | UnprocRfmri | Resting State rfMRI Unprocessed | 1.3 TB  1.3 TB | both pairs of resting state fMRI scans (in NIFTI format) |
@@ -415,7 +404,7 @@ For reference, the list of links you created in Step 7 represents two subjects' 
 
 ```
 > source ../nda/bin/activate 
-> downloadcmd -t  PreprocStrucRecommendedSubjectSubsetS3s -u <your username> -p <your password> -d  HCPDevImgManifestBehSUBSET -wt 8 -v
+> downloadcmd -dp 1185249 -t  PreprocStrucRecommendedSubjectSubsetS3s -u <your username> -d  HCPDevImgManifestBehSUBSET -wt 8
 ```
 
   
@@ -424,7 +413,7 @@ For reference, the list of links you created in Step 7 represents two subjects' 
 **Note: you can also just download a single file as follows:**
 
 ```
-> downloadcmd s3://NDAR_Central_3/submission_33230/HCD0008117_V1_MR/T1w/T1w_acpc_dc_restore.nii.gz -u <your username> -p <your password> -d HCPDevImgManifestBehSingleLink
+> downloadcmd -dp 1185249 s3://NDAR_Central_3/submission_33230/HCD0008117_V1_MR/T1w/T1w_acpc_dc_restore.nii.gz -u <your username> -d HCPDevImgManifestBehSingleLink -wt 8
 ```
 
   
@@ -444,13 +433,14 @@ For reference, the list of links you created in Step 7 represents two subjects' 
 
 **eg. the following will download a specific S3 link, send the verbose output AND the time it took to download everything to jobtimer.txt**
 
-**> nohup time downloadcmd s3://NDAR\_Central\_3/submission\_33230/HCD0008117\_V1\_MR/T1w/T1w\_acpc\_dc\_restore.nii.gz -u <your username> -p <your password> -d HCPDevImgManifestBehSingleLink -v > jobtimer.txt 2>&1 &**
+**> nohup time downloadcmd -dp 1185249 s3://NDAR\_Central\_3/submission\_33230/HCD0008117\_V1\_MR/T1w/T1w\_acpc\_dc\_restore.nii.gz -u <your username>  -d HCPDevImgManifestBehSingleLink -wt 8 > jobtimer.txt 2>&1 &**
+
 
 **ALL CAPS EXTRA SPECIAL NOTE:**
 
-**downloadcmd relies on the 'DataManager' which is scheduled for retirement  We're told this will mean that in the future you will have to put BOTH a package number AND a list of S3 links in the command to download subsets via the command line.**
+**You must put BOTH a package number AND a list of S3 links in the command to download subsets via the command line.**
 
-**BUT HERE IS THE CATCH:  the number of the package has to be associated with a 'fully loaded' and shared package (one containing all imaging data files, e.g. HCPDevAllFiles, that you don't want to download unless you have 23 TB handy and endless free time to babysit the process).  Currently, the only way to obtain the datastructure\_manifest.txt without downloading the entire release is through the HCPDevImgManifestBeh package. Confused?  WE ARE TOO!!!  Contact NDA's helpdesk:  ndahelp@mail.nih.gov for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).  Browse for updates to access instructions at wiki.humanconnectome.org**
+**BUT HERE IS THE CATCH:  the number of the package has to be associated with a 'fully loaded' and shared package (one containing all imaging data files, e.g. HCPDevAllFiles, that you don't want to download unless you have 23 TB handy and endless free time to babysit the process).  Currently, the only way to obtain the datastructure\_manifest.txt without downloading the entire release is through the HCPDevImgManifestBeh package.  Contact NDA's helpdesk:  ndahelp@mail.nih.gov for updates.  Look for updates on the NDAR repo pages ([https://github.com/NDAR](https://github.com/NDAR/nda-tools)).**
 
 
 
