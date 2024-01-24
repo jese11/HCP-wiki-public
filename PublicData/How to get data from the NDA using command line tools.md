@@ -21,35 +21,34 @@ space: PublicData
 
 * An [account at the NDA](https://nda.nih.gov/user/create_account.html).
 * [Access](https://nda.nih.gov/get/access-data.html) to data from your account at the NDA. See [Lifespan 2.0 Data Access & Download Instructions](https://www.humanconnectome.org/storage/app/media/documentation/data_release/LS_Release_2.0_Access_Instructions.pdf) for full instructions on getting access. The following steps should allow you to download any package to which your data use certification (DUC) grants you access.
-* A data package that you want to download from the NDA, i.e. a 'shared' package, a package we created that you added to your account, or a package you created yourself.  In particular, one that contains a 'datastructure\_manifest.txt' file which is created as a part of the package creation process. Note that the NDA appears to be in the process of rewriting the rules on datastructure\_manifest.txt file usage and sharing in general, so the defaults for package generation might change (if this happens we will update these instructions). Using the downloadcmd tool to get subsets of a particular package of data ***currently*** depends on your ability to locate and parse the datastructure\_manifest.txt file for S3 links. [Step 7](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step7:.md) of this tutorial will help you to locate and parse the datastructure\_manifest.txt
+* A data package that you want to download from the NDA, i.e. a 'shared' package, a package we created that you added to your account, or a package you created yourself.  In particular, one that contains a 'datastructure\_manifest.txt' file which is created as a part of the package creation process. Note that the NDA appears to be in the process of rewriting the rules on datastructure\_manifest.txt file usage and sharing in general, so the defaults for package generation might change (if this happens we will update these instructions). Using the downloadcmd tool to get subsets of a particular package of data ***currently*** depends on your ability to locate and parse the datastructure\_manifest.txt file for S3 links. Step 7 of this tutorial will help you to locate and parse the datastructure\_manifest.txt
 * Willingness to locate or create a terminal to a Linux/MacOS operating system that affords you **permission** **to install** software **and** has access to a filesystem location with **space for a download** (downloads including imaging data for all HCA or HCD subjects can be hundreds of GB to 20TB, depending on which data you select).
 
   
 
 
-> [!info] 
+> [!note] 
 > These instructions were tested in a clean ubuntu 20.04 instance 'owned' by an account with pre-loaded computational credits for CCF users at the NDA.  Having a controlled environment, e.g. by way of containers, AMIs, or virtual environments, becomes ever more important as dependencies (think Freesurfer versions, and Juptyer notebook Python library requirements) interfere with one another.  ReproNim Investigators and others have extended the practical reasons for environment control and format standardization in a compelling case that indeed EVERYTHING MATTERS to downstream scientific analysis and meaning construction.  However, there are no reasons in theory this particular tutorial shouldn't work with minimal help from Google in your Ubuntu-esque local machine.
-### Content Links:
 
 ## **Overview of steps**
 
-[Step 1](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step1:.md): Identify the package number you wish to download from the NDA.  If your purpose is to download a subset of data from the NDA (individual files you specify at the command line), then this package should NOT actually contain the image data (e.g. no associated files).  Rather, it will contain metadata about the available image data files.  I.E. where it is located in S3, and how it is organized.  
+Step 1: Identify the package number you wish to download from the NDA.  If your purpose is to download a subset of data from the NDA (individual files you specify at the command line), then this package should NOT actually contain the image data (e.g. no associated files).  Rather, it will contain metadata about the available image data files.  I.E. where it is located in S3, and how it is organized.  
 
-[Step 2](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step2:.md): Locate or create a command line environment that has access to adequate storage space AND permission to install software, and then navigate to this environment (for example, with AWS in [this tutorial](../pages/c3b1da20-0497-40ec-8810-8d17d0c6198c&.md), using [computational credits](https://nda.nih.gov/get/computational-credits.html) for CCF users at the NDA).
+Step 2: Locate or create a command line environment that has access to adequate storage space AND permission to install software, and then navigate to this environment (for example, with AWS in [this tutorial](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md), using [computational credits](https://nda.nih.gov/get/computational-credits.html) for CCF users at the NDA).
 
-[Step 3](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step3:.md): Confirm that this environment has all the requirements.
+Step 3: Confirm that this environment has all the requirements.
 
-[Step 4](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step4:.md): Install software from  <https://github.com/NDAR/nda-tools>, Skip to **red bolded text** if you don't wish to care about Python's virtual environments if you don't have to. 
+Step 4: Install software from  <https://github.com/NDAR/nda-tools>, Skip to **bolded text** if you don't wish to care about Python's virtual environments if you don't have to. 
 
-[Step 5](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step5:.md): Use 'downloadcmd' to download the package you identified in step 1.
+Step 5: Use 'downloadcmd' to download the package you identified in step 1.
 
-[Step 6](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step6:.md): Confirm that the contents of your download are as expected (in terms of size, file count, etc).
+Step 6: Confirm that the contents of your download are as expected (in terms of size, file count, etc).
 
-[Step 7](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step7:.md): Subset the datastructure\_manifest.txt file therein for the associated data files you wish to download.  
+Step 7: Subset the datastructure\_manifest.txt file therein for the associated data files you wish to download.  
 
-[Step 8](../CCFPRIV/How to get data from the NDA using command line tools#HowtogetdatafromtheNDAusingcommandlinetools-Step8:.md): Download the associated image data.  
+Step 8: Download the associated image data.  
 
-Step 9:  Turn off AWS machines and/or delete devices,  [if applicable](../CCFPRIV/How to Create an Ubuntu Instance in the AWS account that the NDA gives you when you request access to computational credits.md).  
+Step 9:  Turn off AWS machines and/or delete devices,  [if applicable](./How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md).  
 
   
 
