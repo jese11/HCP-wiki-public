@@ -1,12 +1,3 @@
----
-title: Terms and Acronyms
-created: '2020-01-20T15:42:51.588Z'
-updated: '2021-02-12T23:16:42.823Z'
-updated_by: Petra Lenzini
-source: https://wiki.humanconnectome.org/display/PublicData/Terms+and+Acronyms
-space: PublicData
-
----
 ## AMI – Amazon Machine Image – *The Software*
 
 A read-only image of a file system that includes an Operating System (OS) and additional software installed. Conceptually, this is comparable to a CD/DVD that contains an OS and other software that is installed on a “machine” for you. The creator of the AMI chooses which OS to include and then installs and configures other software. For example, an AMI creator might choose to start with CentOS Linux or Ubuntu Linux and then pre-install a set of tools that are useful for a particular purpose.
