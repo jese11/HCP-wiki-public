@@ -1,13 +1,4 @@
----
-title: Scaling differences across 3T and 7T Scanners at UMinn, WashU, Mt. Sinai
-created: '2015-01-15T11:15:24.037Z'
-updated: '2015-01-15T11:21:39.019Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Scaling+differences+across+3T+and+7T+Scanners+at+UMinn%2C+WashU%2C+Mt.+Sinai
-space: PublicData
 
----
 All 3T scanners tested (Siemens Skyra, Prisma, Trio?) are within 1% of a "ground truth" CT scan.
 
 UMinn 7T is ~2.5% "smaller" than the "ground truth" CT scan.
