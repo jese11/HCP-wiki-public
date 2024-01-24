@@ -1,14 +1,4 @@
----
-title: Understanding Timing Information in HCP Physiological Monitoring Files
-created: '2015-08-12T15:59:07.753Z'
-updated: '2015-08-26T15:29:37.587Z'
-updated_by: Greg Burgess
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Understanding+Timing+Information+in+HCP+Physiological+Monitoring+Files
-space: PublicData
-
----
-The goal of this document is to lay out our understanding of the timing information contained in physiological monitoring logs.
+The goal of this document is to lay out our understanding of the timing information contained in HCP-YA physiological monitoring logs.
 
 * Recording raw physiological log files
 	+ Logging of physiological signals is automatically enabled within the CMRR multiband sequences utilized by HCP.
