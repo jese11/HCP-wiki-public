@@ -1,13 +1,3 @@
----
-title: How to Join HCP-Users or HCP-Announce Google Groups (with or without a Gmail
-  Account)
-created: '2019-12-09T14:44:31.067Z'
-updated: '2020-01-10T12:27:15.661Z'
-updated_by: Jennifer Elam
-source: https://wiki.humanconnectome.org/pages/viewpage.action?pageId=140509193
-space: PublicData
-
----
 Anyone interested may join the public **HCP-Users (discussion forum for all things HCP)** or **HCP-Announce (no-reply announcement list)** Google groups hosted at:
 
 **HCP-Users:** <https://groups.google.com/a/humanconnectome.org/d/forum/hcp-users>
@@ -33,47 +23,42 @@ Go to: [hcp-users home](https://groups.google.com/a/humanconnectome.org/d/forum
 
 Click '**Sign In**'
 
- ![](./assets/1.png) 
+![1](https://github.com/jese11/HCP-wiki-public/assets/7256156/251d66d8-a9c7-4f9c-ae71-4a017d59c4ca)
 
   
 
 
 Click "**Create account**' and select '**For myself'**
 
- ![](./assets/Screen Shot 2019-11-21 at 1.39.43 PM.png) 
+ ![Screen Shot 2019-11-21 at 1 39 43 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/edd1b57e-ce7e-4fb0-9e21-c2b35624bb9f)
+
 
 If you prefer to receive your HCP-Users or HCP-Announce messages at a non-Gmail email address:
 
 Click '**Use my current email address instead**'
 
- ![](./assets/Screen Shot 2019-11-21 at 1.40.04 PM.png) 
+![Screen Shot 2019-11-21 at 1 40 04 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/5a4f82e1-317c-4f8e-858f-00ac58f9b331)
 
   
 
 
 Enter a non-Gmail email address on the text box (Your email address) plus your first/last name and password.
-
- ![](./assets/Screen Shot 2019-11-21 at 1.40.27 PM.png) 
+ 
+![Screen Shot 2019-11-21 at 1 40 27 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/16603cc6-89bf-4bcb-b768-decf6e7f5b99)
 
   
 
 
 Google will send a verification code to the provided email. Open the email and copy/paste the verification code and then click '**Verify**'.
 
-  
+![Screen Shot 2019-11-21 at 1 40 40 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/041affaf-0683-4982-bf1a-aa5b34fc5bf0)
 
 
- ![](./assets/Screen Shot 2019-11-21 at 1.40.40 PM.png) 
-
-  
-
-
- ![](./assets/Screen Shot 2019-11-21 at 1.40.54 PM.png) 
+![Screen Shot 2019-11-21 at 1 40 54 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/9b0ab0c7-0960-44f9-9ec6-35b052d7157e)
 
   
-
-
- ![](./assets/Screen Shot 2019-11-21 at 1.41.02 PM.png) 
+ 
+![Screen Shot 2019-11-21 at 1 41 02 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/f4e5bbbb-044b-490a-8cc0-fb357621b856)
 
   
 
@@ -92,20 +77,16 @@ Go to: [hcp-users home](https://groups.google.com/a/humanconnectome.org/d/forum
 
 Click on the '**Join group**' button. 
 
- ![](./assets/Screen Shot 2019-11-21 at 1.43.48 PM.png) 
+![Screen Shot 2019-11-21 at 1 43 48 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/bc006a0f-b683-43c6-94b2-448e928c4878)
 
   
 
 
- ![](./assets/Screen Shot 2019-11-21 at 1.44.26 PM.png) 
+![Screen Shot 2019-11-21 at 1 44 26 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/daeccd8e-5f90-4e3d-a2ee-9687206b66cd)
 
   
 
-
-  
-
-
- ![](./assets/Screen Shot 2019-11-21 at 1.44.13 PM.png) 
+![Screen Shot 2019-11-21 at 1 44 13 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/2ef00b30-4932-488b-8ccf-f5567a3cfe7e)
 
   
 
@@ -126,15 +107,14 @@ To manage your subscription and messages click on '**My groups**'
 
   
 
-
- ![](./assets/Screen Shot 2019-11-21 at 1.44.58 PM.png) 
+![Screen Shot 2019-11-21 at 1 44 58 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/8609cb83-90fe-4c5c-a712-e415ed11dd31)
 
   
 
 
 To control how often to receive the messages click on '**Every new message**' and select your desired option.
 
- ![](./assets/Screen Shot 2019-11-21 at 1.45.10 PM.png) 
+![Screen Shot 2019-11-21 at 1 45 10 PM](https://github.com/jese11/HCP-wiki-public/assets/7256156/b4e83e56-c80f-4e28-836d-9fd1094d7bb9)
 
   
 
@@ -146,24 +126,3 @@ To control how often to receive the messages click on '**Every new message**' an
 
 
 
-
-# Attachments
-
-- ![](./assets/Screen Shot 2019-11-21 at 1.39.32 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.39.43 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.40.04 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.40.08 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.40.27 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.40.40 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.40.54 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.41.02 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.43.17 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.43.48 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.04 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.04 PM (2).png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.04 PM (3).png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.13 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.26 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.44.58 PM.png)
-- ![](./assets/Screen Shot 2019-11-21 at 1.45.10 PM.png)
-- ![](./assets/1.png)
