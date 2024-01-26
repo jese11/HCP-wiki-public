@@ -1,6 +1,6 @@
 ## Welcome to the HCP Public Pages
 
-Here in the Human Connectome Project (HCP) Data repository, you will find additional resources that are updated between data releases and as issues are discovered. This content was originally on the HCP Data wiki that has now been retired. Detailed information on each data release is also available in the Documentation pages of the public HCP website for [HCP-Young Adult](https://www.humanconnectome.org/study/hcp-young-adult/documentation), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation), or [HCP-Development](https://www.humanconnectome.org/study/hcp-lifespan-development/documentation).
+Here in the Human Connectome Project (HCP) Data repository, you will find additional resources that are updated between data releases and as issues are discovered. This content was originally on the HCP Data wiki that has now been retired. Full public pages information are in the Public Data folder. Detailed information on each data release is also available in the Documentation pages of the public HCP website for [HCP-Young Adult](https://www.humanconnectome.org/study/hcp-young-adult/documentation), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation), or [HCP-Development](https://www.humanconnectome.org/study/hcp-lifespan-development/documentation).
 
 ### Resources for Public HCP Data Users 
 #### Known Issues with HCP Lifespan Aging and Development Data
