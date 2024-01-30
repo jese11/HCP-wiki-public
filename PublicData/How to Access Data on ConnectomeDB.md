@@ -1,13 +1,3 @@
----
-title: How to Access Data on ConnectomeDB
-created: '2017-06-22T13:44:33.328Z'
-updated: '2017-06-28T14:39:01.954Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/How+to+Access+Data+on+ConnectomeDB
-space: PublicData
-
----
 ## How to Register an Account and Agree to the HCP Open Access Data Use Terms
 
 The first time you visit [**https://db.humanconnectome.org**,](https://db.humanconnectome.org,) you will need to register a new account. You can do this from the login / registration page
@@ -109,8 +99,9 @@ If you have not installed the plugin yet, a warning message will appear at the t
 
 An Aspera install help guide is available here: [How To Install the Aspera Browser Plugin](How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md) 
 
-> [!info] 
+> [!note] 
 > One common problem with installing Aspera on the Mac platform for non-US users is that you must add US English to the Languages list (using the checkbox) to your System Preferences>Personal>Language & Text settings.
+
 ### First-time Aspera Download Setup
 
 If this is your first time downloading data from ConnectomeDB, before you start selecting packages to download, we highly recommend setting up the preferences in your Aspera Connect plugin to download to the appropriate place on your local or network hard drive. See [First time Aspera Setup Instructions](First%20time%20Aspera%20Setup%20Instructions.md)
