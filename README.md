@@ -7,22 +7,21 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](https://github.com/jese11/HCP-wiki-public/blob/5e663f52353737aef1adc7a181bed40f998fce70/PublicData/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).md)
     
-  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](/PublicData/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md) 
+  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md) 
 
 #### Known Issues with HCP Young Adult 3T & 7T Data
 
-  [HCP-Young Adult Data Release Updates: Known Issues and Planned fixes](PublicData/HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
-  
+  [HCP-Young Adult Data Release Updates: Known Issues and Planned fixes](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
   [HCP Subjects with Identified Quality Control Issues (QC_Issue measure codes explained)](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)
   
 
 #### HCP FAQs
 
-  [HCP-Users FAQ (applies for all HCP studies)](PublicData/HCP%20Users%20FAQ.md)
+  [HCP-Users FAQ (applies for all HCP studies)](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/HCP%20Users%20FAQ.md)
   
-  [Citing HCP-Aging or HCP-Development](PublicData/Citing%20HCP-Aging%20or%20HCP-Development.md)
+  [Citing HCP-Aging or HCP-Development](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/Citing%20HCP-Aging%20or%20HCP-Development.md)
   
-  [HCP-Young Adult MEG Data FAQ](PublicData/MEG%20Data%20FAQ.md)
+  [HCP-Young Adult MEG Data FAQ](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/MEG%20Data%20FAQ.md)
   
   [Joining HCP-Users and HCP-Announce Google Groups](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/How%20to%20Join%20HCP-Users%20or%20HCP-Announce%20Google%20Groups.md)
 
@@ -42,9 +41,9 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   
   [Gradient Vector Direction Table for 7T dMRI](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/Gradient%20Vector%20Direction%20Table%20for%207T%20dMRI.md)
   
-  [7T Gradient Coefficients](PublicData/7T%20Gradient%20Coefficients.md)
+  [7T Gradient Coefficients](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/7T%20Gradient%20Coefficients.md)
   
-  [S900 Unrelated Subjects CSV](PublicData/S900%20Unrelated%20Subjects%20CSV.md)
+  [S900 Unrelated Subjects CSV](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/S900%20Unrelated%20Subjects%20CSV.md)
   
   [Interval between Test and Retest Visits for HCP Retest Subjects](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/Interval%20between%20Test%20and%20Retest%20Visits%20for%20HCP%20Retest%20Subjects.md)
   
