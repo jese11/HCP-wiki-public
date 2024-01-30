@@ -1,17 +1,3 @@
-
----[Uploading prepare_level2_feat_analysis.sh…]()
-
-title: Advice for FEAT Analysis of HCP task fMRI data
-created: '2014-08-28T12:02:25.525Z'
-updated: '2014-09-18T16:35:22.565Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Advice+for+FEAT+Analysis+of+HCP+task+fMRI+data
-space: PublicData
-
----
-### Test Link [[7T Gradient Coefficients.md]](./7T%20Gradient%20Coefficients.md)
-
 For users who would like to run their own group analyses on task fMRI data, the simplest way currently is to begin with the "Level 2" analyses that are included as part of the 500 Subject Release. The precomputed second-level analyses are Fixed Effects analyses which effectively combine the two first-level analyses. Thus, the output is basically equivalent to combining the two lower-level datasets and doing a single timeseries (lower-level FEAT) analysis. The 500 Subject Release included subject-level ("Level 2") analyses in both volume and grayordinate spaces (at various smoothing levels), and is the preferable set of data to use because it features some improvements to registration.
 
 ### Higher-level Analysis
