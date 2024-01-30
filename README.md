@@ -12,6 +12,7 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 #### Known Issues with HCP Young Adult 3T & 7T Data
 
   [HCP-Young Adult Data Release Updates: Known Issues and Planned fixes](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
+  
   [HCP Subjects with Identified Quality Control Issues (QC_Issue measure codes explained)](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)
   
 
@@ -24,6 +25,18 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   [HCP-Young Adult MEG Data FAQ](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/MEG%20Data%20FAQ.md)
   
   [Joining HCP-Users and HCP-Announce Google Groups](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/How%20to%20Join%20HCP-Users%20or%20HCP-Announce%20Google%20Groups.md)
+
+#### HCP-Young Adult Data Downloading on ConnectomeDB or from Amazon S3, or distribution via Connectome in a Box
+
+  [How to Access Data on ConnectomeDB](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20to%20Access%20Data%20on%20ConnectomeDB.md)
+  
+  [Aspera Plugin Help and FAQ](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Aspera%20Plugin%20Help%20and%20FAQ.md)
+
+  [First time Aspera Setup Instructions](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/First%20time%20Aspera%20Setup%20Instructions.md)
+
+  [How To Connect to Connectome Data via AWS](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
+
+  [Connectome In A Box Notice for the 1200 Subjects Data Release](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Connectome%20In%20A%20Box%20Notice%20for%20the%201200%20Subjects%20Data%20Release.md)
 
 #### Demographic and Behavioral Data Reference
 
@@ -49,6 +62,21 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   
   [7T Movie watching task clip info, timing, versions shown per individual subject](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/7T%20Movie%20watching%20task%20clip%20info%20timing%20versions%20shown%20per%20individual%20subject.md)
   
+
+#### HCP-Young Adult Analysis
+
+  [Advice for FEAT Analysis of HCP task fMRI data](https://github.com/jese11/HCP-wiki-public/blob/3203f24b8b75559ad466c2572b81cdcdc0cc7359/PublicData/Advice%20for%20FEAT%20Analysis%20of%20HCP%20task%20fMRI%20data.md)
+
+  [Advice on editing HCP tfMRI E-Prime Scripts](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Advice%20on%20editing%20HCP%20tfMRI%20E-Prime%20Scripts.md)
+
+  [
+
+
+#### Cloud Based Processing
+
+  [Cloud-Based Processing using HCP Pipelines and Amazon Web Services](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/Cloud-Based%20Processing%20using%20HCP%20Pipelines%20and%20Amazon%20Web%20Services.md)
+
+  [
 
 #### HCP Course Materials
 
