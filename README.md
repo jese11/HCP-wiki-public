@@ -26,14 +26,22 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   
   [Joining HCP-Users and HCP-Announce Google Groups](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/How%20to%20Join%20HCP-Users%20or%20HCP-Announce%20Google%20Groups.md)
 
-#### HCP-Young Adult Data Downloading on ConnectomeDB or from Amazon S3, or distribution via Connectome in a Box
+#### HCP-Young Adult Data Downloading on ConnectomeDB, via REST, from Amazon S3, or distribution via Connectome in a Box
 
   [How to Access Data on ConnectomeDB](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20to%20Access%20Data%20on%20ConnectomeDB.md)
+
+  [How To Install the Aspera Browser Plugin](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md)
   
   [Aspera Plugin Help and FAQ](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Aspera%20Plugin%20Help%20and%20FAQ.md)
 
   [First time Aspera Setup Instructions](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/First%20time%20Aspera%20Setup%20Instructions.md)
 
+  [How To Handle Downloaded HCP Data](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20To%20Handle%20Downloaded%20HCP%20Data.md)
+
+  [How to Create and Use Subject Keys in ConnectomeDB](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20to%20Create%20and%20Use%20Subject%20Keys%20in%20ConnectomeDB.md)
+
+  [How To Access Subject Data via REST](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20To%20Access%20Subject%20Data%20via%20REST.md)
+  
   [How To Connect to Connectome Data via AWS](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
 
   [Connectome In A Box Notice for the 1200 Subjects Data Release](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Connectome%20In%20A%20Box%20Notice%20for%20the%201200%20Subjects%20Data%20Release.md)
@@ -69,12 +77,22 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [Advice on editing HCP tfMRI E-Prime Scripts](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Advice%20on%20editing%20HCP%20tfMRI%20E-Prime%20Scripts.md)
 
+  [DIY fix for zeroes near medial wall in rfMRI dtseries data](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/DIY%20fix%20for%20zeroes%20near%20medial%20wall%20in%20rfMRI%20dtseries%20data.md)
+
   [
 
 
 #### Cloud Based Processing
 
+  [How to Create an Amazon Web Services Account](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20to%20Create%20an%20Amazon%20Web%20Services%20Account.md)
+
+  [How to Create an Ubuntu Instance in the AWS account that the NDA gives you when you request access to computational credits](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20to%20Create%20an%20Ubuntu%20Instance%20in%20the%20AWS%20account%20that%20the%20NDA%20gives%20you%20when%20you%20request%20access%20to%20computational%20credits.md)
+  
   [Cloud-Based Processing using HCP Pipelines and Amazon Web Services](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/Cloud-Based%20Processing%20using%20HCP%20Pipelines%20and%20Amazon%20Web%20Services.md)
+
+  [How to Create an EC2 instance for HCP Pipeline Processing](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20to%20Create%20an%20EC2%20instance%20for%20HCP%20Pipeline%20Processing.md)
+
+  [EC2 Beginner Startup Advice](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/EC2%20Beginner%20Startup%20Advice.md)
 
   [
 
