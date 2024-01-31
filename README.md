@@ -90,6 +90,8 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [How To Access Subject Data via REST](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20To%20Access%20Subject%20Data%20via%20REST.md)
 
+  [Accessing ConnectomeDB Resource Data without Aspera (REST)](https://github.com/jese11/HCP-wiki-public/blob/33a60a516f7b81d3c8325b5e0ae0c05d5babd3ff/PublicData/Accessing%20ConnectomeDB%20Resource%20Data%20without%20Aspera%20(REST).md)
+
 #### HCP-Young Adult Data Connecting to and Downloading from Amazon S3
   [How To Connect to Connectome Data via AWS](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
 
