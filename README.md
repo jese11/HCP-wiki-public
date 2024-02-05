@@ -1,23 +1,23 @@
-## Welcome to the HCP Public Pages
+# Welcome to the HCP Public Pages
 
 Here in the Human Connectome Project (HCP) Data repository, you will find additional resources that are updated between data releases and as issues are discovered. This content was originally on the HCP Data wiki that has now been retired. Full public pages information are in the Public Data folder. Detailed information on each data release is also available in the Documentation pages of the public HCP website for [HCP-Young Adult](https://www.humanconnectome.org/study/hcp-young-adult/documentation), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation), or [HCP-Development](https://www.humanconnectome.org/study/hcp-lifespan-development/documentation).
 
-### Resources for Public HCP Data Users 
+## Resources for Public HCP Data Users 
 
-#### Known Issues with HCP Lifespan Aging and Development Data
+### Known Issues with HCP Lifespan Aging and Development Data
 
   [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](https://github.com/jese11/HCP-wiki-public/blob/5e663f52353737aef1adc7a181bed40f998fce70/PublicData/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).md)
     
   [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md) 
 
-#### Known Issues with HCP Young Adult 3T & 7T Data
+### Known Issues with HCP Young Adult 3T & 7T Data
 
   [HCP-Young Adult Data Release Updates: Known Issues and Planned fixes](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md)
   
   [HCP Subjects with Identified Quality Control Issues (QC_Issue measure codes explained)](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/HCP%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue%20measure%20codes%20explained).md)
   
 
-#### HCP FAQs
+### HCP FAQs
 
   [HCP-Users FAQ (applies for all HCP studies)](https://github.com/jese11/HCP-wiki-public/blob/c5edb5d623a47907b6a5b8cccb5e7c014ec1de7e/PublicData/HCP%20Users%20FAQ.md)
   
@@ -29,21 +29,21 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   
   [Joining HCP-Users and HCP-Announce Google Groups](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/How%20to%20Join%20HCP-Users%20or%20HCP-Announce%20Google%20Groups.md)
 
-#### Lifespan HCP Downloading from NDA
+### Lifespan HCP Downloading from NDA
   [How to get data from the NDA using command line tools](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/How%20to%20get%20data%20from%20the%20NDA%20using%20command%20line%20tools.md)
   
 
-#### Lifespan HCP Analysis
+### Lifespan HCP Analysis
 
   [Lifespan Task Psychopy output Data Dictionaries](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/Lifespan%20Task%20Psychopy%20output%20Data%20Dictionaries.md)
 
-#### HCP-Young Adult Demographic and Behavioral Data Reference
+### HCP-Young Adult Demographic and Behavioral Data Reference
 
   [HCP-Young Adult Data Dictionary Updated for the S1200 Subject Release](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/HCP-YA%20Data%20Dictionary-%20Updated%20for%20the%201200%20Subject%20Release.md)
   
   [Summary Demographic Data for HCP Young Adult](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/Summary%20Demographic%20Data%20for%20HCP%20Young%20Adult.md)
 
-#### HCP-Young Adult Data Acquisition
+### HCP-Young Adult Data Acquisition
 
   [S1200 3T MRI Session Summary CSVs](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/S1200%203T%20MRI%20Session%20Summary%20CSVs.md)
   
@@ -64,7 +64,7 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   [7T Movie watching task clip info, timing, versions shown per individual subject](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/7T%20Movie%20watching%20task%20clip%20info%20timing%20versions%20shown%20per%20individual%20subject.md)
   
 
-#### HCP-Young Adult Analysis
+### HCP-Young Adult Analysis
 
   [Advice for FEAT Analysis of HCP task fMRI data](https://github.com/jese11/HCP-wiki-public/blob/3203f24b8b75559ad466c2572b81cdcdc0cc7359/PublicData/Advice%20for%20FEAT%20Analysis%20of%20HCP%20task%20fMRI%20data.md)
 
@@ -76,7 +76,7 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [Understanding Timing Information in HCP Physiological Monitoring Files](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/Understanding%20Timing%20Information%20in%20HCP%20Physiological%20Monitoring%20Files.md)
 
-#### HCP-Young Adult Data Downloading on ConnectomeDB and via REST
+### HCP-Young Adult Data Downloading on ConnectomeDB and via REST
   [How to Access Data on ConnectomeDB](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20to%20Access%20Data%20on%20ConnectomeDB.md)
 
   [How To Install the Aspera Browser Plugin](https://github.com/jese11/HCP-wiki-public/blob/72c20dd843667a2177287ef224131e644764fcba/PublicData/How%20To%20Install%20the%20Aspera%20Browser%20Plugin.md)
@@ -93,21 +93,21 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [Accessing ConnectomeDB Resource Data without Aspera (REST)](https://github.com/jese11/HCP-wiki-public/blob/33a60a516f7b81d3c8325b5e0ae0c05d5babd3ff/PublicData/Accessing%20ConnectomeDB%20Resource%20Data%20without%20Aspera%20(REST).md)
 
-#### HCP-Young Adult Data Connecting to and Downloading from Amazon S3
+### HCP-Young Adult Data Connecting to and Downloading from Amazon S3
   [How To Connect to Connectome Data via AWS](https://github.com/jese11/HCP-wiki-public/blob/ca8cf7829e7d9a5224cc71121009c4420969cb22/PublicData/How%20To%20Connect%20to%20Connectome%20Data%20via%20AWS.md)
 
   [How to Get Access to the HCP OpenAccess Amazon S3 Bucket](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/How%20to%20Get%20Access%20to%20the%20HCP%20OpenAccess%20Amazon%20S3%20Bucket.md)
 
   [Using ConnectomeDB data on Amazon S3](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/Using%20ConnectomeDB%20data%20on%20Amazon%20S3.md)
 
-#### HCP-Young Adult Data distribution via Connectome in a Box
+### HCP-Young Adult Data distribution via Connectome in a Box
   [Connectome In A Box Notice for the 1200 Subjects Data Release](https://github.com/jese11/HCP-wiki-public/blob/0d2864654b76f73862a74c7ccc010c0af2ffd8b8/PublicData/Connectome%20In%20A%20Box%20Notice%20for%20the%201200%20Subjects%20Data%20Release.md)
 
   [How to Mount a Connectome In A Box drive in Windows](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/How%20to%20Mount%20a%20Connectome%20In%20A%20Box%20drive%20in%20Windows.md)
 
   [How to mount a Connectome In A Box Hard Drive in Mac OSX](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/How%20to%20mount%20a%20Connectome%20In%20A%20Box%20Hard%20Drive%20in%20Mac%20OSX.md)
 
-#### Cloud Based Processing
+### Cloud Based Processing
 
   [Terms and Acronyms](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/Terms%20and%20Acronyms.md)
   
@@ -123,17 +123,17 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   
 
-#### HCP Course Materials
+### HCP Course Materials
 
   [2019 Course Lecture and Practical PDFs](https://store.humanconnectome.org/courses/2019/exploring-the-human-connectome.php)
   
   [2018 Course Lecture and Practical PDFs](https://store.humanconnectome.org/courses/2018/exploring-the-human-connectome.php)
 
-#### Media Resources
+### Media Resources
 
   [Media Images from the Human Connectome Project WU-Minn Consortium](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/Media%20Images%20from%20the%20Human%20Connectome%20Project%20WU-Minn%20Consortium.md)
 
-#### Other Resources
+### Other Resources
 
   [LONI to XNAT - API Reference](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/LONI%20to%20XNAT%20-%20API%20Reference.md)
 
