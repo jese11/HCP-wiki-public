@@ -61,7 +61,7 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
   [Intermittent orbitofrontal artifact affecting some fMRI scans](https://github.com/jese11/HCP-wiki-public/blob/b33135f80681b300900d991a78b0dc950a6fb597/PublicData/Intermittent%20orbitofrontal%20artifact%20affecting%20some%20fMRI%20scans.md)
   
-[7T Movie watching task clip info, timing, versions shown per individual subjectTEST](./PublicData/7T Movie watching task clip info timing versions shown per individual subject)
+[7T Movie watching task clip info, timing, versions shown per individual subjectTEST](./7T Movie watching task clip info timing versions shown per individual subject.md)
  
  [7T Movie watching task clip info, timing, versions shown per individual subject](https://github.com/jese11/HCP-wiki-public/blob/3dc81c99244cf5134115bb95478a5452170b0b2d/PublicData/7T%20Movie%20watching%20task%20clip%20info%20timing%20versions%20shown%20per%20individual%20subject.md)
   
