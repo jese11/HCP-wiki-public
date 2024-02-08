@@ -1,13 +1,3 @@
----
-title: 'Lifespan HCP Data Release Updates: Known Issues and Planned fixes'
-created: '2023-03-28T14:26:33.238Z'
-updated: '2023-08-29T20:25:57.228Z'
-updated_by: Jennifer Elam
-source: 
-  https://wiki.humanconnectome.org/display/PublicData/Lifespan+HCP+Data+Release+Updates%3A+Known+Issues+and+Planned+fixes
-space: PublicData
-
----
 The Lifespan Human Connectome Project (HCP) HCP-Aging and HCP-Development projects release imaging data collected on subjects on a regular basis. Details on what data is included in each release are available in the Reference Manual for that release on the [Lifespan documentation page](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation).  On this wiki page, we document known updates, data issues, bugs, and known missing files in the data distributed with each release and plans to fix or patch each bug. Date added is listed at the beginning of entries.
 
 # LS 2.0 Release (February 26, 2021)
