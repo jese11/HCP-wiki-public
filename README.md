@@ -58,10 +58,6 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   [Interval between Test and Retest Visits for HCP Retest Subjects](./docs/Interval%20between%20Test%20and%20Retest%20Visits%20for%20HCP%20Retest%20Subjects.md)
 
   [Intermittent orbitofrontal artifact affecting some fMRI scans](./docs/Intermittent%20orbitofrontal%20artifact%20affecting%20some%20fMRI%20scans.md)
-  
-  [TESTIntermittent orbitofrontal artifact affecting some fMRI scans](./docs/Intermittent%20orbitofrontal%20artifact%20affecting%20some%20fMRI%20scans)
-  
-[7T Movie watching task clip info, timing, versions shown per individual subjectTEST](./docs/7T%20Movie%20watching%20task%20clip%20info%20timing%20versions%20shown%20per%20individual%20subject)
  
  [7T Movie watching task clip info, timing, versions shown per individual subject](./docs/7T%20Movie%20watching%20task%20clip%20info%20timing%20versions%20shown%20per%20individual%20subject.md)
   
