@@ -6,9 +6,9 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
 ### Known Issues with HCP Lifespan Aging and Development Data
 
-  [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](./docs/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).html)
+  [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](./docs/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).md)
     
-  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](./docs/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.html) 
+  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](./docs/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md) 
 
 ### Known Issues with HCP Young Adult 3T & 7T Data
 
@@ -52,8 +52,6 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
   [Gradient Vector Direction table for HCP 3T dMRI](./docs/Gradient%20Vector%20Direction%20table%20for%20HCP%203T%20dMRI.md)
   
   [Gradient Vector Direction Table for 7T dMRI](./docs/Gradient%20Vector%20Direction%20Table%20for%207T%20dMRI.md)
-  
-  [7T Gradient Coefficients](./docs/7T%20Gradient%20Coefficients.md)
   
   [S900 Unrelated Subjects CSV](./docs/S900%20Unrelated%20Subjects%20CSV.md)
   
