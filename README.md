@@ -6,9 +6,9 @@ Here in the Human Connectome Project (HCP) Data repository, you will find additi
 
 ### Known Issues with HCP Lifespan Aging and Development Data
 
-  [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](./PublicData/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).md)
+  [HCP Lifespan Subjects with Identified Quality Control Issues (QC_Issue_Codes explained)](./PublicData/HCP%20Lifespan%20Subjects%20with%20Identified%20Quality%20Control%20Issues%20(QC_Issue_Codes%20explained).html)
     
-  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](./PublicData/Lifespan%20HCP%20Data%20Release%20Updates%20Known%20Issues%20and%20Planned%20fixes.md) 
+  [Lifespan HCP Data Release Updates: Known Issues and Planned fixes](./PublicData/Lifespan%20HCP%20Data%20Release%20Updates:%20Known%20Issues%20and%20Planned%20fixes.md) 
 
 ### Known Issues with HCP Young Adult 3T & 7T Data
 
