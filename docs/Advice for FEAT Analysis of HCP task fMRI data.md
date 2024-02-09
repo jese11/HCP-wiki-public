@@ -6,7 +6,7 @@ When setting up Higher-level analysis of volume data in the FEAT GUI, choose tha
 
 ### Scan or Individual Level Analysis (Levels 1 and 2)
 
-The level1.fsf and **[prepare\_level2\_feat\_analysis.sh](https://wiki.humanconnectome.org/download/attachments/29589520/prepare_level2_feat_analysis.sh?version=2&modificationDate=1408551825889&api=v2)** 
+The level1.fsf and **[prepare\_level2\_feat\_analysis.sh](./assets/prepare_level2_feat_analysis.sh)** 
 
 **[prepare\_level2\_feat\_analysis.sh](./assets/prepare_level2_feat_analysis.sh)**
 
