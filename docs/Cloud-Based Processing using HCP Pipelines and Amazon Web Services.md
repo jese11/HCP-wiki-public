@@ -433,10 +433,7 @@ Important:
  
 
 ```
-tsc5yc@mst.edu
-7361
- *CMS6c5mP.wmk
- FSQVaStVzhzXA
+Since the course is over, this content has been redacted. Contact FreeSurfer to obtain a license for your use.
 ```
 
 * Once you have entered the FreeSurfer license information, press the *Submit* button below the text area. You should then be returned to the *Console* tab.
@@ -2463,5 +2460,5 @@ ec2-52-4-211-53.compute-1.amazonaws.com
 - ![](./assets/03.SettingUpAWSAccessForHCPData.png)
 - ![](./assets/02.SetupAWSCredentials.png)
 - ![](./assets/01.ConnectomeDB.png)
-- ![](./assets/image2015-5-28 17:2:44.png)
+- ![](./assets/image2015-5-28%2017:2:44.png)
 - ![](./assets/26.png)
