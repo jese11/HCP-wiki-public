@@ -42,7 +42,7 @@ Subjects with focal segmentation and surface errors in their structural pipeline
 
 A description and images of the location and kind of error for each of these subjects are detailed in the following Spreadsheet of Segmentation/Surface QC Findings:
 **[Segmentation-Issues-Subjects-pptxmatch.xlsx](https://github.com/jese11/HCP-wiki-public/files/13908559/Segmentation-Issues-Subjects-pptxmatch.xlsx)**
-and in the accompanying PDFs of powerpoint slides showing Segmentation/Surface QC Findings: **Segmentation-Issues-Subjects-xlsxmatch.pdf** (available upon request to elam@wustl.edu). **[Segmentation-Issues-Subjects-xlsxmatch-part1.pdf](https://github.com/user-attachments/files/16617545/Segmentation-Issues-Subjects-xlsxmatch-part1.pdf)** **[Segmentation-Issues-Subjects-xlsxmatch-part2.pdf](https://github.com/user-attachments/files/16617645/Segmentation-Issues-Subjects-xlsxmatch-part2.pdf)**
+and in the accompanying PDFs of powerpoint slides showing Segmentation/Surface QC Findings: **[Segmentation-Issues-Subjects-xlsxmatch-part1.pdf](https://github.com/user-attachments/files/16617545/Segmentation-Issues-Subjects-xlsxmatch-part1.pdf)**  **[Segmentation-Issues-Subjects-xlsxmatch-part2.pdf](https://github.com/user-attachments/files/16617645/Segmentation-Issues-Subjects-xlsxmatch-part2.pdf)**
 
 Main HCP Issue B Subjects:
 
