@@ -2,6 +2,31 @@
 
 The WU-Minn Human Connectome Project (HCP) releases imaging data collected on subjects on a regular basis. Details on what data is included in each release are available in the Reference Manual for that release on the [HCP documentation page](https://www.humanconnectome.org/study/hcp-young-adult/documentation).  On this wiki page, we document known updates, data issues, bugs, and known missing files in the data distributed with each release (including those distributed in Connectome in a box for each release) and plans to fix or patch each bug. Date added is listed at the beginning of entries.
 
+## HCP-YA 2025 Release (August 11, 2025)
+
+#### Updated data from 3T, 7T, and Retest subjects released in new packages on [ConnectomeDB powered by BALSA](https://balsa.wustl.edu/)(see ConnectomeDB tab). 
+#### Updated processing on previously released subjects data to include:
+
+* Spin-echo based ("SEBASED") intensity bias field correction of all the fMRI data, 
+
+* Elimination of the regression of movement regressors as a step in the fMRI data cleaning (see Glasser et al., 2019 Neuroimage), 
+
+* Addition of multi-run FIX for the 3T task fMRI data, and 
+
+* Addition of Reclean (improvements to spatial ICA) and Temporal ICA pipelines and processed output for all 3T and 7T fMRI data. 
+
+***Due to these updates, data from this 2025 Release should not be mixed with data from the S1200 Release (from 2017).*** 
+
+#### Other features:
+* Data are processed and repackaged to match packages released for the HCP Lifespan projects. The new packages are significantly different than the ones currently available on ConnectomeDB that will be retired soon.
+
+* Processed data are available for 1071 subjects (45 retest subjects) without processing errors and with at least one rfMRI run to enable MSMAll registration. Unprocessed data are available for all subjects with imaging data (1113 subjects).
+
+* Directory structure of unzipped data is unchanged.
+
+* Non-imaging data are unchanged. Restricted data are available to those approved for access.
+#  
+
 ## 1200 Subjects Release (March 1, 2017)
 
 ### **Major Issues**
