@@ -4,7 +4,7 @@ The WU-Minn Human Connectome Project (HCP) releases imaging data collected on su
 
 ## HCP-YA 2025 Release (August 11, 2025)
 
-#### Updated data from 3T, 7T, and Retest subjects released in new packages on [ConnectomeDB powered by BALSA](https://balsa.wustl.edu/)(see ConnectomeDB tab). 
+#### Updated data from 3T, 7T, and Retest subjects released in new packages on [ConnectomeDB powered by BALSA](https://balsa.wustl.edu/) (see ConnectomeDB tab). 
 #### Updated processing on previously released subjects data to include:
 
 * Spin-echo based ("SEBASED") intensity bias field correction of all the fMRI data 
