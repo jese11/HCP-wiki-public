@@ -7,20 +7,20 @@ The WU-Minn Human Connectome Project (HCP) releases imaging data collected on su
 #### Updated data from 3T, 7T, and Retest subjects released in new packages on [ConnectomeDB powered by BALSA](https://balsa.wustl.edu/)(see ConnectomeDB tab). 
 #### Updated processing on previously released subjects data to include:
 
-* Spin-echo based ("SEBASED") intensity bias field correction of all the fMRI data, 
+* Spin-echo based ("SEBASED") intensity bias field correction of all the fMRI data 
 
-* Elimination of the regression of movement regressors as a step in the fMRI data cleaning (see Glasser et al., 2019 Neuroimage), 
+* Elimination of the regression of movement regressors as a step in the fMRI data cleaning (see Glasser et al., 2019 Neuroimage) 
 
-* Addition of multi-run FIX for the 3T task fMRI data, and 
+* Addition of multi-run FIX for the 3T task fMRI data 
 
-* Addition of Reclean (improvements to spatial ICA) and Temporal ICA pipelines and processed output for all 3T and 7T fMRI data. 
+* Addition of Reclean (improvements to spatial ICA) and Temporal ICA pipelines and processed output for all 3T and 7T fMRI data 
 
 ***Due to these updates, data from this 2025 Release should not be mixed with data from the S1200 Release (from 2017).*** 
 
 #### Other features:
 * Data are processed and repackaged to match packages released for the HCP Lifespan projects. The new packages are significantly different than the ones currently available on ConnectomeDB that will be retired soon.
 
-* Processed data are available for 1071 subjects (45 retest subjects) without processing errors and with at least one rfMRI run to enable MSMAll registration. Unprocessed data are available for all subjects with imaging data (1113 subjects).
+* Processed data are available for 1071 subjects (45 retest subjects) without processing errors and with at least one rfMRI run to enable MSMAll registration. Unprocessed data are available for all subjects with imaging data (1113 subjects). Check below for more information on how subject data with issues identified in the S1200 release were handled. 
 
 * Directory structure of unzipped data is unchanged.
 
