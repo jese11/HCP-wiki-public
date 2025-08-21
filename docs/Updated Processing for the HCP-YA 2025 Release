@@ -1,6 +1,7 @@
 ## Updated Processing for the HCP-YA 2025 Release
 
-## MR Structural Pipelines
+## TEST
+## *MR Structural Pipelines*
 
 ### PreFreeSurfer pipeline
 The main goals of the first structural pipeline, PreFreeSurfer, are to produce an undistorted “native” structural volume space for each subject, align the T1w and T2w images, perform a B1- (receive bias field) correction, and register the subject’s native structural volume space to MNI space. Thus, there are two volume spaces in HCP data: 1) The subject’s undistorted native volume space (rigidly “ACPC aligned” to the axes of MNI space), which is where volumes and areas of structures should be measured and where tractography should be performed, as this space is the best approximation of the subject’s physical brain. 2) Standard MNI space is useful for comparisons across subjects and studies, particularly of subcortical data, which is more accurately aligned by nonlinear volume registration than is cortical data. Note, however, that MNI space is biased to be larger than the typical individual’s brain. 
