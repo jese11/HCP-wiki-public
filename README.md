@@ -1,6 +1,10 @@
 # Welcome to the HCP Public Pages
 
-Here in the Human Connectome Project (HCP) Data repository, you will find additional resources that are updated between data releases and as issues are discovered. This content was originally on the HCP Data wiki that has now been retired. Full public pages information are in the Public Data folder. Detailed information on each data release is also available in the Documentation pages of the public HCP website for [HCP-Young Adult](https://www.humanconnectome.org/study/hcp-young-adult/documentation), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation), or [HCP-Development](https://www.humanconnectome.org/study/hcp-lifespan-development/documentation).
+#### August 11, 2025: HCP-YA data has been updated and released on the ["ConnectomeDB powered by BALSA"](https://balsa.wustl.edu/) platform (see ConnectomeDB tab). More info [here](https://www.humanconnectome.org/study/hcp-young-adult/article/updated-hcp-young-adult-data-released-connectomedb-powered-balsa).
+
+
+Here on the Human Connectome Project (HCP) wiki, you will find additional resources that are updated between data releases and as issues are discovered. This content was originally on the HCP Data wiki that has now been retired (https://wiki.humanconnectome.org/display/PublicData/* URLS have been moved to https://wiki.humanconnectome.org/docs/*). Detailed information on each data release is also available in the Documentation pages of the public HCP website for [HCP-Young Adult](https://www.humanconnectome.org/study/hcp-young-adult/documentation), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging/documentation), or [HCP-Development](https://www.humanconnectome.org/study/hcp-lifespan-development/documentation).
+
 
 ## Resources for Public HCP Data Users 
 
