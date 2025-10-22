@@ -3,7 +3,6 @@
 ### TEST
 Detailed information on the origins of the clips used in the 4 movie watching scans in the protocol for 7T HCP-Young Adult subjects is available here: [HCP_7T_Movie_Info.csv](./assets/HCP_7T_Movie_Info.csv)
 
-  
 
 
 147 Subjects shown **V1** of the Movie clips (scanned before 8/22/14): 
