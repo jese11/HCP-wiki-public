@@ -1,11 +1,13 @@
-## 7T Movie watching task clip info timing versions shown per individual subject
+## HCP-YA 7T Movie watching task clip info timing versions shown per individual subject
 
-### TEST
+There were 2 versions of the video clips shown for the 7T Movie watching task. 
+
 Detailed information on the origins of the clips used in the 4 movie watching scans in the protocol for 7T HCP-Young Adult subjects is available here: [HCP_7T_Movie_Info.csv](./assets/HCP_7T_Movie_Info.csv)
 
+Detailed timing info on the start and stop of each clip and REST block in each movie is available here:
+[HCP_7T_Movie_Clip_Timing.csv](./assets/HCP_7T_Movie_Clip_Timing.csv)
 
-
-147 Subjects shown **V1** of the Movie clips (scanned before 8/22/14): 
+#### 147 Subjects shown **V1** of the Movie clips (scanned before 8/22/14): 
 
 [HCP_7T_movie_V1_ReleasedSubjs.csv](./assets/HCP_7T_movie_V1_ReleasedSubjs.csv) 
 
@@ -160,19 +162,10 @@ Detailed information on the origins of the clips used in the 4 movie watching sc
 | 958976 |
 | 971160 |
 
-  
 
-
-Detailed timing info on the start and stop of each clip and REST block in each movie is available here:
-[HCP_7T_Movie_Clip_Timing.csv](./assets/HCP_7T_Movie_Clip_Timing.csv)
-  
-
-
-37 Subjects shown **V2** of the Movie clips: (scanned AFTER 8/22/14): 
+#### 37 Subjects shown **V2** of the Movie clips: (scanned **AFTER 8/22/14**): 
 
 [HCP_7T_movie_V2_ReleasedSubjs.csv](./assets/HCP_7T_movie_V2_ReleasedSubjs.csv) 
-
-
 
 |  |
 | --- |
