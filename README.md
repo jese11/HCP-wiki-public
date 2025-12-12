@@ -1,3 +1,5 @@
+# NOT THE LIVE PUBLIC WIKI see https://github.com/humanconnectome/HCP-Wiki/
+
 # Welcome to the HCP Public Pages
 
 #### August 11, 2025: HCP-YA data has been updated and released on the ["ConnectomeDB powered by BALSA"](https://balsa.wustl.edu/) platform (see ConnectomeDB tab). More info [here](https://www.humanconnectome.org/study/hcp-young-adult/article/updated-hcp-young-adult-data-released-connectomedb-powered-balsa).
